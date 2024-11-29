@@ -1,0 +1,117 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "RealMe",
+      "Description": null,
+      "Url": "http://127.0.0.1:4723",
+      "PlatformName": "Android",
+      "PlatformVersion": "11",
+      "DeviceName": "Realme RMX2180",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "automationName": "UiAutomator2"
+      },
+      "GeoLocation": {
+        "Latitude": 14.18719578,
+        "Longitude": 121.12029266,
+        "Altitude": 0.0
+      },
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      },
+      "HttpHeaders": {},
+      "CvServer": null,
+      "CvApiKey": null,
+      "CvUseLocalServer": false
+    },
+    {
+      "Name": "Samsung SM-A536E",
+      "Description": null,
+      "Url": "http://127.0.0.1:4723",
+      "PlatformName": "Android",
+      "PlatformVersion": "14",
+      "DeviceName": "Samsung SM-A536E",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "automationName": "UiAutomator2"
+      },
+      "GeoLocation": {
+        "Latitude": 14.18719578,
+        "Longitude": 121.12029266,
+        "Altitude": 0.0
+      },
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      },
+      "HttpHeaders": {},
+      "CvServer": null,
+      "CvApiKey": null,
+      "CvUseLocalServer": false
+    },
+    {
+      "Name": "UiPath AVD",
+      "Description": null,
+      "Url": "http://127.0.0.1:4723",
+      "PlatformName": "Android",
+      "PlatformVersion": "",
+      "DeviceName": "emulator-5554",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "automationName": "UiAutomator2"
+      },
+      "GeoLocation": {
+        "Latitude": 14.18719578,
+        "Longitude": 121.12029266,
+        "Altitude": 0.0
+      },
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      },
+      "HttpHeaders": {},
+      "CvServer": null,
+      "CvApiKey": null,
+      "CvUseLocalServer": false
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "SimReg",
+      "Description": null,
+      "Type": "Web",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "browserName": "Chrome"
+          },
+          "StartPage": "https://stg1.simreg.smart.com.ph/flutter/"
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {},
+  "HttpHeaders": {}
+}
