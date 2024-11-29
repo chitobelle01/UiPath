@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Enter your Sim Registra…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "PSj7jXUJWEmmDxkcV0ZiZg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/PSj7jXUJWEmmDxkcV0ZiZg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/zDdmoRQbzEyNk-iO_qwj9w",
+  "Created": "2024-11-27T07:57:59.3621234Z",
+  "Updated": "2024-11-27T07:57:59.3621234Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

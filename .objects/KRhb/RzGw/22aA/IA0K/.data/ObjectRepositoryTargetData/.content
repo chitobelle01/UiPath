@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-P00GTCXh0iwEAAZLQGAQA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="eef72228-9f2e-4f8e-89d2-fd84ad1d5ae4" CvElementArea="1199, 821, 207, 50" CvType="InputBox" DesignTimeRectangle="1199, 821, 207, 51" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="989a01e6-347f-4560-8499-ef07f6e4592a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="3">
+          <Target CVScreenId="eef72228-9f2e-4f8e-89d2-fd84ad1d5ae4" CvTextArea="989, 797, 70, 18" CvTextArgument="Birthday' *" CvType="Text" DesignTimeRectangle="989, 797, 71, 18" ElementType="Text" Guid="7b129ce3-7113-4cb1-96e7-de48a14ff976" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="eef72228-9f2e-4f8e-89d2-fd84ad1d5ae4" CvTextArea="989, 694, 89, 15" CvTextArgument="Last Name *" CvType="Text" DesignTimeRectangle="989, 694, 88, 15" ElementType="Text" Guid="680a01c4-ed27-4515-8240-163c6ed0d55a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="eef72228-9f2e-4f8e-89d2-fd84ad1d5ae4" CvTextArea="1022, 639, 186, 17" CvTextArgument="I have no legal middle name" CvType="Text" DesignTimeRectangle="1022, 639, 186, 17" ElementType="Text" Guid="00ae8d44-8c12-40c1-84af-90748ae87dce" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cab0685600ed7ebe7a0f26cb53a2a479.png" xmlns="">0Txi5hg8VN0CnUjG_qNrRLg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

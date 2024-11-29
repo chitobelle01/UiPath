@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Returned",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "qaSP_xFyOUG7La9G1IQIgw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/qaSP_xFyOUG7La9G1IQIgw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-11-27T08:00:12.9289519Z",
+  "Updated": "2024-11-27T08:00:12.9289519Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

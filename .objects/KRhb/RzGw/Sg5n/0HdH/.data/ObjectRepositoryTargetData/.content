@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tQnjF2aG0ESXf3owD7IqSw" Reference="5y7obp0hLUSA7kzKS4-dwg/0HdHB_bVPEC1-LDPT4ig0A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/summaryPage" CVScreenId="c33d1607-1441-44e3-835c-6e895e11832e" CvElementArea="347, 111, 66, 30" CvTextArea="363, 119, 33, 12" CvTextArgument="Leave" CvType="Button" DesignTimeRectangle="346, 110, 68, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Leave site?' role='dialog' /&gt;&lt;ctrl name='Leave' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Leave site?' role='dialog' /&gt;&lt;ctrl name='Leave' role='push button' automationid='' check:fulltext='Leave' /&gt;" Guid="53560c96-03bd-4636-8ff8-de977c01906c" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Leave site?' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e4b71e0ecd3ddb3ece622a587e139035.png" xmlns="">0RDgYGA4q-Eq2MAC5QCOQ0w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

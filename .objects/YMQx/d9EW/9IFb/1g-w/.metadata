@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Disallowed MIN",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "1g-w2i9ajU-qbKN2fxVU8g",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/1g-w2i9ajU-qbKN2fxVU8g",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:58:51.0812569Z",
+  "Updated": "2024-11-27T07:58:51.0812569Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "WALTER PAUL",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "yZb9IRjOCkKw4nh1thXc6Q",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/yZb9IRjOCkKw4nh1thXc6Q",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:59:09.4197331Z",
+  "Updated": "2024-11-27T07:59:09.4197331Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

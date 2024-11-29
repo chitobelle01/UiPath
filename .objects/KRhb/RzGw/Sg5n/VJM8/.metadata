@@ -1,0 +1,14 @@
+﻿{
+  "Name": "CheckUncheck",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "VJM8mDBqkE2FL5VqUY8F6Q",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/VJM8mDBqkE2FL5VqUY8F6Q",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/Sg5n7iU1w0ixPdpAtbndrw",
+  "Created": "2024-11-14T02:43:31.1266813Z",
+  "Updated": "2024-11-14T02:43:31.1266813Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Logo",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "fsuhId-sqUaQmJ874ACG2g",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/fsuhId-sqUaQmJ874ACG2g",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/zDdmoRQbzEyNk-iO_qwj9w",
+  "Created": "2024-11-27T07:57:59.8544352Z",
+  "Updated": "2024-11-27T07:57:59.8544352Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

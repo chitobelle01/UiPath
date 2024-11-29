@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Home",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "6N7R_Ta4uku16roEy_8SEg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/6N7R_Ta4uku16roEy_8SEg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/sJX8nIjiAUK3OSOqcyQGig",
+  "Created": "2024-11-27T08:00:15.1072267Z",
+  "Updated": "2024-11-27T08:00:15.1072267Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

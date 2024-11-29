@@ -1,0 +1,17 @@
+﻿{
+  "Name": "\"Terms and Conditions\" Checkbox",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "Q3SGt3jEik6E5e1G7z0lmg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/Q3SGt3jEik6E5e1G7z0lmg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/qdjHSyeQhUSqr4zDN9mpFQ",
+  "Created": "2024-10-30T02:34:14.3984485Z",
+  "Updated": "2024-11-21T07:20:57.0671888Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

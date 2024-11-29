@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Visa Type",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "uLy17VHZEkuKnGmSEKz-tg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/uLy17VHZEkuKnGmSEKz-tg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/StGp84WO0Emu-K2nKzYqfA",
+  "Created": "2024-11-27T07:59:45.2130991Z",
+  "Updated": "2024-11-27T07:59:45.2130991Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

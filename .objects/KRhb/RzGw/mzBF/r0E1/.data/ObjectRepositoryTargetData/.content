@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5FIHGHE510OCoYDRlyJfmw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/otherSupportDocPage" CVScreenId="405f5ad4-edc3-4a4d-878b-8c04af1a8fb4" CvElementArea="1520, 682, 86, 43" CvTextArea="1537, 696, 51, 18" CvTextArgument="Upload" CvType="Button" DesignTimeRectangle="1520, 682, 86, 43" DesignTimeScaleFactor="1" ElementType="Button" Guid="fc5b1f1c-b9e7-4998-947c-9f6fbcba2d98" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="405f5ad4-edc3-4a4d-878b-8c04af1a8fb4" CvTextArea="331, 682, 432, 19" CvTextArgument="Alien Employment Permit from DOLE (if currently employed)*" CvType="Text" DesignTimeRectangle="331, 682, 433, 19" ElementType="Text" Guid="66bde444-e58f-4f2e-b4a6-86f388421606" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="33518a968ec6958ea36effa61262bced.png" xmlns="">07M0EnKnN3UKPEyTXQOq2oQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

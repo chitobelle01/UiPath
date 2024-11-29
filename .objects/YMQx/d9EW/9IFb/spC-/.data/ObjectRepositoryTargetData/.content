@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AL2A9u9rXU2sqP_lfX7IMg" Reference="Mb_yfqsdSUWaXd39NmiObQ/OAQcHYFCvk2k544NGXUQsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/validate-ekyc/approved" CVScreenId="a8ebdc5c-abd5-4c4d-8187-f89759674dcc" CvTextArea="1647, 870, 106, 28" CvType="AnyWordGroup" DesignTimeRectangle="1625, 671, 153, 421" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' class='' tag='TD' /&gt;" Guid="ea512fa0-a094-4e5c-befe-acb1bed2150b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Approved | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a8ebdc5c-abd5-4c4d-8187-f89759674dcc" CvTextArea="1647, 620, 72, 21" CvTextArgument="Status" CvType="Text" DesignTimeRectangle="1625, 587, 153, 84" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl aaname='Status' type='' tag='TH' class='' check:innerText='Status' /&gt;" Guid="5b8e9573-f23f-4dca-bb12-4a4ab2cb3826" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="87fa26d56122e57abf31df17a6949b44.png" xmlns="">0iIWueUtnO0W6ru-RrKtPRw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

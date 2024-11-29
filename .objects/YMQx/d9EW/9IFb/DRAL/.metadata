@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Page Number",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "DRALmXQdaUOHr4lw4N11nA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/DRALmXQdaUOHr4lw4N11nA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:59:02.7734668Z",
+  "Updated": "2024-11-27T07:59:02.7734668Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

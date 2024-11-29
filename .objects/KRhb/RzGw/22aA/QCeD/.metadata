@@ -1,0 +1,17 @@
+﻿{
+  "Name": "'Month' Option",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "QCeDplUVBUeRp1__0s8qgQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/QCeDplUVBUeRp1__0s8qgQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/22aAPMhlhkO6vrHUzOpLbA",
+  "Created": "2024-11-20T05:16:42.7133367Z",
+  "Updated": "2024-11-20T05:16:54.0829462Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

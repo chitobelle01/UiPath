@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TkvGlJfjT0mCyo80Y2X5rg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/summaryPage" CVScreenId="7d6d3194-c61d-4571-baba-9d3d1bff9b2b" CvTextArea="1001, 908, 111, 21" CvType="AnyWordGroup" DesignTimeRectangle="1001, 909, 111, 19" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="0daef7b7-40a3-4e55-a094-62ac7545b852" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="7d6d3194-c61d-4571-baba-9d3d1bff9b2b" CvTextArea="671, 908, 103, 21" CvTextArgument="Last Name" CvType="Text" DesignTimeRectangle="671, 907, 103, 21" ElementType="Text" Guid="465953d7-3fcf-44bd-a9d0-b3ebec7d213d" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="548bde92311782ebb5d3236365c972b8.png" xmlns="">0uz9QstqCj0Glk4JvfzbrFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

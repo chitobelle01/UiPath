@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mouse Scroll 'Click 'Jan''",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "I2EUNomd6ki2S5hugsZKeA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/I2EUNomd6ki2S5hugsZKeA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/22aAPMhlhkO6vrHUzOpLbA",
+  "Created": "2024-11-20T05:47:46.4686165Z",
+  "Updated": "2024-11-20T05:47:46.4686165Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

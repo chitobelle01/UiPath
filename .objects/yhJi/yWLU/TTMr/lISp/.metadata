@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Main Subscriber Mobile",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "lISpbgMLFUuccqYjRgfnaw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/lISpbgMLFUuccqYjRgfnaw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/TTMrYW0U70WGzx0PZ5anDA",
+  "Created": "2024-11-27T07:58:16.8832109Z",
+  "Updated": "2024-11-27T07:58:16.8832109Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

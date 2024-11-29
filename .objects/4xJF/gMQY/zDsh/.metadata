@@ -1,0 +1,16 @@
+﻿{
+  "Name": "'Camera Access Permission' Popup Window (Browser)",
+  "Type": "Screen",
+  "Id": "zDshonrfkECebJRMsDEP3g",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/zDshonrfkECebJRMsDEP3g",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/gMQYyMEy4kKuLy_DTRl_fQ",
+  "Created": "2024-10-30T02:37:59.4824148Z",
+  "Updated": "2024-10-30T02:38:46.8847186Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

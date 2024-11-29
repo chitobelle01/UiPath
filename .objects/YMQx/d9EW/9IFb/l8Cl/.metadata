@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Date Of Birth",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "l8Cl5ymTZUm3yRCxOaQvOA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/l8Cl5ymTZUm3yRCxOaQvOA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:58:50.6516263Z",
+  "Updated": "2024-11-27T07:58:50.6516263Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FXfQsHcXBEiaS04CvkhLYQ" Reference="Mb_yfqsdSUWaXd39NmiObQ/dAHamtED50WFsmlwcmNSYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a44b26ee-b54f-47e9-9c83-20cbb3d18efe" CvTextArea="111, 638, 130, 21" CvTextArgument="9210868613" CvType="Text" DesignTimeRectangle="113, 768, 129, 32" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='' aaname='*' check:text='9210868613' /&gt;" Guid="99fbeade-62e6-4d68-aeea-d3cbe556e7d4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Resubmitted | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="747e32603aa1cb8651927c3d1fb053e4.png" xmlns="">096e-J9GM8UyfpeTv78Qzbg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

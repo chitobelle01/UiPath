@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Reset",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "oa5MxVhmuUmVbQ71GE3O2w",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/oa5MxVhmuUmVbQ71GE3O2w",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:59:03.6065895Z",
+  "Updated": "2024-11-27T07:59:03.6065895Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

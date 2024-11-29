@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DhuwV9f3tUys2H8StHypbA" Reference="Mb_yfqsdSUWaXd39NmiObQ/UjSWQIJNb0OCs2taEUyd6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b82d2600-571c-4326-b660-b533e533bcdf" CvTextArea="86, 506, 718, 54" CvTextArgument="Validate Registration Approved" CvType="Text" DesignTimeRectangle="89, 560, 715, 63" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' aaname='Validate Registration Approved' check:text='Validate Registration Approved' /&gt;" Guid="6dd67a3e-df45-442f-b81c-aa894928f3fe" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Approved | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2d8591bec0a9f941e0b9a46f0c5497dd.png" xmlns="">0FItmXPCCdUSiUb0TuSEB4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

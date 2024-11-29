@@ -1,0 +1,13 @@
+﻿{
+  "Name": "1930/09/09",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "rDzW3rXhvk6M0iqlsk05hA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/rDzW3rXhvk6M0iqlsk05hA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:58:39.1559992Z",
+  "Updated": "2024-11-27T07:58:39.1559992Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

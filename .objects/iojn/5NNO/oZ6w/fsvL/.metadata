@@ -1,0 +1,16 @@
+﻿{
+  "Name": "lnk_MobileNumber",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "fsvLphTOTk-sh0-8NdSJiA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/fsvLphTOTk-sh0-8NdSJiA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-11-27T08:00:08.9161417Z",
+  "Updated": "2024-11-27T08:00:08.9161417Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

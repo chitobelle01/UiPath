@@ -1,0 +1,14 @@
+﻿{
+  "Name": "SIM Activation",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "hSqCkigroESn4dtyPbT22w",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/hSqCkigroESn4dtyPbT22w",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/TTMrYW0U70WGzx0PZ5anDA",
+  "Created": "2024-11-27T07:58:17.6035223Z",
+  "Updated": "2024-11-27T07:58:17.6035223Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,126 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" this:TestCase.aDSIMRegistration="[System.Text.Json.JsonSerializer.Deserialize(Of PLDTSMART_SIM_Registration.ADSIMRegistration)(&quot;{&quot;&quot;MobileNumber&quot;&quot;:&quot;&quot;9601191416&quot;&quot;,&quot;&quot;TypeofRegistration&quot;&quot;:&quot;&quot;1&quot;&quot;,&quot;&quot;Nationality&quot;&quot;:&quot;&quot;Philippines&quot;&quot;,&quot;&quot;IDCard&quot;&quot;:&quot;&quot;1&quot;&quot;,&quot;&quot;HouseLotNumber&quot;&quot;:&quot;&quot;Lot 1A&quot;&quot;,&quot;&quot;Street&quot;&quot;:&quot;&quot;Canghang-at St.&quot;&quot;,&quot;&quot;VillageSubdivision&quot;&quot;:&quot;&quot;North Verdana Subd.&quot;&quot;,&quot;&quot;UnitFloor&quot;&quot;:&quot;&quot;1st Floor&quot;&quot;,&quot;&quot;Building&quot;&quot;:&quot;&quot;La Guardia Flats&quot;&quot;,&quot;&quot;Province&quot;&quot;:&quot;&quot;CEBU&quot;&quot;,&quot;&quot;CityMunicipality&quot;&quot;:&quot;&quot;MANDAUE CITY&quot;&quot;,&quot;&quot;Barangay&quot;&quot;:&quot;&quot;TAWASON&quot;&quot;,&quot;&quot;ZipCode&quot;&quot;:&quot;&quot;6014&quot;&quot;,&quot;&quot;AlternateContactNumber&quot;&quot;:&quot;&quot;09991234567&quot;&quot;,&quot;&quot;EmailAddress&quot;&quot;:&quot;&quot;rose_tester@pldt.com&quot;&quot;,&quot;&quot;ReferenceNumber&quot;&quot;:&quot;&quot;20241016P000002007&quot;&quot;,&quot;&quot;TestExecutionStatus&quot;&quot;:&quot;&quot;DO NOT TEST&quot;&quot;,&quot;&quot;VisaType&quot;&quot;:&quot;&quot;1&quot;&quot;,&quot;&quot;FirstName&quot;&quot;:&quot;&quot;Firstcustname&quot;&quot;,&quot;&quot;MiddleName&quot;&quot;:&quot;&quot;Midcustname&quot;&quot;,&quot;&quot;LastName&quot;&quot;:&quot;&quot;Lastcustname&quot;&quot;,&quot;&quot;Sex&quot;&quot;:&quot;&quot;Male&quot;&quot;,&quot;&quot;IDNumber&quot;&quot;:&quot;&quot;P1234567&quot;&quot;,&quot;&quot;BirthMonth&quot;&quot;:&quot;&quot;Apr&quot;&quot;,&quot;&quot;Birthday&quot;&quot;:&quot;&quot;14&quot;&quot;,&quot;&quot;BirthYear&quot;&quot;:&quot;&quot;1984&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-15T15:31:12.3446815+08:00&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-11-20T18:18:02.8732423+08:00&quot;&quot;,&quot;&quot;RecordOwner&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;UpdatedBy&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;CreatedBy&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;OtherPertinentDocument&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;75A40F69-9F96-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/OtherPertinentDocument&quot;&quot;,&quot;&quot;Size&quot;&quot;:15537,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;Other Pertinent Document.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-30T17:54:16.211734+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;71631FEC-A496-EF11-8474-000D3A099189&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-30T17:54:16.211734+08:00&quot;&quot;},&quot;&quot;SchoolRegistrationandIDStudent&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;9B928760-9F96-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/SchoolRegistrationandIDStudent&quot;&quot;,&quot;&quot;Size&quot;&quot;:90736,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;School ID.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-30T17:53:30.6397085+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;0D0FF7D0-A496-EF11-8474-000D3A099189&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-30T17:53:30.6397085+08:00&quot;&quot;},&quot;&quot;AlienEmploymentPermitfromDOLE&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;5886D04E-9F96-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/AlienEmploymentPermitfromDOLE&quot;&quot;,&quot;&quot;Size&quot;&quot;:10462,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;Alien Employment Permit.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-30T17:52:17.7168516+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;642FCDA4-A496-EF11-8474-000D3A099189&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-30T17:52:17.7168516+08:00&quot;&quot;},&quot;&quot;ACRICard&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;7727F139-9F96-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/ACRICard&quot;&quot;,&quot;&quot;Size&quot;&quot;:10956,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACRI Card.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-30T17:52:03.5712324+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;EFEA0F9D-A496-EF11-8474-000D3A099189&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-30T17:52:03.5712324+08:00&quot;&quot;},&quot;&quot;ProofofAddressNonFilipino&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;22EB12A0-1895-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/ProofofAddressNonFilipino&quot;&quot;,&quot;&quot;Size&quot;&quot;:93735,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;non-filipino driver&amp;#39;s license.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-30T14:57:30.2581234+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;0A7F7B3A-8C96-EF11-8474-000D3A099189&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-30T14:57:30.2581234+08:00&quot;&quot;},&quot;&quot;ValidIDBack&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;81BAEF39-958A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/ValidIDBack&quot;&quot;,&quot;&quot;Size&quot;&quot;:227886,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;Back1.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-11-18T15:18:14.723064+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;49D41841-7DA5-EF11-88CF-000D3AA2C1A3&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-11-18T15:18:14.723064+08:00&quot;&quot;},&quot;&quot;ValidIDFront&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;AD3EE62E-958A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/ValidIDFront&quot;&quot;,&quot;&quot;Size&quot;&quot;:88875,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;d0c88b73-c78a-ef11-8475-000d3aa2bfc9_Philippines Passport_Front.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-11-18T15:17:56.3795981+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;137C0D3B-7DA5-EF11-88CF-000D3AA2C1A3&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-11-18T15:17:56.3795981+08:00&quot;&quot;}}&quot;)]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="clr-namespace:PLDTSMART_SIM_Registration;assembly=DataService.PLDTSMART_SIM_Registration" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="aDSIMRegistration" Type="InArgument(p:ADSIMRegistration)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>TestCase_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Json</x:String>
+      <x:String>UiPath.DataService.Definition</x:String>
+      <x:String>PLDTSMART_SIM_Registration</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Json</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Definition</AssemblyReference>
+      <AssemblyReference>DataService.PLDTSMART_SIM_Registration</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TestCase" sap:VirtualizedContainerService.HintSize="1260,775.3733333333332" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="450,116.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </Sequence>
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="450,116.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </Sequence>
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="450,107.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </Sequence>
+  </Sequence>
+</Activity>

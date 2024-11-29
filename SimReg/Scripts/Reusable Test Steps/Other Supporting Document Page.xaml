@@ -1,0 +1,1725 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Other_Supporting_Document_Page" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="clr-namespace:PLDTSMART_SIM_Registration;assembly=DataService.PLDTSMART_SIM_Registration" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uda="clr-namespace:UiPath.DataService.Activities;assembly=UiPath.DataService.Activities.Core" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_ACRICard" Type="InArgument(x:String)" />
+    <x:Property Name="in_EmploymentPermit" Type="InArgument(x:String)" />
+    <x:Property Name="in_SchoolRegAndID" Type="InArgument(x:String)" />
+    <x:Property Name="in_OtherPertinentDocument" Type="InArgument(x:String)" />
+    <x:Property Name="in_Id" Type="InArgument(s:Guid)" />
+    <x:Property Name="in_FilePath" Type="InArgument(x:String)" />
+    <x:Property Name="out_TestResult" Type="OutArgument(x:String)" />
+  </x:Members>
+  <this:Other_Supporting_Document_Page.in_Id>
+    <InArgument x:TypeArguments="s:Guid" />
+  </this:Other_Supporting_Document_Page.in_Id>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Other_Supporting_Document_Page_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.DataService.Activities</x:String>
+      <x:String>PLDTSMART_SIM_Registration</x:String>
+      <x:String>UiPath.DataService.Definition</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>DataService.PLDTSMART_SIM_Registration</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Definition</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Other_Supporting_Document_Page" sap:VirtualizedContainerService.HintSize="1022,3999" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Name="SuccessfullyFetchedData" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Other Supporting Documents" sap:VirtualizedContainerService.HintSize="778,3976" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="744,3736" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="ACRICardCurrentFilePath" />
+              <Variable x:TypeArguments="x:String" Name="ACRICardNewFilePath" />
+              <Variable x:TypeArguments="x:String" Name="AlienEmploymentPermitCurrentFilePath" />
+              <Variable x:TypeArguments="x:String" Name="AlienEmploymentPermitNewFilePath" />
+              <Variable x:TypeArguments="x:String" Name="SchoolRegistrationandIDCurrentFilePath" />
+              <Variable x:TypeArguments="x:String" Name="SchoolRegistrationandIDNewFilePath" />
+              <Variable x:TypeArguments="x:String" Name="OtherPertinentDocumentCurrentFilePath" />
+              <Variable x:TypeArguments="x:String" Name="OtherPertinentDocumentNewFilePath" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Upload ACRI Card'" sap:VirtualizedContainerService.HintSize="710,289" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="1" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V4">
+              <uix:NMouseScroll.SearchedElement>
+                <uix:SearchedElement>
+                  <uix:SearchedElement.Target>
+                    <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/otherSupportDocPage" CVScreenId="2e7dd774-5741-463e-8b20-cb74f4f5b65d" ContentHash="QfSBkr9vek-fmO26zMRzOg" CvTextArea="332, 573, 192, 15" CvTextArgument="Other Pertinent Document*" CvType="Text" DesignTimeRectangle="332, 572, 185, 19" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='flt-pv-315' tag='DIV' type='' class='web-electable-region-context-menu' aaname='' /&gt;" Guid="34157c8e-f42e-4793-bfdd-c98671e1a89c" InformativeScreenshot="a3a2775f31d210c0dca82979b8a38552.png" Reference="5y7obp0hLUSA7kzKS4-dwg/IhDWXtWy5kqq-r2He17nhw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                  </uix:SearchedElement.Target>
+                  <uix:SearchedElement.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:SearchedElement.Timeout>
+                </uix:SearchedElement>
+              </uix:NMouseScroll.SearchedElement>
+              <uix:NMouseScroll.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/otherSupportDocPage" CVScreenId="2e7dd774-5741-463e-8b20-cb74f4f5b65d" ContentHash="LrNo1lgdOEucSJYeup_-7A" CvElementArea="1520, 377, 86, 43" CvTextArea="1537, 391, 51, 18" CvTextArgument="Upload" CvType="Button" DesignTimeRectangle="1520, 377, 86, 43" DesignTimeScaleFactor="1" ElementType="Button" Guid="99d5dce9-3b62-48db-bec5-a6419ed53f41" InformativeScreenshot="d18c0f0d87705c926ade2575a80a08d8.png" Reference="5y7obp0hLUSA7kzKS4-dwg/XfVT0wBXc06fXO84CJhWeQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="2e7dd774-5741-463e-8b20-cb74f4f5b65d" CvTextArea="331, 386, 286, 19" CvTextArgument="issued by the Bureau of Immigration (BI)" CvType="Text" DesignTimeRectangle="331, 386, 286, 19" ElementType="Text" Guid="d20431d1-3a35-4740-90c5-c904f663fecd" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NMouseScroll.Target>
+            </uix:NMouseScroll>
+            <Sequence DisplayName="Download Files" sap:VirtualizedContainerService.HintSize="710,2381" sap2010:WorkflowViewState.IdRef="Sequence_53">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Assign DisplayName="Set Test Result to &quot;Passed&quot;" sap:VirtualizedContainerService.HintSize="574,114" sap2010:WorkflowViewState.IdRef="Assign_66">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="574,175" sap2010:WorkflowViewState.IdRef="LogMessage_32" Level="Trace" Message="[&quot;Gathering the additional necessary files for Non-Filipino Registrants.&quot;]" />
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Download ACRI Card" sap:VirtualizedContainerService.HintSize="574,1834" sap2010:WorkflowViewState.IdRef="If_22">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="540,1639" sap2010:WorkflowViewState.IdRef="Sequence_59">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="506,175" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Trace" Message="[&quot;Downloading 'ACRI Card' file.&quot;]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="506,114" sap2010:WorkflowViewState.IdRef="Assign_34">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[SuccessfullyFetchedData = False]" DisplayName="While" sap:VirtualizedContainerService.HintSize="506,764" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_5" MaxIterations="3">
+                      <ui:InterruptibleWhile.Body>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="472,618" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="438,114" sap2010:WorkflowViewState.IdRef="Assign_35">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <TryCatch DisplayName="Download Proof of Address" sap:VirtualizedContainerService.HintSize="438,444" sap2010:WorkflowViewState.IdRef="TryCatch_9">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <TryCatch.Try>
+                              <uda:DownloadFileFromRecordField x:TypeArguments="p:ADSIMRegistration" DownloadedFileResource="{x:Null}" ContinueOnError="False" DisplayName="Download Proof of Address" EntityId="110976e7-948a-ef11-8473-000d3ac8832a" Field="ACRICard" FilePath="[in_FilePath]" sap:VirtualizedContainerService.HintSize="334,193" sap2010:WorkflowViewState.IdRef="DownloadFileFromRecordField`1_5" RecordId="[in_Id]" TimeoutInMs="30000" />
+                            </TryCatch.Try>
+                            <TryCatch.Catches>
+                              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,22" sap2010:WorkflowViewState.IdRef="Catch`1_9">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ActivityAction x:TypeArguments="s:Exception">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                  </ActivityAction.Argument>
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_36">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </ActivityAction>
+                              </Catch>
+                            </TryCatch.Catches>
+                            <TryCatch.Finally>
+                              <If Condition="[SuccessfullyFetchedData = False]" DisplayName="Set Number of Retries" sap:VirtualizedContainerService.HintSize="502,641" sap2010:WorkflowViewState.IdRef="If_26">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <If.Then>
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:LogMessage DisplayName="Error Message" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_34" Level="Error" Message="[&quot;Failed to download file. Retrying...&quot;]" />
+                                    <Assign DisplayName="Set Test Result to &quot;Failed&quot;" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_37">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </If.Then>
+                                <If.Else>
+                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_55">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <Assign DisplayName="Set Test Result to &quot;Passed&quot;" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_38">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </If.Else>
+                              </If>
+                            </TryCatch.Finally>
+                          </TryCatch>
+                        </Sequence>
+                      </ui:InterruptibleWhile.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:InterruptibleWhile>
+                    <If Condition="[out_TestResult.Equals(&quot;Failed&quot;)]" DisplayName="Throw error message" sap:VirtualizedContainerService.HintSize="506,526" sap2010:WorkflowViewState.IdRef="If_27">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,340" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="LogMessage_35" Level="Error" Message="[&quot;Failed to download. Check the file again.&quot;]" />
+                          <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_39">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_60">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Else>
+              </If>
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Download Employment Permit" sap:VirtualizedContainerService.HintSize="574,57" sap2010:WorkflowViewState.IdRef="If_23">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="642,2083" sap2010:WorkflowViewState.IdRef="Sequence_66">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="608,173" sap2010:WorkflowViewState.IdRef="LogMessage_36" Level="Trace" Message="[&quot;Downloading 'Employment Permit' file.&quot;]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="608,114" sap2010:WorkflowViewState.IdRef="Assign_40">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[SuccessfullyFetchedData = False]" DisplayName="While" sap:VirtualizedContainerService.HintSize="608,1212" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_6" MaxIterations="3">
+                      <ui:InterruptibleWhile.Body>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="574,1066" sap2010:WorkflowViewState.IdRef="Sequence_63">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="540,114" sap2010:WorkflowViewState.IdRef="Assign_41">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <TryCatch DisplayName="Download Proof of Address" sap:VirtualizedContainerService.HintSize="540,892" sap2010:WorkflowViewState.IdRef="TryCatch_10">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <TryCatch.Try>
+                              <uda:DownloadFileFromRecordField x:TypeArguments="p:ADSIMRegistration" DownloadedFileResource="{x:Null}" ContinueOnError="False" DisplayName="Download Proof of Address" EntityId="110976e7-948a-ef11-8473-000d3ac8832a" Field="AlienEmploymentPermitfromDOLE" FilePath="[in_FilePath]" sap:VirtualizedContainerService.HintSize="334,191" sap2010:WorkflowViewState.IdRef="DownloadFileFromRecordField`1_6" RecordId="[in_Id]" TimeoutInMs="30000" />
+                            </TryCatch.Try>
+                            <TryCatch.Catches>
+                              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="506,22" sap2010:WorkflowViewState.IdRef="Catch`1_10">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ActivityAction x:TypeArguments="s:Exception">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                  </ActivityAction.Argument>
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_42">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </ActivityAction>
+                              </Catch>
+                            </TryCatch.Catches>
+                            <TryCatch.Finally>
+                              <If Condition="[SuccessfullyFetchedData = False]" DisplayName="Set Number of Retries" sap:VirtualizedContainerService.HintSize="502,641" sap2010:WorkflowViewState.IdRef="If_28">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <If.Then>
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_61">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:LogMessage DisplayName="Error Message" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_37" Level="Error" Message="[&quot;Failed to download file. Retrying...&quot;]" />
+                                    <Assign DisplayName="Set Test Result to &quot;Failed&quot;" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_43">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </If.Then>
+                                <If.Else>
+                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_62">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <Assign DisplayName="Set Test Result to &quot;Passed&quot;" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_44">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </If.Else>
+                              </If>
+                            </TryCatch.Finally>
+                          </TryCatch>
+                        </Sequence>
+                      </ui:InterruptibleWhile.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:InterruptibleWhile>
+                    <If Condition="[out_TestResult.Equals(&quot;Failed&quot;)]" DisplayName="Throw error message" sap:VirtualizedContainerService.HintSize="608,524" sap2010:WorkflowViewState.IdRef="If_29">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_64">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_38" Level="Error" Message="[&quot;Failed to download. Check the file again.&quot;]" />
+                          <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_45">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_65">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_67">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Else>
+              </If>
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Download School Registration ID" sap:VirtualizedContainerService.HintSize="574,57" sap2010:WorkflowViewState.IdRef="If_24">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="540,1633" sap2010:WorkflowViewState.IdRef="Sequence_73">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="506,173" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="Trace" Message="[&quot;Downloading 'School Registration ID' file.&quot;]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="506,114" sap2010:WorkflowViewState.IdRef="Assign_46">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[SuccessfullyFetchedData = False]" DisplayName="While" sap:VirtualizedContainerService.HintSize="506,762" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_7" MaxIterations="3">
+                      <ui:InterruptibleWhile.Body>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="472,616" sap2010:WorkflowViewState.IdRef="Sequence_70">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="438,114" sap2010:WorkflowViewState.IdRef="Assign_47">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <TryCatch DisplayName="Download Proof of Address" sap:VirtualizedContainerService.HintSize="438,442" sap2010:WorkflowViewState.IdRef="TryCatch_11">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <TryCatch.Try>
+                              <uda:DownloadFileFromRecordField x:TypeArguments="p:ADSIMRegistration" DownloadedFileResource="{x:Null}" ContinueOnError="False" DisplayName="Download Proof of Address" EntityId="110976e7-948a-ef11-8473-000d3ac8832a" Field="SchoolRegistrationandIDStudent" FilePath="[in_FilePath]" sap:VirtualizedContainerService.HintSize="334,191" sap2010:WorkflowViewState.IdRef="DownloadFileFromRecordField`1_7" RecordId="[in_Id]" TimeoutInMs="30000" />
+                            </TryCatch.Try>
+                            <TryCatch.Catches>
+                              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,22" sap2010:WorkflowViewState.IdRef="Catch`1_11">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ActivityAction x:TypeArguments="s:Exception">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                  </ActivityAction.Argument>
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_48">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </ActivityAction>
+                              </Catch>
+                            </TryCatch.Catches>
+                            <TryCatch.Finally>
+                              <If Condition="[SuccessfullyFetchedData = False]" DisplayName="Set Number of Retries" sap:VirtualizedContainerService.HintSize="502,641" sap2010:WorkflowViewState.IdRef="If_30">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <If.Then>
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_68">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:LogMessage DisplayName="Error Message" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_40" Level="Error" Message="[&quot;Failed to download file. Retrying...&quot;]" />
+                                    <Assign DisplayName="Set Test Result to &quot;Failed&quot;" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_49">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </If.Then>
+                                <If.Else>
+                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_69">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <Assign DisplayName="Set Test Result to &quot;Passed&quot;" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_50">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </If.Else>
+                              </If>
+                            </TryCatch.Finally>
+                          </TryCatch>
+                        </Sequence>
+                      </ui:InterruptibleWhile.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:InterruptibleWhile>
+                    <If Condition="[out_TestResult.Equals(&quot;Failed&quot;)]" DisplayName="Throw error message" sap:VirtualizedContainerService.HintSize="506,524" sap2010:WorkflowViewState.IdRef="If_31">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_71">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_41" Level="Error" Message="[&quot;Failed to download. Check the file again.&quot;]" />
+                          <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_51">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_72">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_74">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Else>
+              </If>
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Download Other Pertinent Document" sap:VirtualizedContainerService.HintSize="574,50" sap2010:WorkflowViewState.IdRef="If_25">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="642,2083" sap2010:WorkflowViewState.IdRef="Sequence_80">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="608,173" sap2010:WorkflowViewState.IdRef="LogMessage_42" Level="Trace" Message="[&quot;Downloading Other Pertinent Document file.&quot;]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="608,114" sap2010:WorkflowViewState.IdRef="Assign_52">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[SuccessfullyFetchedData = False]" DisplayName="While" sap:VirtualizedContainerService.HintSize="608,1212" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_8" MaxIterations="3">
+                      <ui:InterruptibleWhile.Body>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="574,1066" sap2010:WorkflowViewState.IdRef="Sequence_77">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="540,114" sap2010:WorkflowViewState.IdRef="Assign_53">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <TryCatch DisplayName="Download Proof of Address" sap:VirtualizedContainerService.HintSize="540,892" sap2010:WorkflowViewState.IdRef="TryCatch_12">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <TryCatch.Try>
+                              <uda:DownloadFileFromRecordField x:TypeArguments="p:ADSIMRegistration" DownloadedFileResource="{x:Null}" ContinueOnError="False" DisplayName="Download Proof of Address" EntityId="110976e7-948a-ef11-8473-000d3ac8832a" Field="OtherPertinentDocument" FilePath="[in_FilePath]" sap:VirtualizedContainerService.HintSize="334,191" sap2010:WorkflowViewState.IdRef="DownloadFileFromRecordField`1_8" RecordId="[in_Id]" TimeoutInMs="30000" />
+                            </TryCatch.Try>
+                            <TryCatch.Catches>
+                              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="506,22" sap2010:WorkflowViewState.IdRef="Catch`1_12">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ActivityAction x:TypeArguments="s:Exception">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                  </ActivityAction.Argument>
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_54">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </ActivityAction>
+                              </Catch>
+                            </TryCatch.Catches>
+                            <TryCatch.Finally>
+                              <If Condition="[SuccessfullyFetchedData = False]" DisplayName="Set Number of Retries" sap:VirtualizedContainerService.HintSize="502,641" sap2010:WorkflowViewState.IdRef="If_32">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <If.Then>
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_75">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:LogMessage DisplayName="Error Message" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_43" Level="Error" Message="[&quot;Failed to download file. Retrying...&quot;]" />
+                                    <Assign DisplayName="Set Test Result to &quot;Failed&quot;" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_55">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </If.Then>
+                                <If.Else>
+                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_76">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <Assign DisplayName="Set Test Result to &quot;Passed&quot;" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_56">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </If.Else>
+                              </If>
+                            </TryCatch.Finally>
+                          </TryCatch>
+                        </Sequence>
+                      </ui:InterruptibleWhile.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:InterruptibleWhile>
+                    <If Condition="[out_TestResult.Equals(&quot;Failed&quot;)]" DisplayName="Throw error message" sap:VirtualizedContainerService.HintSize="608,524" sap2010:WorkflowViewState.IdRef="If_33">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_78">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_44" Level="Error" Message="[&quot;Failed to download. Check the file again.&quot;]" />
+                          <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_57">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_79">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_81">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Else>
+              </If>
+            </Sequence>
+            <Sequence DisplayName="Set New File Name" sap:VirtualizedContainerService.HintSize="710,57" sap2010:WorkflowViewState.IdRef="Sequence_82">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Set New File Name" sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="If_13">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="513,703" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,173" sap2010:WorkflowViewState.IdRef="LogMessage_23" Level="Trace" Message="[&quot;Setting the File Names of all gathered files.&quot;]" />
+                    <ui:MultipleAssign DisplayName="Set New File Name" sap:VirtualizedContainerService.HintSize="479,365" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+                      <ui:MultipleAssign.AssignOperations>
+                        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[ACRICardCurrentFilePath]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[in_FilePath + in_ACRICard]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[ACRICardNewFilePath]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[in_FilePath + in_Id.ToString + in_ACRICard]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[AlienEmploymentPermitCurrentFilePath]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[in_FilePath + in_EmploymentPermit]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[AlienEmploymentPermitNewFilePath]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[in_FilePath + in_Id.ToString + in_EmploymentPermit]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[SchoolRegistrationandIDCurrentFilePath]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[in_FilePath + in_SchoolRegAndID]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[SchoolRegistrationandIDNewFilePath]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[in_FilePath + in_Id.ToString + in_SchoolRegAndID]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[OtherPertinentDocumentCurrentFilePath]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[in_FilePath + in_OtherPertinentDocument]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[OtherPertinentDocumentNewFilePath]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[in_FilePath + in_Id.ToString + in_OtherPertinentDocument]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                        </scg:List>
+                      </ui:MultipleAssign.AssignOperations>
+                    </ui:MultipleAssign>
+                    <Assign sap:VirtualizedContainerService.HintSize="479,105" sap2010:WorkflowViewState.IdRef="Assign_25">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Else>
+              </If>
+            </Sequence>
+            <Sequence DisplayName="Rename Files" sap:VirtualizedContainerService.HintSize="710,57" sap2010:WorkflowViewState.IdRef="Sequence_83">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Rename File - ACRI Card" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="If_34">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="522,985" sap2010:WorkflowViewState.IdRef="Sequence_86">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,173" sap2010:WorkflowViewState.IdRef="LogMessage_45" Level="Trace" Message="[&quot;Changing 'ACRI Card' file name.&quot;]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="488,114" sap2010:WorkflowViewState.IdRef="Assign_58">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="488,638" sap2010:WorkflowViewState.IdRef="TryCatch_13">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <TryCatch.Try>
+                        <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[ACRICardNewFilePath]" DisplayName="Rename File" sap:VirtualizedContainerService.HintSize="334,159" sap2010:WorkflowViewState.IdRef="MoveFile_5" Overwrite="True" Path="[ACRICardCurrentFilePath]" />
+                      </TryCatch.Try>
+                      <TryCatch.Catches>
+                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="454,22" sap2010:WorkflowViewState.IdRef="Catch`1_13">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ActivityAction x:TypeArguments="s:Exception">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                            </ActivityAction.Argument>
+                            <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_59">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </ActivityAction>
+                        </Catch>
+                      </TryCatch.Catches>
+                      <TryCatch.Finally>
+                        <If Condition="[out_TestResult.Equals(&quot;Failed&quot;)]" sap:VirtualizedContainerService.HintSize="450,387" sap2010:WorkflowViewState.IdRef="If_38">
+                          <If.Then>
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,224" sap2010:WorkflowViewState.IdRef="Sequence_84">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,164" sap2010:WorkflowViewState.IdRef="LogMessage_46" Level="Error" Message="[&quot;Renaming File Failed&quot;]" />
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_85">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                      </TryCatch.Finally>
+                    </TryCatch>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_87">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Else>
+              </If>
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Rename File - Employment Permit" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="If_35">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="472,757" sap2010:WorkflowViewState.IdRef="Sequence_90">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="438,173" sap2010:WorkflowViewState.IdRef="LogMessage_47" Level="Trace" Message="[&quot;Changing 'Employment Permit' file name.&quot;]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="438,114" sap2010:WorkflowViewState.IdRef="Assign_60">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,410" sap2010:WorkflowViewState.IdRef="TryCatch_14">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <TryCatch.Try>
+                        <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[AlienEmploymentPermitNewFilePath]" DisplayName="Rename File" sap:VirtualizedContainerService.HintSize="334,159" sap2010:WorkflowViewState.IdRef="MoveFile_6" Overwrite="True" Path="[AlienEmploymentPermitCurrentFilePath]" />
+                      </TryCatch.Try>
+                      <TryCatch.Catches>
+                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,22" sap2010:WorkflowViewState.IdRef="Catch`1_14">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ActivityAction x:TypeArguments="s:Exception">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                            </ActivityAction.Argument>
+                            <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_61">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </ActivityAction>
+                        </Catch>
+                      </TryCatch.Catches>
+                      <TryCatch.Finally>
+                        <If Condition="[out_TestResult.Equals(&quot;Failed&quot;)]" sap:VirtualizedContainerService.HintSize="450,387" sap2010:WorkflowViewState.IdRef="If_39">
+                          <If.Then>
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,224" sap2010:WorkflowViewState.IdRef="Sequence_88">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,164" sap2010:WorkflowViewState.IdRef="LogMessage_48" Level="Error" Message="[&quot;Renaming File Failed&quot;]" />
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_89">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                      </TryCatch.Finally>
+                    </TryCatch>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_91">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Else>
+              </If>
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Rename File - School Registration and ID" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="If_36">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="472,757" sap2010:WorkflowViewState.IdRef="Sequence_94">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="438,173" sap2010:WorkflowViewState.IdRef="LogMessage_49" Level="Trace" Message="[&quot;Changing 'School Registration ID' file name.&quot;]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="438,114" sap2010:WorkflowViewState.IdRef="Assign_62">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,410" sap2010:WorkflowViewState.IdRef="TryCatch_15">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <TryCatch.Try>
+                        <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[SchoolRegistrationandIDNewFilePath]" DisplayName="Rename File" sap:VirtualizedContainerService.HintSize="334,159" sap2010:WorkflowViewState.IdRef="MoveFile_7" Overwrite="True" Path="[SchoolRegistrationandIDCurrentFilePath]" />
+                      </TryCatch.Try>
+                      <TryCatch.Catches>
+                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,22" sap2010:WorkflowViewState.IdRef="Catch`1_15">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ActivityAction x:TypeArguments="s:Exception">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                            </ActivityAction.Argument>
+                            <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_63">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </ActivityAction>
+                        </Catch>
+                      </TryCatch.Catches>
+                      <TryCatch.Finally>
+                        <If Condition="[out_TestResult.Equals(&quot;Failed&quot;)]" sap:VirtualizedContainerService.HintSize="450,387" sap2010:WorkflowViewState.IdRef="If_40">
+                          <If.Then>
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,224" sap2010:WorkflowViewState.IdRef="Sequence_92">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,164" sap2010:WorkflowViewState.IdRef="LogMessage_50" Level="Error" Message="[&quot;Renaming File Failed&quot;]" />
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_93">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                      </TryCatch.Finally>
+                    </TryCatch>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_95">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Else>
+              </If>
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Rename File - Other Pertinent Document" sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="If_37">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="472,757" sap2010:WorkflowViewState.IdRef="Sequence_98">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="438,173" sap2010:WorkflowViewState.IdRef="LogMessage_51" Level="Trace" Message="[&quot;Changing 'Other Pertinent Document' file name.&quot;]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="438,114" sap2010:WorkflowViewState.IdRef="Assign_64">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,410" sap2010:WorkflowViewState.IdRef="TryCatch_16">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <TryCatch.Try>
+                        <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[OtherPertinentDocumentNewFilePath]" DisplayName="Rename File" sap:VirtualizedContainerService.HintSize="334,159" sap2010:WorkflowViewState.IdRef="MoveFile_8" Overwrite="True" Path="[OtherPertinentDocumentCurrentFilePath]" />
+                      </TryCatch.Try>
+                      <TryCatch.Catches>
+                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,22" sap2010:WorkflowViewState.IdRef="Catch`1_16">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ActivityAction x:TypeArguments="s:Exception">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                            </ActivityAction.Argument>
+                            <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_65">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </ActivityAction>
+                        </Catch>
+                      </TryCatch.Catches>
+                      <TryCatch.Finally>
+                        <If Condition="[out_TestResult.Equals(&quot;Failed&quot;)]" sap:VirtualizedContainerService.HintSize="450,387" sap2010:WorkflowViewState.IdRef="If_41">
+                          <If.Then>
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,224" sap2010:WorkflowViewState.IdRef="Sequence_96">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,164" sap2010:WorkflowViewState.IdRef="LogMessage_52" Level="Error" Message="[&quot;Renaming File Failed&quot;]" />
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_97">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                      </TryCatch.Finally>
+                    </TryCatch>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_99">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </If.Else>
+              </If>
+            </Sequence>
+            <Sequence DisplayName="Upload ACRI-Card" sap:VirtualizedContainerService.HintSize="710,57" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Uploading 'ACRI Card' file.&quot;]" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Upload'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/otherSupportDocPage" CVScreenId="2e7dd774-5741-463e-8b20-cb74f4f5b65d" ContentHash="LrNo1lgdOEucSJYeup_-7A" CvElementArea="1520, 377, 86, 43" CvTextArea="1537, 391, 51, 18" CvTextArgument="Upload" CvType="Button" DesignTimeRectangle="1520, 377, 86, 43" DesignTimeScaleFactor="1" ElementType="Button" Guid="99d5dce9-3b62-48db-bec5-a6419ed53f41" InformativeScreenshot="d18c0f0d87705c926ade2575a80a08d8.png" Reference="5y7obp0hLUSA7kzKS4-dwg/XfVT0wBXc06fXO84CJhWeQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="2e7dd774-5741-463e-8b20-cb74f4f5b65d" CvTextArea="331, 386, 286, 19" CvTextArgument="issued by the Bureau of Immigration (BI)" CvType="Text" DesignTimeRectangle="331, 386, 286, 19" ElementType="Text" Guid="d20431d1-3a35-4740-90c5-c904f663fecd" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;Locating 'ACRI Card' file.&quot;]" />
+              <uix:NSetText DisplayName="Search File" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NSetText_1" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Text="[ACRICardNewFilePath]" Version="V4">
+                <uix:NSetText.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="b7098482-c005-460a-bb2c-503ea3166af0" ContentHash="D8sX1Ro4pkWaczNVu2j1Ww" CvElementArea="631, 53, 306, 55" CvType="InputBox" DesignTimeRectangle="639, 69, 242, 25" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' /&gt;" FuzzySelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' role='editable text' /&gt;" Guid="39e52b2d-6169-4773-9d26-00337c5b0f94" InformativeScreenshot="5131a1d2b7318fdb350a800358d4014a.png" Reference="5y7obp0hLUSA7kzKS4-dwg/F6NQLfJmDEGAxvnK5YC8jA" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="885, 54, 45, 55" ElementType="Button" FullSelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchBoxSearchButton' /&gt;" FuzzySelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchBoxSearchButton' role='push button' check:text='Search' /&gt;" Guid="ced0058d-90a2-4251-a849-e8b8ea6d509e" SearchSteps="Selector, FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSetText.Target>
+              </uix:NSetText>
+              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Click 'Enter'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="enter" KeyModifiers="None" SpecialKey="True">
+                <ui:SendHotkey.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="626e5833-2c13-40b6-bc6f-22ba3dda244f" InformativeScreenshot="932200f13077b4ab9ab50ce9e1a2374e" Selector="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:SendHotkey.Target>
+              </ui:SendHotkey>
+              <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Select File" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/otherSupportDocPage" CVScreenId="434f12fb-9b35-4857-ad14-347e4d4eea44" ContentHash="ShEmmQe_ykeT_e9nfMJ5fA" DesignTimeRectangle="204, 179, 270, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' /&gt;" Guid="b5e38bcb-a368-4b75-ba78-a1ac9717a91f" InformativeScreenshot="7431eb4cabbfc87840be66634a42017f.png" Reference="5y7obp0hLUSA7kzKS4-dwg/UhLHPr5RMkO4wlb4jWmKHQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,115" sap2010:WorkflowViewState.IdRef="Delay_5" />
+            </Sequence>
+            <Sequence DisplayName="Upload Employment Permit" sap:VirtualizedContainerService.HintSize="710,57" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;Uploading 'Employment Permit' file.&quot;]" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Upload'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/otherSupportDocPage" CVScreenId="405f5ad4-edc3-4a4d-878b-8c04af1a8fb4" ContentHash="5FIHGHE510OCoYDRlyJfmw" CvElementArea="1520, 682, 86, 43" CvTextArea="1537, 696, 51, 18" CvTextArgument="Upload" CvType="Button" DesignTimeRectangle="1520, 682, 86, 43" DesignTimeScaleFactor="1" ElementType="Button" Guid="fc5b1f1c-b9e7-4998-947c-9f6fbcba2d98" InformativeScreenshot="33518a968ec6958ea36effa61262bced.png" Reference="5y7obp0hLUSA7kzKS4-dwg/r0E1LPxAIEK7eMgWJwKwkA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="405f5ad4-edc3-4a4d-878b-8c04af1a8fb4" CvTextArea="331, 682, 432, 19" CvTextArgument="Alien Employment Permit from DOLE (if currently employed)*" CvType="Text" DesignTimeRectangle="331, 682, 433, 19" ElementType="Text" Guid="66bde444-e58f-4f2e-b4a6-86f388421606" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Locating 'Employment Permit' file.&quot;]" />
+              <uix:NSetText DisplayName="Search File" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NSetText_2" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Text="[AlienEmploymentPermitNewFilePath]" Version="V4">
+                <uix:NSetText.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="b7098482-c005-460a-bb2c-503ea3166af0" ContentHash="D8sX1Ro4pkWaczNVu2j1Ww" CvElementArea="631, 53, 306, 55" CvType="InputBox" DesignTimeRectangle="639, 69, 242, 25" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' /&gt;" FuzzySelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' role='editable text' /&gt;" Guid="39e52b2d-6169-4773-9d26-00337c5b0f94" InformativeScreenshot="5131a1d2b7318fdb350a800358d4014a.png" Reference="5y7obp0hLUSA7kzKS4-dwg/F6NQLfJmDEGAxvnK5YC8jA" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="885, 54, 45, 55" ElementType="Button" FullSelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchBoxSearchButton' /&gt;" FuzzySelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchBoxSearchButton' role='push button' check:text='Search' /&gt;" Guid="ced0058d-90a2-4251-a849-e8b8ea6d509e" SearchSteps="Selector, FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSetText.Target>
+              </uix:NSetText>
+              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Click 'Enter'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="enter" KeyModifiers="None" SpecialKey="True">
+                <ui:SendHotkey.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="626e5833-2c13-40b6-bc6f-22ba3dda244f" InformativeScreenshot="932200f13077b4ab9ab50ce9e1a2374e" Selector="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:SendHotkey.Target>
+              </ui:SendHotkey>
+              <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="Delay_2" />
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Select File" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/otherSupportDocPage" CVScreenId="434f12fb-9b35-4857-ad14-347e4d4eea44" ContentHash="ShEmmQe_ykeT_e9nfMJ5fA" DesignTimeRectangle="204, 179, 270, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' /&gt;" Guid="b5e38bcb-a368-4b75-ba78-a1ac9717a91f" InformativeScreenshot="7431eb4cabbfc87840be66634a42017f.png" Reference="5y7obp0hLUSA7kzKS4-dwg/UhLHPr5RMkO4wlb4jWmKHQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,117.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_6" />
+            </Sequence>
+            <Sequence DisplayName="Upload School Registration and ID" sap:VirtualizedContainerService.HintSize="710,57" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Uploading 'School Registration and ID' file.&quot;]" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Upload'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/otherSupportDocPage" CVScreenId="11869020-210d-42ee-a4cf-9ba9b7dd6692" ContentHash="xeUTeJU4k0Oq71EI2ijnCg" CvElementArea="1520, 744, 86, 43" CvTextArea="1537, 758, 51, 18" CvTextArgument="Upload" CvType="Button" DesignTimeRectangle="1519, 744, 86, 43" DesignTimeScaleFactor="1" ElementType="Button" Guid="c6f4c1a8-06ef-4f68-b275-73f67b1a78f1" InformativeScreenshot="525e86cf228b23a5cd7cf14cbdf42459.png" Reference="5y7obp0hLUSA7kzKS4-dwg/DQx7xkmIPEeWAS7BPppSfg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="11869020-210d-42ee-a4cf-9ba9b7dd6692" CvTextArea="331, 744, 278, 19" CvTextArgument="School Registration and ID (if student)*" CvType="Text" DesignTimeRectangle="331, 744, 278, 19" ElementType="Text" Guid="ffc20e68-b912-4958-b553-fcd7504f0219" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Trace" Message="[&quot;Locating 'School Registration and ID' file.&quot;]" />
+              <uix:NSetText DisplayName="Search File" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NSetText_3" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Text="[SchoolRegistrationandIDNewFilePath]" Version="V4">
+                <uix:NSetText.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="b7098482-c005-460a-bb2c-503ea3166af0" ContentHash="D8sX1Ro4pkWaczNVu2j1Ww" CvElementArea="631, 53, 306, 55" CvType="InputBox" DesignTimeRectangle="639, 69, 242, 25" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' /&gt;" FuzzySelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' role='editable text' /&gt;" Guid="39e52b2d-6169-4773-9d26-00337c5b0f94" InformativeScreenshot="5131a1d2b7318fdb350a800358d4014a.png" Reference="5y7obp0hLUSA7kzKS4-dwg/F6NQLfJmDEGAxvnK5YC8jA" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="885, 54, 45, 55" ElementType="Button" FullSelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchBoxSearchButton' /&gt;" FuzzySelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchBoxSearchButton' role='push button' check:text='Search' /&gt;" Guid="ced0058d-90a2-4251-a849-e8b8ea6d509e" SearchSteps="Selector, FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSetText.Target>
+              </uix:NSetText>
+              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Click 'Enter'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="enter" KeyModifiers="None" SpecialKey="True">
+                <ui:SendHotkey.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="626e5833-2c13-40b6-bc6f-22ba3dda244f" InformativeScreenshot="932200f13077b4ab9ab50ce9e1a2374e" Selector="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:SendHotkey.Target>
+              </ui:SendHotkey>
+              <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="Delay_3" />
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Select File" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/otherSupportDocPage" CVScreenId="434f12fb-9b35-4857-ad14-347e4d4eea44" ContentHash="ShEmmQe_ykeT_e9nfMJ5fA" DesignTimeRectangle="204, 179, 270, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' /&gt;" Guid="b5e38bcb-a368-4b75-ba78-a1ac9717a91f" InformativeScreenshot="7431eb4cabbfc87840be66634a42017f.png" Reference="5y7obp0hLUSA7kzKS4-dwg/UhLHPr5RMkO4wlb4jWmKHQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,117.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_7" />
+            </Sequence>
+            <Sequence DisplayName="Upload Other Pertinent Document" sap:VirtualizedContainerService.HintSize="710,57" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Trace" Message="[&quot;Uploading 'Other Pertinent Document' file.&quot;]" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Upload'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/otherSupportDocPage" CVScreenId="6faffc3e-f1a1-42c4-a4a8-749f1fb58584" ContentHash="HYZt2KgSu0OV84IwL5sljw" CvElementArea="1520, 806, 86, 43" CvTextArea="1537, 820, 51, 18" CvTextArgument="Upload" CvType="Button" DesignTimeRectangle="1519, 807, 86, 42" DesignTimeScaleFactor="1" ElementType="Button" Guid="09d19260-5d07-43d2-9a75-94598e3ecc25" InformativeScreenshot="0da19bf4e86c61177975e4dd8a58c465.png" Reference="5y7obp0hLUSA7kzKS4-dwg/NYNI-g5H5UuG_Q3xSni5oQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="6faffc3e-f1a1-42c4-a4a8-749f1fb58584" CvTextArea="331, 807, 193, 15" CvTextArgument="Other Pertinent Document*" CvType="Text" DesignTimeRectangle="331, 807, 193, 15" ElementType="Text" Guid="b4ffacb6-bbf7-46d1-8ffd-b6e5cef712f9" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Trace" Message="[&quot;Locating 'Other Pertinent Document' file.&quot;]" />
+              <uix:NSetText DisplayName="Search File" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NSetText_4" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Text="[OtherPertinentDocumentNewFilePath]" Version="V4">
+                <uix:NSetText.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="b7098482-c005-460a-bb2c-503ea3166af0" ContentHash="D8sX1Ro4pkWaczNVu2j1Ww" CvElementArea="631, 53, 306, 55" CvType="InputBox" DesignTimeRectangle="639, 69, 242, 25" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' /&gt;" FuzzySelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' role='editable text' /&gt;" Guid="39e52b2d-6169-4773-9d26-00337c5b0f94" InformativeScreenshot="5131a1d2b7318fdb350a800358d4014a.png" Reference="5y7obp0hLUSA7kzKS4-dwg/F6NQLfJmDEGAxvnK5YC8jA" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="885, 54, 45, 55" ElementType="Button" FullSelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchBoxSearchButton' /&gt;" FuzzySelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchBoxSearchButton' role='push button' check:text='Search' /&gt;" Guid="ced0058d-90a2-4251-a849-e8b8ea6d509e" SearchSteps="Selector, FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSetText.Target>
+              </uix:NSetText>
+              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Click 'Enter'" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="SendHotkey_4" Key="enter" KeyModifiers="None" SpecialKey="True">
+                <ui:SendHotkey.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="626e5833-2c13-40b6-bc6f-22ba3dda244f" InformativeScreenshot="932200f13077b4ab9ab50ce9e1a2374e" Selector="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:SendHotkey.Target>
+              </ui:SendHotkey>
+              <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="Delay_4" />
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Select File" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/otherSupportDocPage" CVScreenId="434f12fb-9b35-4857-ad14-347e4d4eea44" ContentHash="ShEmmQe_ykeT_e9nfMJ5fA" DesignTimeRectangle="204, 179, 270, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' /&gt;" Guid="b5e38bcb-a368-4b75-ba78-a1ac9717a91f" InformativeScreenshot="7431eb4cabbfc87840be66634a42017f.png" Reference="5y7obp0hLUSA7kzKS4-dwg/UhLHPr5RMkO4wlb4jWmKHQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,117.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_8" />
+            </Sequence>
+            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="710,269" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="1" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V4">
+              <uix:NMouseScroll.SearchedElement>
+                <uix:SearchedElement>
+                  <uix:SearchedElement.Target>
+                    <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="3e0ae457-5055-481e-a471-497724f7db7d" ContentHash="JOxq2PGyyUmQ7MMe8t_cfA" CvElementArea="988, 799, 77, 39" CvTextArea="1005, 810, 43, 15" CvTextArgument="NEXT" CvType="Button" DesignTimeRectangle="988, 999, 76, 37" DesignTimeScaleFactor="1" ElementType="Button" Guid="82b65aed-adce-4c3a-b105-21b8e6d18dfe" InformativeScreenshot="d63f609ff5e5a5151bcff7e91f3cf826.png" Reference="5y7obp0hLUSA7kzKS4-dwg/BA2Q8ziw4EGeltUpwmqiOg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="c8db5482-208d-489d-9741-7d84954be62e" CvElementArea="892, 999, 77, 38" CvTextArea="908, 1010, 44, 16" CvTextArgument="BACK" CvType="Button" DesignTimeRectangle="892, 999, 76, 37" ElementType="Button" Guid="c458e096-4c49-4d80-b215-9262fe5f6a02" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:SearchedElement.Target>
+                  <uix:SearchedElement.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:SearchedElement.Timeout>
+                </uix:SearchedElement>
+              </uix:NMouseScroll.SearchedElement>
+            </uix:NMouseScroll>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'NEXT'" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d9a3f4d9-26af-4ce9-954c-14ba9582d382" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="3e0ae457-5055-481e-a471-497724f7db7d" ContentHash="JOxq2PGyyUmQ7MMe8t_cfA" CvElementArea="988, 799, 77, 39" CvTextArea="1005, 810, 43, 15" CvTextArgument="NEXT" CvType="Button" DesignTimeRectangle="988, 999, 76, 37" DesignTimeScaleFactor="1" ElementType="Button" Guid="82b65aed-adce-4c3a-b105-21b8e6d18dfe" InformativeScreenshot="d63f609ff5e5a5151bcff7e91f3cf826.png" Reference="5y7obp0hLUSA7kzKS4-dwg/BA2Q8ziw4EGeltUpwmqiOg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="c8db5482-208d-489d-9741-7d84954be62e" CvElementArea="892, 999, 77, 38" CvTextArea="908, 1010, 44, 16" CvTextArgument="BACK" CvType="Button" DesignTimeRectangle="892, 999, 76, 37" ElementType="Button" Guid="c458e096-4c49-4d80-b215-9262fe5f6a02" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,168" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Trace" Message="[&quot;Navigating to Summary Page.&quot;]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="Y-t1nIcgTEKAvLjhVT-YCg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAABJcSURBVGhDvZkHWBTn1scxifQqJaY9id4kagRFkSbYY6ELolJUxB6NShQIIoiCVGli7BhL7MZGbKjAwu7CUnfZSlns0WjyXW7Kzf1uSPb/nXd2FyHReL/E3PM8/2eHmZ2Z/++c874z72LwPMIudHHMwMLTvKFfqDodyzq6HCtvwrHyBklNaodjVSuc+Co4CRR477Kwc/DJL9RvZeWeNRs+3Ft3if9+OIQuixl6pE49vOKBxpn3AMN49+DEuwOnyls68x0YSuaHVrURgAqOfCUByEhSDK+WwLmmESNEdXCp5ncNPfyp2MLZ8b8D4xD6QczwL251uvD+jpG8rzGC9xAMYDgBDOMA7vwKoJXEABQkLYCToFkLUNOAUXU1cK0XwLOpHB5Vn3e+NicoRner5xvmTp7ezqfVD1x532EUrxMuvP/hALrNk/FhlbdJrH06SGSeA2jRii/vASChKjRxACNrRfBo5JHK4S0pxXhZCbx4+x5Yjxz0/CoyIG57sWvFdxpm3pX3LQH8gwC0FXCuvE9iAFrzTvq+r6TWqaTsVzIABSctQDNJjGHCJqpCHQFUUwWqOICxzRc4gCnK45im+kzjlB5drLPwx8Npb43YnfdPuPG+J/Ms+8y8NvsjK6l9CGC4DsCJMv8YgJlXkXElZ/69KjlVQUYQDKCJABp1ACK4N5TDs/E6xkguYaL8DKaqjsO//VPSPkyuSFPrrPz/w/mIQu3O+xGPAVj2O0kEUPmI9BUBfEkAdwngBgegbR3KOpl/r5IZ10tOknJypAowCOeaWhoDArjVV3IA3mIGcBqTqQJ+bfsRqN6DkJtFCFZlfm/6mvWbOlv/WYwg8568f5F5PQBrn39w5l048w+7AVjrDOOyzzKv73u9cVkP9QYYJqzHSBG1UJ0e4LIO4Bh8W/UA2zD7Ti5mtaf+qLP27Bi2t07MzHt0A/zwBICvMILMO3ODV9/7rdrWoVlHm3Fmurnb+GNp22hEjQijavlw4wCuUgvRGJCehk/LAfi37UWQegdm3spD2J0szP1yI0JEy57dTn+L21U8mvdvaAGYeabvCeBbAmDt8003wEiu/29hWBW1T5X2gcXmfO2g1ZvX69cAjRgurIWLiAGUEUApVeAC3pcfw1TlQR3AdoTezEf4nUwCSEH0w3WYfDDgrM7qb8PCabS3Z8W/NaN5/8sBeJJ5DzLvTtl3o+xzAJUMgLUPm33u9gCgCnBzPg1WTlqjTxM3BqpFVIVqDmB040Uu+1qAA5z5GTdzyXwaKR1z7ydj4cNYLH60UtPfvf+Tp1jX03cfsOz3BvhBB9AJx5K7ePuQHAOKmzBgH+nTRvqswzsnJBhypaUHgOx3AYbSTMT637m6mipAU2jDFcp+CcY1f46J0uPwURUjoO0TBHfkUwtlEcAmRN3/mJnHB98sxjzprDs6y4/jldBVMV68n8i8HuBHTkNP3cOrmRWwXvUZLFeQVh+H9ZqTsIk7o9XaU7BZcww2qw7B7qODeGPbNbxzrumJxvVy5LNB3EAANQTAg3vdVa4CY5rO4H3ZIarAfvi37sSMjmyE3U7FnLvrEPXlWix5tIID+OCbhRi2bEjvJ7b7F193evG66CmohRh+7hvYxJ6B+YqjsIg5A8vYEljFX4T1ulJYr78Km+Rr6LfhOmw5XSOVwi7pMmzXnYftmiNwWHcE71wU/8b8UL6EZqEmAqjHiGo+XEVl8Ki7RObPYbzkJCbL9sNHuQsBrVsRrM7BzBtpiLizngNY9NVyLHm4CMseRWO+csYDnXUDg1cp+9468x5l/8Lr+Y0wW3ESZh+dh/nai7D4uBSWiWWwSq6E9UYBbFKrYbO5Bv1Ithki2GXQZ3o17DbzYZ9WAftN12GfdAF2BPJa/iUM4fVuJ5Z9J0Ed10KuomscwNjGU5ggOcoBTJXvJYBCqkAGZt1IxpzbsZh3NwYL7i/H0ocLsezhPCz/OhKvuNtpx4LLkVa1N+9neJb9G/2SK2C6ugRmay/BPP4qzBN5sEgWwmqjCFZpDbDOaIJNlgT9sqXolyOF7RYp7Ej2uRL6bIJ9Tj3ss2rgkM6HQ1oZ7BPPo3/qmW4Irv8FtXAWCjGyupwASgngAsY0HscE8UFMbt6NafId8FPmI7htM2Z1JCLi1lpE3VuFBfcWYdGX0Vj2VQSWPwqD70Ev7YzkVdGlYeZtKbsmay7DJPYqTBMqYJ4khHlKHSxSG2GZLoVVpgxWOQrYbFGhX14L+uW3wraAqQV2JPtCJewLFLDPb4ZDbhMcskVwyKiC/YbL6J9ewkE48hsJQIThAgG1EA+jaq4SwFmMbTqKieK9mNK8Hb6KAgQoMzG9JQVhN+IReXM15t35sBtgyf1ILH0wG9Fy3wfUPqtjxlD27SmzxmuvwSSuDKbr+DBNFsFsYyPM06SwyJDDMktF5lthtaUV1nltsMlvR78CUqEatlvVsNvaDvsiNamN1AqHrUo4FDTj5dwGvJwlhMPGUrxedI0WNjVkno8RwnK4CEvhLjoH91oCaDhIAHswRVKIac15CFCkI7glCTPb4xDesRJzby7G/DuLsfDePAII5wCW3p+uMXDZXSd+79gjGMVWwDi+EsYJQpgk18F0oxhmaTKYpythkdkCi+xWWOa0EUA7rHLbYZ2vhk1BBwEwMYgO2BV1wH5bB2Vf8oNFRMY+04nRa0wnRMVahqcdstt07Tv7lCt490w1nAWVGCm8QgCX4CE6Bc/akzqAXQRQgGmSbAQqUugdKB6hrfEIU69ChHoJ5t6IRtStuVh0L4zMhzIAGIy+/E+NRUojjOIFMEqohnFSPUxSJDBNlcFssxJmGS0wz2wlgHZY5LTDkgNQwypP3Q1hwyAIwDa/Da+v+Owrri+fEJZhKYf7Z1yGM78UIwUXMEp4Fm7VJ+BVewBj63djYkMhJjXmw0eSikD5BgQrYzGzZSXC2pYgUr2QAKIIIBLRt2YRxAwsvhcIA6fjX8Pw4xoyXwvj9Q0w3iCBySYZTNKUME1XwSy9BWaZbTDPavtdCKuPy2E5dnm5zutTw3J2yrEhJRVwEZTAVXgSHtWH4V27H+PqdxBAHiY3ZWGaOBW+kiQEydYiRPkRZqqWIrxtPuaowzDvxizMvzkDC25Nx6K7BPDmnnswTKiDYWIDjJIkMEqRwXiTkgBUMElvhWmGVnoI82wC+RWE5YfnYToh8Qedx2fGO4cualz4n8NdeIC0nwB2Y2zddoyv34opjalUgQ3wk8QhUBaLGcrlpKUIa2UA4ZjbEUYAoQQQhEW3/WFgS0b6JjbBcL0YhhukBKCEEQEYp7XAZDOJQehAngRhEVcOs8kbYeQcflTn75nhWHDwhiv/ENwEB+FBAKNrCKC2ABPr0jCpbiOmNcXDTxyDwOYVmC5dihDZAgKYi8i2MMxVhyKqIwQLbvpj4S1fGFhltRKAGH2TpAQgh2GKAkYbVTBKbXkMsfkpEOtryfwGmPlmoe/bkxJ0/p4Zf1v18RFXPmVfUAxP4Q54CfMwriYDE0UpmFS7HpPr4uHTuBr+4uWY3hyNYOl8zFREIkw1C5GtIZjbFoAotR8ixJM6DV5KbMZLZL5vkgx9NygIQAlDBrDpMYQVDeTBhS3w2qWC1256199Gc38WjZHAHJj5ZcM8oIABxOn8PTPMnd72dqvaCY+qrfAUbOMAxgjTMKEmiQASCCAWPg0r4d+4GEHiKAKIwizFbIQpghHREqwFaPfDhB0jzhq8uF5OADK8lCznAPqmqDgApsl7lCi6qkB5gxzN0maoFFJObLtcJMa2o6WYFn8Y5tM/IYD31+r8PTMGxEcUu1cWagGqtsBLkMUBjBcmYJLoY0ytXQHf+qUEsJAA5iFYEoYZ0jDMlgchXBmESJUf5rT4aMxeNX6TAGTgIJIVJCVBKDG8UIFTAgVu3Wjn1KKUQdbcBKlObJvt0x8/VUrv9ZGZjTp/z4wRX2R1uvPyCSCPALLhzd+EsYIkjBfEYVLNWkwWfQifugUIaIxCQEMEpovDESIJxgxJEGZJ/REun0YLG1ced7E+6yRdLybJ8WKSkgOYuU+KlhYVOtpbIJGIOcllzWhtUUBFpplaVHLIpRJIxI2cbtB3VUoFgoICormL/k68vtg/061iK60xyHxlKrwqN8C7KgVj+eswjr8GE6tjMEW0DNNqo+FXPxeBBBDUMBMh4iCENgdyAKENUx+vj/usqel8Yb2CABQIKZbi9k01Z5gZZ5lWKWRoqBfh7OlTOLBvLw58uhfnTn+Oxvpa7phUwiCa6BwJV43AwID5ukv/JgwdbN4cVbZF41aeBfeKdFpvpBDAenhXJpD5tRzAJOEyTKlZiCnVUfARRcC/LpQAZmB6QxBCmgIQLJr6o+kr1DrdEXmA90KiAo55csqyEnK5DM1knhljBsuvX0VeThbSUzcic3MqJ7advyUbvPLr3RDNEgbBjZOuwYMHjdBdvVcwANdrqV1u5enwqNgEz4okeoVfRwBxZH41JvCXYRKfmZ+PqdWR8KmZjYD6UATWByO4MQi+pZMfmPQyz8J1bswLiXKc5Em624YZUsqlEAn5yMnKQHbGZg4iNzuTE9tm+9h2nUgIBRmXEQCrxA11K44ePlRLV+6jvUHv6DfeabbbtQ1dnhXrMboiAV4VcQQQi3FVywlgCQFE431BNKYKIwhgJvxrgxFYF6hxyx319MX8+G1SDWsdbdswAO0gPXxoPzLSNnGGtxCIHoBt66ty/Mhn9F05dw47l0GwVvL2Gu2ju/wT441F4zNHHl6s9riy8scxvJUYV/kBJlQtxsSqBZgsmEMK04wvCXzglOhcbNLf5Pd/1Co6X/3DrZsduuxrjbAqbC8q5DLd03xPiKz0NOzavo0G9GNwBnCbrpVXUHhBd/m/NkxMjM0qqqr+zmVRZ4IZahY34JOtBb8LwI4xSAbLzmGf7PxWlQJlfJHGyLr/u7rb/HUxaNC7znTjn1kG9dKOgWbs27OLG7R6wz3Ns092bH/xHjZwuXP052un2CY4Lj2kMRoanKm71V8THu5u77N+p8xpWAW4BxaZYfuuXrnI9XnPAdxT7Nj1q5d7ALBztS3IEjBuzTFYztgDi4DCzhdt3/5Tv/e/ZDPA2+itMb/954eb66gJOgO/MABtP2shmIljRw5h86aU7lZiYr3P9p08doT7jt68to20EOyaY3QAnEJ2w8I/v9NkxJziPib9/uNfmo0H+2VaTEhU2/jlwcYvFyaDfHpXdODAAUOo37vo5hoyQXoMoTd1oeQsdmzbioLcHE47PynCpQvnafqU9PpezxZizxJqoV4AliG7YBW8k5Olb26n+fgEsZn3ap7hwAkxhgPHxxiRTF0XnjX3XMmznJbRaeWXr7H2zwcTA7D23aJ5yeat3pU0NDQ0Lrteeo9aRsOq8NiM1hhrJXWbCpKmelTxyjix7fY2JXfs1wDcIKYJoVxQC9vZxU8FsJq+g7Sd9Amsgpi2wTqwiLQV1gFMhWS8gDOvBzB1mvnk/9gU5ueevn2z/Rcy9hMZIZAmrjWYqdJLF/Dp3t0oKshDYd4WrgJbaZvtY8fYd7RtxCC0g5dNo0XHaIkZuve5AVh4rxHr7P42xo0bG8A9yJrqu6gKGupfjZDPw06a49mDjM02OZnpvcT2sWPsOVDNr9K9UuifA+2YmnDyuQGwMaCz+uToQ3Hi+JHGDmoVymgXr/watmRmaJjJp81ATOwY+86WrExU0nuRXCblXkdOXOaTeWqf5wDwTPP6GDJksEt7q/Jnerfpopnm55yMdGZQw8z1fAbopZ2RGES2dobKzkJ9nQhtrS1w+ZBmn+cAYD4m9ult86QInRGy8MTRwyyrv1CbdOnMEoTW7GPzWuWSafZ3Dn1mbk4DOzc84xwsZu77UwBW/oUa48H+f+wBOMpl5EJ6Vf6pKD+XZbaLgRDALyRdNXQi0znZlP2sLBrgucjPy8PoJVthEbITFnrzfwDAckragxf7Dfxz/+R+7bVXXWJWrqhm70JMbObRZp5BZGjYNtunP746ay/eSBKCLYyMFpfALHg7Z1ZrnowzPQPA0je7kz0HdBaeTzgOHRo0b07kieTEhNtUiZ/YIoaJbSelbHo0L2X3947J1zR91snRhxZFbGHEre7WSWG0ogymc2ksUGYtyTAnqo5VMBnXAVqEH4DFxKQO9iDT3fKvib59+5o42Nu/S0/tsUz29vaD2D7dYW5RZBC5n2dAy9M+Cc1dDEK/TGVrbcP4BhjFiWASUwnr1dd+fvnDkm/7RxQKdGf/iTAw+D+Pxlj+kOCwdgAAAABJRU5ErkJggg==" InformativeScreenshot="a59cdbed63c2ec5c4e36a59ded65de5a.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/mzBFQ1JXm0eTutI6ylSp5w" Selector="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg2.simreg.smart.com.ph/flutter/otherSupportDocPage" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

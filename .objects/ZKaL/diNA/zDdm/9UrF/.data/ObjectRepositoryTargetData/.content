@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="i4NOMO0IV0-CiE1j3CNk3w" Reference="Mb_yfqsdSUWaXd39NmiObQ/mXhFeFBLOEKkB0jMX4i8hQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="9c8ba9a9-0e57-45b2-8bed-c73f56e1759f" CvElementArea="130, 931, 110, 63" CvTextArea="152, 951, 67, 28" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="135, 933, 103, 56" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='edit-submit' tag='INPUT' type='submit' class='button js-form-submit form-submit btn btn-primary' aaname='Log in' check:text='Log in' /&gt;" Guid="b70eaff8-a3c2-4a54-9922-f03510a7a13c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Log in | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="167225409b69adc327d80ea86772d7aa.png" xmlns="">0uSIvhLa4QkyjhLlUge9KmA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

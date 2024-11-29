@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT edit-date-from-da…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "UDU8iLHEe022C0JCz7owng",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/UDU8iLHEe022C0JCz7owng",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-11-27T08:00:07.7430694Z",
+  "Updated": "2024-11-27T08:00:07.7430694Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

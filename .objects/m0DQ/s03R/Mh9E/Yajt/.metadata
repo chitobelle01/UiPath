@@ -1,0 +1,17 @@
+﻿{
+  "Name": "user_profile",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "YajtQ2VLG0uE-3zORkdb7Q",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/YajtQ2VLG0uE-3zORkdb7Q",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/Mh9EASWWl0m1WPUp1Mhssw",
+  "Created": "2024-11-27T07:58:28.4497837Z",
+  "Updated": "2024-11-27T07:58:28.4497837Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

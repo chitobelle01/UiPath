@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GM-J7UhmHEKyFWzG9IMUuw" Reference="Mb_yfqsdSUWaXd39NmiObQ/-ctqzJ8rMkeEOeDhPkJfyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e842e9b0-dbce-49db-b075-2fade95eef88" CvElementArea="132, 568, 119, 65" CvTextArea="159, 590, 66, 28" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="135, 480, 115, 62" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Log in(active tab)' tag='A' type='' class='nav-link active is-active' check:text='Log in(active tab)' /&gt;" Guid="75baa5b9-2904-4a29-9de1-739bec2e6736" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Log in | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fe644ee2c57f878ae694599dc391922b.png" xmlns="">0x8u6FnnkQUaCrSKgtg-cmg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "View profile",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "LRqNt51nCUioN7-Zzeki9g",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/LRqNt51nCUioN7-Zzeki9g",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/TTMrYW0U70WGzx0PZ5anDA",
+  "Created": "2024-11-27T07:58:18.0803503Z",
+  "Updated": "2024-11-27T07:58:18.0803503Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

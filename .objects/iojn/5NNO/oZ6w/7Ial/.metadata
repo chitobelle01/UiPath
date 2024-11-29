@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Resubmitted",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "7IalvLkjHU-V82SB-gyJcA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/7IalvLkjHU-V82SB-gyJcA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-11-27T08:00:12.6119701Z",
+  "Updated": "2024-11-27T08:00:12.6119701Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

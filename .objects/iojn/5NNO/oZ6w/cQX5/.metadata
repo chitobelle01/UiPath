@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Filters",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "cQX568rZjEq1IX9ngOd-ZQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/cQX568rZjEq1IX9ngOd-ZQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-11-27T08:00:07.1272933Z",
+  "Updated": "2024-11-27T08:00:07.1272933Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

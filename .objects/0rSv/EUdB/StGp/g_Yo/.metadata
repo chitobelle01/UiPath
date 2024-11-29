@@ -1,0 +1,13 @@
+﻿{
+  "Name": "RefNo",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "g_Youtcy4ka0x-LmparyBw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/g_Youtcy4ka0x-LmparyBw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/StGp84WO0Emu-K2nKzYqfA",
+  "Created": "2024-11-27T07:59:40.699534Z",
+  "Updated": "2024-11-27T07:59:40.699534Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

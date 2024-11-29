@@ -1,0 +1,418 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Confirmation_Page" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="out_ReferenceNumber" Type="OutArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Confirmation_Page_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>PLDTSMART SIM Registration.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Confirmation_Page" sap:VirtualizedContainerService.HintSize="1040,1801" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Confirmation Page" sap:VirtualizedContainerService.HintSize="1040,1778" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="11b944e4-d4d3-4377-966d-431d9c2b9317" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1006,1538" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="SuccessfulMessage" />
+              <Variable x:TypeArguments="x:Boolean" Name="Resultt" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'Check App State 'DIV''" sap:VirtualizedContainerService.HintSize="972,1476" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="11b944e4-d4d3-4377-966d-431d9c2b9317" Timeout="10" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,1194" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="ReferenceNumber" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Register Another SIM button'" sap:VirtualizedContainerService.HintSize="434,289" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="1" ScopeIdentifier="11b944e4-d4d3-4377-966d-431d9c2b9317" Version="V4">
+                    <uix:NMouseScroll.SearchedElement>
+                      <uix:SearchedElement>
+                        <uix:SearchedElement.Target>
+                          <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/congratulationPage?isAutoApprove=true&amp;registrationType=I%27m+registering+a+newly+bought+SIM" CVScreenId="f42ed3c3-a66f-434e-97aa-c5fb5b7c5cb2" ContentHash="1aUz0dpzrk26vkXzDT4rfA" CvElementArea="807, 908, 327, 67" CvTextArea="833, 929, 274, 24" CvTextArgument="REGISTER ANOTHER SIM" CvType="Button" DesignTimeRectangle="806, 907, 327, 67" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="91175396-09da-4228-ad0e-13bf8405e8c3" InformativeScreenshot="fcfffaf275555f90ef7f13694a97b619.png" Reference="5y7obp0hLUSA7kzKS4-dwg/fMlx5y_l5kiRYq_j5gZ4mA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+                        </uix:SearchedElement.Target>
+                        <uix:SearchedElement.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:SearchedElement.Timeout>
+                      </uix:SearchedElement>
+                    </uix:NMouseScroll.SearchedElement>
+                    <uix:NMouseScroll.Target>
+                      <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/congratulationPage?isAutoApprove=false&amp;registrationType=I%27m+registering+a+newly+bought+SIM" ContentHash="e3VqRshBlk2M7WXI46aYdA" DesignTimeRectangle="12, 125, 1912, 911" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl tag='FLUTTER-VIEW' type='' class='' aaname='' check:text='flutter-view flt-scene-host {  font: normal normal 14px sans-serif;}flutter-view flt-semantics input[type=range] {  appearance: none;  -webkit-appearance: none;  width: 100%;  position: absolute;  border: none;  top: 0;  right: 0;  bottom: 0;  left: 0;}flutter-view input::selection {  background-color: transparent;}flutter-view textarea::selection {  background-color: transparent;}flutter-view flt-semantics input,flutter-view flt-semantics textarea,flutter-view flt-semantics [contentEditable=&amp;quot;true&amp;quot;] {  caret-color: transparent;}flutter-view .flt-text-editing::placeholder {  opacity: 0;}flutter-view:focus { outline: none;}flutter-view .transparentTextEditing:-webkit-autofill,flutter-view .transparentTextEditing:-webkit-autofill:hover,flutter-view .transparentTextEditing:-webkit-autofill:focus,flutter-view .transparentTextEditing:-webkit-autofill:active {  opacity: 0 !important;}flutter-view input::-ms-reveal {  display: none;}' /&gt;" Guid="bda6a735-92a8-4321-bddf-4b8180fde650" InformativeScreenshot="49e118004829a98154f55ccae3ef0ae5.png" Reference="5y7obp0hLUSA7kzKS4-dwg/WDIDGVXbdkSbdFb1r1tbFQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NMouseScroll.Target>
+                  </uix:NMouseScroll>
+                  <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="aa85e18a-f748-43eb-8348-89198a8e251a" DisplayName="Check if there's a successful message" sap:VirtualizedContainerService.HintSize="434,618" sap2010:WorkflowViewState.IdRef="CVScope_6" SendOnPremData="False" Version="V6">
+                    <p:CVScope.Body>
+                      <ActivityAction x:TypeArguments="x:Object">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,360" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                            <ui:CommentOut.Body>
+                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,529" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <p:CvGetTextWithDescriptor DelayScreenshotAfterScroll="{x:Null}" ScrollOffset="{x:Null}" Descriptor="[&quot;Target: AnyWordGroup (480,438,310,18)&quot; +&#xA;&quot;Anchor: Text 'CONGRATULATIONS!' (538,154,190,18)&quot; +&#xA;&quot;Anchor: Text 'You will receive a Welcome SMS once your SIM is fully activated.' (286,476,458,18)&quot;]" DesignTimeCacheId="aa85e18a-f748-43eb-8348-89198a8e251a" DesignTimeScaleFactor="1.5" DisplayName="Get successful message" sap:VirtualizedContainerService.HintSize="382,252" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_2" InformativeScreenshot="d4205b6f2759aacd77fe1a8821af15e1" NumberOfScrolls="2" RefreshBefore="True" Result="[SuccessfulMessage]" ScrollDirection="None" Version="V6">
+                                  <p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                                    <uc:CvDescriptor Id="434ea613-6114-4e88-b18f-e53ce87b76c0">
+                                      <uc:CvDescriptor.Anchors>
+                                        <x:Array Type="uc:CvElementDescriptor">
+                                          <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="538, 154, 190, 18" ElementType="Text" Text="CONGRATULATIONS!" />
+                                          <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="286, 476, 458, 18" ElementType="Text" Text="You will receive a Welcome SMS once your SIM is fully activated." />
+                                        </x:Array>
+                                      </uc:CvDescriptor.Anchors>
+                                      <uc:CvDescriptor.Target>
+                                        <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="480, 438, 310, 18" ElementType="AnyWordGroup" />
+                                      </uc:CvDescriptor.Target>
+                                    </uc:CvDescriptor>
+                                  </p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                                </p:CvGetTextWithDescriptor>
+                                <uta:VerifyExpressionWithOperator KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="SIM is Successfully Registered" ContinueOnFailure="True" DisplayName="Verify SIM is Successfully Registered" sap:VirtualizedContainerService.HintSize="382,217" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Contains" Result="[Resultt]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True">
+                                  <uta:VerifyExpressionWithOperator.FirstExpression>
+                                    <InArgument x:TypeArguments="x:String">[SuccessfulMessage]</InArgument>
+                                  </uta:VerifyExpressionWithOperator.FirstExpression>
+                                  <uta:VerifyExpressionWithOperator.SecondExpression>
+                                    <InArgument x:TypeArguments="x:String">["successfully"]</InArgument>
+                                  </uta:VerifyExpressionWithOperator.SecondExpression>
+                                </uta:VerifyExpressionWithOperator>
+                              </Sequence>
+                            </ui:CommentOut.Body>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:CommentOut>
+                          <p:CvGetTextWithDescriptor DelayScreenshotAfterScroll="{x:Null}" ScrollOffset="{x:Null}" Descriptor="[&quot;Target: AnyText (532,420,206,18)&quot; +&#xA;&quot;Anchor: Text 'Please keep this Control Number as this will serve as your certificate of registration:' (338,380,594,20)&quot;]" DesignTimeCacheId="8760529f-d351-4bb5-a398-5e3d985f74eb" DesignTimeScaleFactor="1.5" DisplayName="Get Reference Number" sap:VirtualizedContainerService.HintSize="382,243" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_3" InformativeScreenshot="63b705637830d5aafc28bd294c97d7b9" MethodType="ClipboardRow" NumberOfScrolls="2" RefreshBefore="True" Result="[out_ReferenceNumber]" ScrollDirection="None" Version="V6">
+                            <p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                              <uc:CvDescriptor Id="b976553c-5a0e-4ae9-b7ee-bd18e1f4158e">
+                                <uc:CvDescriptor.Anchors>
+                                  <x:Array Type="uc:CvElementDescriptor">
+                                    <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="338, 380, 594, 20" ElementType="Text" Text="Please keep this Control Number as this will serve as your certificate of registration:" />
+                                  </x:Array>
+                                </uc:CvDescriptor.Anchors>
+                                <uc:CvDescriptor.Target>
+                                  <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="532, 420, 206, 18" ElementType="AnyText" />
+                                </uc:CvDescriptor.Target>
+                              </uc:CvDescriptor>
+                            </p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                          </p:CvGetTextWithDescriptor>
+                        </Sequence>
+                      </ActivityAction>
+                    </p:CVScope.Body>
+                    <p:CVScope.DesignTimeCache>
+                      <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                    </p:CVScope.DesignTimeCache>
+                    <p:CVScope.DesignTimeCacheContainer>
+                      <uc:CvCacheContainer>
+                        <uc:CvCacheContainer.Caches>
+                          <scg:List x:TypeArguments="uc:CVCache" Capacity="4">
+                            <uc:CVCache DataSent="False" DisplayName="Screen CV Get Text - '' " Id="aa85e18a-f748-43eb-8348-89198a8e251a" InformativeScreenshot="35e2c5049dec9fad1f6396efac7f0adf" LogicalPosition="6, 175" OcrText="Explore Sites About us Contact Us Our Network Store Locator Switch to Smart Smart SHOP POSTPAID PREPAID BRO WIFI SMART BLOG LIVESTREAM GIGA ARENA i CONGRATULATIONS! You have successfully registered your SIM. You will receive a Welcome SMS once your SIM is fully activated. SIM activation is within 24 hours. Please keep this Control Number as this will serve as your certificate of registration:" Position="6, 175" ScaleFactor="1.5" ScreenshotGuid="cb4e463e-ec94-4508-b30f-c32378f1d633" ServerVersion="24.10.3.1">
+                              <uc:CVCache.CvAnchorRelations>
+                                <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
+                              </uc:CVCache.CvAnchorRelations>
+                              <uc:CVCache.CvUiElements>
+                                <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="16">
+                                  <uc:CvElementInfo Category="Icon" Region="103, 59, 30, 30" />
+                                  <uc:CvElementInfo Category="Icon" Region="1042, 62, 25, 24" />
+                                  <uc:CvElementInfo Category="Icon" Region="1088, 61, 26, 26" />
+                                  <uc:CvElementInfo Category="Button" Region="764, 6, 124, 36" />
+                                  <uc:CvElementInfo Category="Button" Region="650, 6, 113, 34" />
+                                  <uc:CvElementInfo Category="ArrowButton" Region="209, 14, 18, 17" />
+                                  <uc:CvElementInfo Category="Icon" Region="1026, 9, 44, 26" />
+                                  <uc:CvElementInfo Category="Icon" Region="1134, 62, 27, 26" />
+                                  <uc:CvElementInfo Category="Button" Region="890, 5, 125, 36" />
+                                  <uc:CvElementInfo Category="Button" Region="1016, 1, 255, 45" />
+                                  <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="539, 203, 192, 194" />
+                                  <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="556, 6, 90, 36" />
+                                  <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="1134, 61, 26, 26" />
+                                </scg:List>
+                              </uc:CVCache.CvUiElements>
+                              <uc:CVCache.OcrTexts>
+                                <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="64">
+                                  <uc:OcrTextInfo Region="120, 16, 50, 16" Text="Explore" />
+                                  <uc:OcrTextInfo Region="172, 16, 34, 14" Text="Sites" />
+                                  <uc:OcrTextInfo Region="570, 16, 40, 12" Text="About" />
+                                  <uc:OcrTextInfo Region="610, 18, 16, 10" Text="us" />
+                                  <uc:OcrTextInfo Region="672, 16, 50, 12" Text="Contact" />
+                                  <uc:OcrTextInfo Region="724, 16, 18, 14" Text="Us" />
+                                  <uc:OcrTextInfo Region="786, 16, 24, 14" Text="Our" />
+                                  <uc:OcrTextInfo Region="812, 16, 54, 14" Text="Network" />
+                                  <uc:OcrTextInfo Region="910, 16, 34, 14" Text="Store" />
+                                  <uc:OcrTextInfo Region="946, 16, 48, 14" Text="Locator" />
+                                  <uc:OcrTextInfo Region="1080, 16, 44, 14" Text="Switch" />
+                                  <uc:OcrTextInfo Region="1124, 16, 14, 12" Text="to" />
+                                  <uc:OcrTextInfo Region="1140, 16, 40, 14" Text="Smart" />
+                                  <uc:OcrTextInfo Region="130, 66, 68, 20" Text="Smart" />
+                                  <uc:OcrTextInfo Region="246, 68, 44, 14" Text="SHOP" />
+                                  <uc:OcrTextInfo Region="308, 68, 76, 14" Text="POSTPAID" />
+                                  <uc:OcrTextInfo Region="404, 68, 64, 14" Text="PREPAID" />
+                                  <uc:OcrTextInfo Region="486, 68, 32, 14" Text="BRO" />
+                                  <uc:OcrTextInfo Region="520, 68, 32, 14" Text="WIFI" />
+                                  <uc:OcrTextInfo Region="696, 68, 54, 14" Text="SMART" />
+                                  <uc:OcrTextInfo Region="752, 68, 40, 14" Text="BLOG" />
+                                  <uc:OcrTextInfo Region="814, 68, 94, 14" Text="LIVESTREAM" />
+                                  <uc:OcrTextInfo Region="926, 68, 38, 14" Text="GIGA" />
+                                  <uc:OcrTextInfo Region="970, 68, 54, 14" Text="ARENA" />
+                                  <uc:OcrTextInfo Region="1098, 68, 6, 12" Text="i" />
+                                  <uc:OcrTextInfo Region="538, 154, 190, 18" Text="CONGRATULATIONS!" />
+                                  <uc:OcrTextInfo Region="480, 440, 28, 14" Text="You" />
+                                  <uc:OcrTextInfo Region="510, 438, 36, 14" Text="have" />
+                                  <uc:OcrTextInfo Region="548, 438, 92, 18" Text="successfully" />
+                                  <uc:OcrTextInfo Region="642, 438, 74, 18" Text="registered" />
+                                  <uc:OcrTextInfo Region="720, 442, 34, 14" Text="your" />
+                                  <uc:OcrTextInfo Region="756, 440, 34, 14" Text="SIM." />
+                                  <uc:OcrTextInfo Region="286, 478, 28, 14" Text="You" />
+                                  <uc:OcrTextInfo Region="318, 476, 24, 14" Text="will" />
+                                  <uc:OcrTextInfo Region="344, 478, 52, 14" Text="receive" />
+                                  <uc:OcrTextInfo Region="400, 480, 10, 12" Text="a" />
+                                  <uc:OcrTextInfo Region="412, 476, 68, 14" Text="Welcome" />
+                                  <uc:OcrTextInfo Region="482, 476, 34, 14" Text="SMS" />
+                                  <uc:OcrTextInfo Region="520, 480, 36, 12" Text="once" />
+                                  <uc:OcrTextInfo Region="558, 480, 32, 14" Text="your" />
+                                  <uc:OcrTextInfo Region="592, 478, 28, 14" Text="SIM" />
+                                  <uc:OcrTextInfo Region="624, 478, 14, 14" Text="is" />
+                                  <uc:OcrTextInfo Region="640, 476, 32, 18" Text="fully" />
+                                  <uc:OcrTextInfo Region="674, 476, 70, 14" Text="activated." />
+                                  <uc:OcrTextInfo Region="748, 476, 30, 16" Text="SIM" />
+                                  <uc:OcrTextInfo Region="780, 478, 70, 14" Text="activation" />
+                                  <uc:OcrTextInfo Region="854, 478, 12, 14" Text="is" />
+                                  <uc:OcrTextInfo Region="868, 476, 44, 14" Text="within" />
+                                  <uc:OcrTextInfo Region="916, 478, 20, 14" Text="24" />
+                                  <uc:OcrTextInfo Region="938, 476, 46, 14" Text="hours." />
+                                  <uc:OcrTextInfo Region="338, 514, 50, 14" Text="Please" />
+                                  <uc:OcrTextInfo Region="390, 514, 36, 18" Text="keep" />
+                                  <uc:OcrTextInfo Region="426, 514, 28, 14" Text="this" />
+                                  <uc:OcrTextInfo Region="458, 514, 54, 14" Text="Control" />
+                                  <uc:OcrTextInfo Region="514, 514, 58, 14" Text="Number" />
+                                  <uc:OcrTextInfo Region="574, 518, 18, 12" Text="as" />
+                                  <uc:OcrTextInfo Region="594, 514, 28, 16" Text="this" />
+                                  <uc:OcrTextInfo Region="626, 514, 26, 14" Text="will" />
+                                  <uc:OcrTextInfo Region="654, 518, 40, 12" Text="serve" />
+                                  <uc:OcrTextInfo Region="696, 518, 18, 12" Text="as" />
+                                  <uc:OcrTextInfo Region="716, 518, 34, 16" Text="your" />
+                                  <uc:OcrTextInfo Region="752, 514, 72, 16" Text="certificate" />
+                                  <uc:OcrTextInfo Region="826, 514, 18, 14" Text="of" />
+                                  <uc:OcrTextInfo Region="846, 514, 86, 18" Text="registration:" />
+                                </scg:List>
+                              </uc:CVCache.OcrTexts>
+                            </uc:CVCache>
+                          </scg:List>
+                        </uc:CvCacheContainer.Caches>
+                      </uc:CvCacheContainer>
+                    </p:CVScope.DesignTimeCacheContainer>
+                    <p:CVScope.OCREngine>
+                      <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                        <ActivityFunc.Argument>
+                          <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                        </ActivityFunc.Argument>
+                        <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseAccents="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_3" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                      </ActivityFunc>
+                    </p:CVScope.OCREngine>
+                    <p:CVScope.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ee261928-11fd-46fe-a123-0b8fada1a3df" InformativeScreenshot="091593ec527b76f0e8e3640653efb847" Selector="&lt;webctrl tag='FLUTTER-VIEW' /&gt;" WaitForReady="INTERACTIVE">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                      </ui:Target>
+                    </p:CVScope.Target>
+                    <p:CVScope.UseLocalServer>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </p:CVScope.UseLocalServer>
+                  </p:CVScope>
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                    <ui:CommentOut.Body>
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,240" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NGetText DisplayName="Get Text 'Please keep this SIM Re…'" sap:VirtualizedContainerService.HintSize="382,180" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="11b944e4-d4d3-4377-966d-431d9c2b9317" ScrapingOptions="None" TextString="[out_ReferenceNumber]" Version="V4">
+                          <uix:NGetText.Target>
+                            <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/congratulationPage?isAutoApprove=false&amp;registrationType=I%27m+registering+a+newly+bought+SIM" CVScreenId="36a03d99-f327-46d4-a7fe-ff138eb432c1" ContentHash="vFZl-lMhJ0yz_3Em0h2awQ" CvTextArea="863, 854, 208, 19" CvType="AnyWordGroup" DesignTimeRectangle="864, 883, 208, 18" DesignTimeScaleFactor="1" FuzzyAccuracy="0.88" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl parentid='flt-pv-42' tag='DIV' type='' class='web-selectable-region-context-menu' aaname='' /&gt;" Guid="565747c0-d1ec-48ae-8b36-7736edc7bd93" ImageBase64="" InformativeScreenshot="a2d1a83b140db58985e3fc048a2d281f.png" Reference="5y7obp0hLUSA7kzKS4-dwg/9_4hDNZCaESwhiz_J9L4NA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="36a03d99-f327-46d4-a7fe-ff138eb432c1" CvTextArea="774, 815, 388, 18" CvTextArgument="Please keep this SIM Registration Application Number:" CvType="Text" DesignTimeRectangle="774, 844, 388, 18" ElementType="Text" Guid="cc02382a-1cb9-4c11-8b7b-2f1098843dd2" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NGetText.Target>
+                        </uix:NGetText>
+                      </Sequence>
+                    </ui:CommentOut.Body>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:CommentOut>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,168" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[out_ReferenceNumber]" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg2.simreg.smart.com.ph/congratulationPage?isAutoApprove=false&amp;registrationType=I%27m+registering+a+newly+bought+SIM" CVScreenId="75173e4d-390f-4337-8a2d-0d12c6646276" ContentHash="gmfJIk63YUWwVFKYQKVhEQ" CvTextArea="717, 730, 500, 15" CvTextArgument="You have submitted your SIM Registration application for verification." CvType="Text" DesignTimeRectangle="716, 729, 504, 19" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='flt-pv-41' tag='DIV' type='' class='web-selectable-region-context-menu' aaname='' /&gt;" Guid="ef4c01e2-7041-4f67-b0c4-6d9f465ae9f2" InformativeScreenshot="4b81fe224cfb1169560cb5ca8bf414e0.png" Reference="5y7obp0hLUSA7kzKS4-dwg/voNyIC81tkK_JbI-KBHCrg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="ZqwQAAw7o0evPk0-0dUuLQ" IconBase64="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" InformativeScreenshot="59b076c967c04b88d467463fcb5e1434.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/Hsyp7v_73kS5orvhUpnjsA" Selector="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg2.simreg.smart.com.ph/flutter/congratulationPage?isAutoApprove=true&amp;registrationType=I%27m+registering+a+newly+bought+SIM" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

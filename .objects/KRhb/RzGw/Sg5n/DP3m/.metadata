@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Get Text 'Second Line Address'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "DP3mfQE8q0mJ-evJJZI9Ow",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/DP3mfQE8q0mJ-evJJZI9Ow",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/Sg5n7iU1w0ixPdpAtbndrw",
+  "Created": "2024-11-15T02:18:53.6773838Z",
+  "Updated": "2024-11-15T02:19:01.2824464Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

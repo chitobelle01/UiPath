@@ -1,0 +1,13 @@
+﻿{
+  "Name": "House Number: B8 L4A St…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "BR26stT23k2zc5Y88CHacw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/BR26stT23k2zc5Y88CHacw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:58:55.2429428Z",
+  "Updated": "2024-11-27T07:58:55.2429428Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

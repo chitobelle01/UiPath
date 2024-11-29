@@ -1,0 +1,13 @@
+﻿{
+  "Name": "ekyc_super_admin",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "1ZYy9wN5-kep0g-kZwkRiw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/1ZYy9wN5-kep0g-kZwkRiw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:58:51.3690809Z",
+  "Updated": "2024-11-27T07:58:51.3690809Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

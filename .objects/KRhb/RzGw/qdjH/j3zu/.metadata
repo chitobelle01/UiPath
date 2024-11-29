@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Campaign Page",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "j3zuxeD9IUi_td7Zw-ypwQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/j3zuxeD9IUi_td7Zw-ypwQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/qdjHSyeQhUSqr4zDN9mpFQ",
+  "Created": "2024-11-25T01:56:49.9655729Z",
+  "Updated": "2024-11-25T02:56:36.4676607Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Log in(active tab)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ylNgrvWAw0G_dj4bkfotvA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/ylNgrvWAw0G_dj4bkfotvA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/zDdmoRQbzEyNk-iO_qwj9w",
+  "Created": "2024-11-27T07:57:59.5851473Z",
+  "Updated": "2024-11-27T07:57:59.5851473Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

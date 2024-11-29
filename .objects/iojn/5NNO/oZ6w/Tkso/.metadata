@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Locked for",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "TksoCzpRu0OGjYH5I5WVtw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/TksoCzpRu0OGjYH5I5WVtw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-11-27T08:00:09.1535622Z",
+  "Updated": "2024-11-27T08:00:09.1535622Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

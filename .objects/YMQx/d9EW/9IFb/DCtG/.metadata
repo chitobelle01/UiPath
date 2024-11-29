@@ -1,0 +1,13 @@
+﻿{
+  "Name": "House Number: 123 Stree… (3)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "DCtGgOwcz0OtZfKc5btcvg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/DCtGgOwcz0OtZfKc5btcvg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:58:54.8015544Z",
+  "Updated": "2024-11-27T07:58:54.8015544Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

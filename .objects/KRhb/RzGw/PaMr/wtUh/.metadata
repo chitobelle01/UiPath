@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Upload Return Ticket",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "wtUhB3TERkKCN4ovkpUuGw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/wtUhB3TERkKCN4ovkpUuGw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/PaMroJpxZkiRZcyykEItFg",
+  "Created": "2024-11-15T03:01:53.2163002Z",
+  "Updated": "2024-11-15T03:02:08.2143115Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

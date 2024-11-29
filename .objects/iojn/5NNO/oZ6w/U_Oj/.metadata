@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DateSubmitted",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "U_OjeuF6V0KMUN4HTryL8Q",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/U_OjeuF6V0KMUN4HTryL8Q",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-11-27T08:00:05.6839495Z",
+  "Updated": "2024-11-27T08:00:05.6839495Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

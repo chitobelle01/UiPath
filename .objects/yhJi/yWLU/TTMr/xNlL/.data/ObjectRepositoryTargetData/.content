@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="K17YcU5QqEKpPOPA3SlZIw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/store-validator-view/search-new" CVScreenId="ef2b3db9-5b5a-4933-8b4d-d36e29ba355d" CvTextArea="87, 368, 739, 43" CvType="AnyWordGroup" DesignTimeRectangle="89, 357, 737, 63" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' /&gt;" Guid="bae274af-4ba0-4b00-a991-51c3ef3e47c4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Store Validator View - New Subs | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="629083faf34c3342b5c5a92949ac59aa.png" xmlns="">0urm6CdPY306P-Et27eCHCA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "TEST LAST",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "hj5FASem0kipxTeYjeVA_A",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/hj5FASem0kipxTeYjeVA_A",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:59:06.48673Z",
+  "Updated": "2024-11-27T07:59:06.48673Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

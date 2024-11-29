@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Sim Registration",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "YlFie0v1CUy1I9_L4T4KAg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/YlFie0v1CUy1I9_L4T4KAg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:59:05.6646571Z",
+  "Updated": "2024-11-27T07:59:05.6646571Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

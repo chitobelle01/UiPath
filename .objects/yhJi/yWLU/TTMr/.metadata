@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge: Store Validator View - New Subs | Sim R",
+  "Type": "Screen",
+  "Id": "TTMrYW0U70WGzx0PZ5anDA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/TTMrYW0U70WGzx0PZ5anDA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/yWLU9C8_MEiX8LCGx0Gr4w",
+  "Created": "2024-11-27T07:58:14.6733734Z",
+  "Updated": "2024-11-27T07:58:14.6733734Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Login using TestSSO",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "GsRkGQrDAUC64DKR4aGBYg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/GsRkGQrDAUC64DKR4aGBYg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/zDdmoRQbzEyNk-iO_qwj9w",
+  "Created": "2024-11-27T07:57:59.7219421Z",
+  "Updated": "2024-11-27T07:57:59.7219421Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
