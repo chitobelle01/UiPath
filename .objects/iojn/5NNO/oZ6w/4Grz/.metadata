@@ -1,0 +1,13 @@
+﻿{
+  "Name": "LastUpdatedDate",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "4GrzxXrWUEGgbfscSfbVog",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/4GrzxXrWUEGgbfscSfbVog",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-11-27T08:00:08.7018452Z",
+  "Updated": "2024-11-27T08:00:08.7018452Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Manage",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "vByx-0UKtkS9lAjkoZwtCA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/vByx-0UKtkS9lAjkoZwtCA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-11-27T08:00:09.8083647Z",
+  "Updated": "2024-11-27T08:00:09.8083647Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

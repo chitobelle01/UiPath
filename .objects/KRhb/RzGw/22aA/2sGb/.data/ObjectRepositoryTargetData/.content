@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AxI_TEiMXECJVLM__VoPBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="a6b64cae-8f50-4d51-8cf1-57659a286554" CvTextArea="62, 292, 61, 12" CvTextArgument="Downloads" CvType="Text" DesignTimeRectangle="61, 283, 63, 32" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Control Host' cls='NamespaceTreeControl' title='Namespace Tree Control' /&gt;&lt;wnd ctrlid='100' title='Navigation Pane' /&gt;&lt;ctrl name='Downloads (pinned)' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Control Host' cls='NamespaceTreeControl' title='Namespace Tree Control' /&gt;&lt;wnd ctrlid='100' title='Navigation Pane' /&gt;&lt;ctrl name='Downloads (pinned)' role='outline item' automationid='' check:text='Downloads (pinned)' /&gt;" Guid="f73ab7d8-43dd-4dc1-96be-20eb76fb812f" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a6b64cae-8f50-4d51-8cf1-57659a286554" CvElementArea="40, 289, 19, 20" CvType="Icon" DesignTimeRectangle="38, 287, 23, 24" ElementType="Icon" Guid="97028232-6bed-4f7a-a91d-507bbe15d3e2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABcAAAAYCAYAAAARfGZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGaSURBVEhL7ZRLSwJRGIb7Ja36ExEEBVGbNtG6RYu2rSzoQtAmKiOkXRdaCN00auWNtITUNLXygpqN0VQqCHkZFR2deZupCSpHx4nc+Rw+ON/A93DOO8x0oIW05aLIklPVEvLVstBJI0u+9GTCNukVOmlkyecfddiIXQudNLLlKsItdNLIk8d0WI+2SD5H6LEW8QidNLLks1E9lOEWyWeiBqwG/0FOswyUpAU7r06kK0Ww3JqOGLAcvAHNMLCl4hhzGuDPpISJWurKWZZFpJDCVNiIlagDZCEHRciIxTsvzMkXTDjPsUuEQFVoYaKWhrHwp33Iv0Hhu8Ckx4pR1wlGLGcYt1mhJu6RpRt/rZKZs1zFqAwUHjs6j9Xo0mixFQkjW5b+DTT1QvmI4sUCFry3UAVCnLh+FN8RlTO8rJRFoJCA/6vyCTjSJK7Sz/BRic/Kcc9zSZSYijD5E1F5kaGxSbox7NrDkGMfg/YDDFweot96hD6rFr1mDXpMGnQbub3xFASV+7jdb+rGwp++2mSJiXmayvyvtOUiAO+/mmD+WcaHugAAAABJRU5ErkJggg==" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="31b9648e791974ca4e659a6e6c51d13e.png" xmlns="">0fA_i31W7EkCww65hyynFtQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

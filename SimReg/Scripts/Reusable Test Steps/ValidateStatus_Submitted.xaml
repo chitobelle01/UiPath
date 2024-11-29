@@ -1,0 +1,243 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Validate_Status" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_MobileNumber" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1260,2559.3333333333335</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Validate_Status_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.Testing.Activities.Models</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DataValidation</x:String>
+      <x:String>UiPath.IntelligentOCR.Actions.Abstractions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Validate_Status" sap:VirtualizedContainerService.HintSize="1124,2191" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: Validate Registration Submitted | Sim R" sap:VirtualizedContainerService.HintSize="1124,2168" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1090,1928" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'Validate Registration A…'" sap:VirtualizedContainerService.HintSize="1056,1866" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="552,1624" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="MobileNumber" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NGetText DisplayName="Get Text 'lnk_MobileNumber'" sap:VirtualizedContainerService.HintSize="518,189" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" TextString="[MobileNumber]" Version="V4">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/validate-ekyc/submitted?ref_no=&amp;mobile=9623415099&amp;page=1&amp;date_from=&amp;date_to=" CVScreenId="de52e86b-7c80-4b9e-b7ca-c5016fd654a3" ContentHash="OEAkwbl5qEG27xrzsjRmaA" CvTextArea="111, 593, 130, 19" CvTextArgument="9623415099" CvType="Text" DesignTimeRectangle="89, 375, 177, 457" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='' check:innerText='9623415099' /&gt;" Guid="baabdfad-e668-4fb0-9265-f357d19114eb" ImageBase64="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" InformativeScreenshot="ab572ebbc24f3865470001d065afd76a.png" Reference="5y7obp0hLUSA7kzKS4-dwg/OXk8x33lHEWH0_-ID-Kddg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Submitted | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="89, 291, 177, 84" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl type='' tag='TH' class='' aaname='Mobile Number' check:innerText='Mobile Number' /&gt;" Guid="24054629-ffcf-4539-b2d9-28be6c5c24cb" ImageBase64="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" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <If Condition="[MobileNumber.Equals(in_MobileNumber)]" sap:VirtualizedContainerService.HintSize="518,1258" sap2010:WorkflowViewState.IdRef="If_1">
+                    <If.Then>
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,862" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="x:String" Name="AppStatus" />
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NGetText DisplayName="Get Text 'Approved (1)'" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" TextString="[AppStatus]" Version="V4">
+                          <uix:NGetText.Target>
+                            <uix:TargetAnchorable CVScreenId="d9f15d8e-c47e-4150-8e21-5a20ff6055e7" ContentHash="7cmWR-6lhUmyeimMPO9Jow" CvTextArea="1176, 636, 111, 22" CvTextArgument="Submitted" CvType="Text" DesignTimeRectangle="1154, 420, 158, 457" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableCol='8' tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' class='' tag='TD' aaname='Submitted' check:text='Submitted' /&gt;" Guid="9c8ec268-3c3e-4dc6-8122-6735bd652916" ImageBase64="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" InformativeScreenshot="e5eda03965dd6e5a94216bb021cb8312.png" Reference="5y7obp0hLUSA7kzKS4-dwg/6lI3sTz4NEGoWRF7m63u4Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Submitted | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                          </uix:NGetText.Target>
+                        </uix:NGetText>
+                        <If Condition="[AppStatus = &quot;Submitted&quot;]" sap:VirtualizedContainerService.HintSize="450,613" sap2010:WorkflowViewState.IdRef="If_2">
+                          <If.Then>
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;SIM Registration is submitted&quot;]" />
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,166" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;Can't find status&quot;]" />
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,166" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;MIN does not exist&quot;]" />
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="518,115" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[&quot;Couldn't search MIN&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/admin/validate-ekyc/submitted" CVScreenId="1f7a8290-acbf-4abd-ad56-905ca5215122" ContentHash="Vh5DT3nEY0iLQk3T9w_NqQ" CvTextArea="84, 570, 733, 45" CvType="AnyWordGroup" DesignTimeRectangle="89, 560, 729, 63" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' /&gt;" Guid="4351b072-7c87-46b2-8ae6-d7de12347b97" InformativeScreenshot="99d943895c196d5a6f195db04fbfb428.png" Reference="5y7obp0hLUSA7kzKS4-dwg/VkUWo3_YykWqtQ6OrRz95A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Submitted | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="BqfarRo00UaigGQ6ItIA2g" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQoSURBVFhHvZdbqJVFFMe/0vKSlQiKSBYYmj4IXhAkFJUMESEiKYSUeghNSPHyUvggaKKkeHuw9Ox9kAqxwget7EYG3gXRhEhR9/aG4JXSSi3L/P1nzXLP+c7nOXr0uODHt/eedZuZNWu+nbVYSlUxAJ63zwfjwIMQBSxXHua5HD7JSpV2EAdbW8ph5uJFuAB/wmv2W2snseaIB38O9sL/kUMwGLKsrrWSqMexBe8J34IHd3ZCH9D2RKP7JbXgT8EmyAd3foRnAd37lUTDmX8JacC/4Wruty1gK1E6Gp20VGrBn4avIA2k4AtgNvwRf3O2QV+4hyRKtwpOM88HvwYLoSO0hVmQT2Ir9IYW1oQF7wobIHUs6qEDuJ6SeAd+h1Tve9AE7jIJc6rZfQg3IHWq729CVEaCfqUNz7chn8Q6eBKicnOiRrPvOzmdDlrq1JlD96t2gmiE1JKQ3V/guv/CXMbonM2tgpYpOKoOgVOQOtkBF+P3f2AxDh/jGY0Rs30U3gfZuL065mhg/HBULhIplKvteWrZ3FhoL3vAZPAlVhJL4HGIDhBLQku+HlIf35DwE02vghmPhHQfT8NQYCws8RTw8euwDGrboQDmR+36V3A/6hcvA2OcsEaigRXn9VwBbiQWZauPPsSTMZyXQxJT4Uocb7wdloCYBv+B+/rUJlG0CmbQBdJL5hwMhEQnzPB10C3oekrig4IknoEj4HqHQe3cdBqIGfQHBXUDtVVzqtNRF3TGgbZF45qdtkGflcQiktDxdX9arc/A/alZDYMYNBUzGAW+tKKcrdzO78y67pjGR0AlGf8a3oXf4ne15/mgQnafOhGur5MxHmLQVEx5LMiJG6zKyiGwGAS/xN/FT9CL+19vRjPAz756xxySVneUnRJ0GzWxiRCDpmLKL0B6u22MjnQZ6YLx33X3x8smoLM/D7QNGr8Mb2SlkDy1cctOK/AqxKCpmCO9ZKppuMEZ0LakJ+MgWGGqJmq2OoprwfWqoOaTvryocLWNZtdAzIkunwPgBuIkaEb6rBmoGdWCu5h9PzgGbqsJpDWlpHQyolEq5kDn/SNwgzyqfjWYaJRIsA89Iq36PJ9TM4/wjEapWAJiDOTvdkczsOs1L6E/hD1fE3XzqLgnQBMvrpaAzvEXUOTkEgyHaJBISKCiOlDvKLL9ATpDNCgS63JCt+EJKHLEy0jFXkZcwn+FYKsKTzukcxbsNszXTiNxpVJ1EniDSdE51y1IS61QMycVXN1Sf060RXl9JTSNZbf75I4krEIoqLcgbc2OWrBuuo9BRaumVDRzTWAWE7pN4TUlMihX1eVUlLsgvdWaQx3vZ3gFrCO2SMJKBLrDTNgDRTN1dOb3w3vQM6s7rpWMzu5FVGT1IZFu8BKovepPym5QUpthKeii6XHn+51lNwEUfiqg2OEF7AAAAABJRU5ErkJggg==" InformativeScreenshot="b81f1a523d76c871e6de2581fda498d3.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw" Selector="&lt;html app='msedge.exe' title='Validate Registration Submitted | Sim Registration' /&gt;" Title="Validate Registration Submitted | Sim Registration" Url="https://stg2-val.simreg.smart.com.ph/admin/validate-ekyc/submitted" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

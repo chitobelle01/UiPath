@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jDYG0toi1EaSg94_C-8sDg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="48, 24, 450, 189" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;ctrl name='stg1.simreg.smart.com.ph wants to' role='document' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='stg1.simreg.smart.com.ph wants to' role='document' /&gt;&lt;ctrl automationid='' role='grouping' check:fulltext='stg1.simreg.smart.com.ph wants to&amp;#xD;&amp;#xA;Use your cameras&amp;#xD;&amp;#xA;Allow Block' /&gt;" Guid="cbb5b87c-94ea-4b33-97c8-68186c389270" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b010e25d9883a02e208ce8387b805230.png" xmlns="">07701u3Tvw0Gpl40AnfKzlA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

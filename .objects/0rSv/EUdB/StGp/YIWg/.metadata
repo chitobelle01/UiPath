@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edit profile",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "YIWgAkC4mkqejwd5XH1g_g",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/YIWgAkC4mkqejwd5XH1g_g",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/StGp84WO0Emu-K2nKzYqfA",
+  "Created": "2024-11-27T07:59:34.1845356Z",
+  "Updated": "2024-11-27T07:59:34.1845356Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

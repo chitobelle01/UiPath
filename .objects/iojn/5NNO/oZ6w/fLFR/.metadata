@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Submitted(active tab)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "fLFReuYP3ECaC1ZxlGszRw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/fLFReuYP3ECaC1ZxlGszRw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-11-27T08:00:13.8859442Z",
+  "Updated": "2024-11-27T08:00:13.8859442Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

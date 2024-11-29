@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="asJ4XjY2yECXcmDK62z0AQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f53d275b-1dbb-40c9-b03a-2ca14bf2e577" CvTextArea="87, 345, 55, 18" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="89, 341, 54, 25" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='block-breadcrumbs' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='block-breadcrumbs' tag='A' type='' class='breadcrumb__link' aaname='Home' check:text='Home' /&gt;" Guid="2a32b75b-92ee-4118-b603-24f9e56ce5b0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADoAAAAdCAYAAAD7En+mAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAExSURBVFhH7ZYxDoMwDAD7l3bpr1h4CGLgIagS/0As/AGx9QPtwuS2kBA7iUtLo6oNHm5xTOxLLGB3uQ6wBUQ0NkQ0NkQ0NkQ0NrYp2p9S2B+OI8npTBInWsjU+v5QQOOs/y4iKqLPRLsKknldkVTQk7wzlIleT6HsBmhylK9itNYD5mCdmvp5SjBR/KyPrNa5WPRN8naut1TT1JtgRZdBonXhj5PT1nFLVDdv34w3zuw9Tw3em15EEFE8evZJumtUlLtpf9yMpdmXjqpxoPEAo+tvROPuyeW/E8cxHnzoXxV1b/SvRF8dXV+Ta0X50eUIIkpeRvhz4o2HEWVrPri/qDKr/zCid/CtunwgxMaf17T7DyY6Qj4zihd+GNbFJ3DPBrc3IhozIhobIhobGxEd4AaY5Z+1vfmOyQAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Store Validator View - New Subs | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3f8cf1a93dc181de9b27f26c77d7df8a.png" xmlns="">0Tft8kveuPUKcTgDYjl0QUg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

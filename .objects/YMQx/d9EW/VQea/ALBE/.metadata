@@ -1,0 +1,13 @@
+﻿{
+  "Name": "eKYC",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ALBEl7u5f0qkKlK-OsfjFg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/ALBEl7u5f0qkKlK-OsfjFg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/VQeanSQcUUm0rkr_zrX_0Q",
+  "Created": "2024-11-27T07:59:10.9657812Z",
+  "Updated": "2024-11-27T07:59:10.9657812Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

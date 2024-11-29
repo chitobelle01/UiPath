@@ -1,3 +1,9 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/pldtsmart/TestCOETenant/testmanager_",
+  "defaultProject": {
+    "id": "f299c5f7-a908-0000-c21b-0b478e0ec5db",
+    "name": "SIM Registration",
+    "key": "SIMREG"
+  }
 }

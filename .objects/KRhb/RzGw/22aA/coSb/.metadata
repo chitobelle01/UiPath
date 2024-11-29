@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Select File",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "coSbn9f06UewsDG0H5Hhng",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/coSbn9f06UewsDG0H5Hhng",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/22aAPMhlhkO6vrHUzOpLbA",
+  "Created": "2024-11-14T02:18:25.4813401Z",
+  "Updated": "2024-11-14T02:18:25.4813401Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

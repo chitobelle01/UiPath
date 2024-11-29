@@ -1,0 +1,242 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Validate_Status" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_MobileNumber" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1496,2395.3333333333335</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Validate_Status_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.Testing.Activities.Models</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DataValidation</x:String>
+      <x:String>UiPath.IntelligentOCR.Actions.Abstractions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Validate_Status" sap:VirtualizedContainerService.HintSize="1124,2109" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: Validate Registration Approved | Sim Re" sap:VirtualizedContainerService.HintSize="1124,2086" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1090,1846" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'Validate Registration A…'" sap:VirtualizedContainerService.HintSize="1056,1784" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="552,1502" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="MobileNumber" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NGetText DisplayName="Get Text 'lnk_MobileNumber'" sap:VirtualizedContainerService.HintSize="518,189" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" TextString="[MobileNumber]" Version="V4">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable CVScreenId="65d4c782-8e14-4da4-8b0f-07e1bfc709e3" ContentHash="X0haTCFVOEuGlBqfC1-jow" CvTextArea="111, 638, 130, 19" CvTextArgument="9811509224" CvType="Text" DesignTimeRectangle="17, 632, 129, 32" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='' aaname='*' check:text='9811509224' /&gt;" Guid="23d8f072-58c4-42df-8519-99144313771e" InformativeScreenshot="c87e6cb90b6e0974feb355bc5d540a12.png" Reference="5y7obp0hLUSA7kzKS4-dwg/io4qqqYlrEmHTSJycjnSZw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Approved | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <If Condition="[MobileNumber.Equals(in_MobileNumber)]" sap:VirtualizedContainerService.HintSize="518,1251" sap2010:WorkflowViewState.IdRef="If_1">
+                    <If.Then>
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,862" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="x:String" Name="AppStatus" />
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NGetText DisplayName="Get Text 'Approved (1)'" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" TextString="[AppStatus]" Version="V4">
+                          <uix:NGetText.Target>
+                            <uix:TargetAnchorable BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/validate-ekyc/approved" CVScreenId="a8ebdc5c-abd5-4c4d-8187-f89759674dcc" ContentHash="AL2A9u9rXU2sqP_lfX7IMg" CvTextArea="1647, 870, 106, 28" CvType="AnyWordGroup" DesignTimeRectangle="1625, 671, 153, 421" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' class='' tag='TD' /&gt;" Guid="ea512fa0-a094-4e5c-befe-acb1bed2150b" InformativeScreenshot="87fa26d56122e57abf31df17a6949b44.png" Reference="5y7obp0hLUSA7kzKS4-dwg/spC-K1xrAk6qZuzf_m1AWQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Approved | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="a8ebdc5c-abd5-4c4d-8187-f89759674dcc" CvTextArea="1647, 620, 72, 21" CvTextArgument="Status" CvType="Text" DesignTimeRectangle="1625, 587, 153, 84" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl aaname='Status' type='' tag='TH' class='' check:innerText='Status' /&gt;" Guid="5b8e9573-f23f-4dca-bb12-4a4ab2cb3826" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NGetText.Target>
+                        </uix:NGetText>
+                        <If Condition="[AppStatus = &quot;Approved&quot;]" sap:VirtualizedContainerService.HintSize="450,613" sap2010:WorkflowViewState.IdRef="If_2">
+                          <If.Then>
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;SIM Registration is approved&quot;]" />
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,166" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;Can't find status&quot;]" />
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,166" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;MIN does not exist&quot;]" />
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[&quot;Couldn't search MIN&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="b82d2600-571c-4326-b660-b533e533bcdf" ContentHash="DhuwV9f3tUys2H8StHypbA" CvTextArea="86, 506, 718, 54" CvTextArgument="Validate Registration Approved" CvType="Text" DesignTimeRectangle="89, 560, 715, 63" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' aaname='Validate Registration Approved' check:text='Validate Registration Approved' /&gt;" Guid="6dd67a3e-df45-442f-b81c-aa894928f3fe" InformativeScreenshot="2d8591bec0a9f941e0b9a46f0c5497dd.png" Reference="5y7obp0hLUSA7kzKS4-dwg/LJu_HDwtOk63ovbF9Pdykw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Approved | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="8nsN2Ul230WUU5OYkIqF0A" IconBase64="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" InformativeScreenshot="2b693714c5e0c914052e512e771e7f2c.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA" Selector="&lt;html app='msedge.exe' title='Validate Registration Approved | Sim Registration' /&gt;" Title="Validate Registration Approved | Sim Registration" Url="https://stg2-val.simreg.smart.com.ph/admin/validate-ekyc/approved" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

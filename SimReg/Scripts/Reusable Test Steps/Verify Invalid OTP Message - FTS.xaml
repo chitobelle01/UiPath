@@ -1,0 +1,160 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Verify_Invalid_OTP_Message" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1102,995.3333333333335" sap2010:WorkflowViewState.IdRef="Verify_Invalid_OTP_Message_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Verify_Invalid_OTP_Message" sap:VirtualizedContainerService.HintSize="1112,930.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Smart SIM Registration" sap:VirtualizedContainerService.HintSize="1050,842.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a76e63bf-e518-4e72-9c94-94c998c625ef" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1016,600.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="InvalidOTPMessage" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'DIV'" sap:VirtualizedContainerService.HintSize="954,510" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="a76e63bf-e518-4e72-9c94-94c998c625ef" Timeout="5" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,263.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,172.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Invalid OTP Message is showed!&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,263.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,172.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;Invalid OTP Message is not showed!&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" DesignTimeRectangle="757, 706, 428, 122" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;webctrl parentid='flt-pv-1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='flt-pv-1' tag='DIV' type='' class='web-electable-region-context-menu' aaname='' /&gt;" Guid="d34471c8-289b-47e1-bdf8-f0a313de4eed" InformativeScreenshot="c3ab0f5a5596480d7ba8b9c0372f10e1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smart SIM Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="852e0379-9fce-46a8-9937-2bf9ac4224d2" CvElementArea="890, 498, 161, 158" CvType="Icon" DesignTimeRectangle="888, 496, 165, 162" ElementType="Icon" Guid="98ca758c-9b88-4551-bd08-9748be2a3d42" ImageBase64="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" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" ContentHash="54jcFaUZy0qxhJ1RZUnRqQ" IconBase64="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" InformativeScreenshot="30c5f62c0c86db9686bb5dfa63645ab3.jpg" Reference="eDw-tjslcU24M5dmTucm2w/lc5vR8bSj0OOwTD47BAnDw" Selector="&lt;html app='chrome.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg1.simreg.smart.com.ph/flutter/%20link" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

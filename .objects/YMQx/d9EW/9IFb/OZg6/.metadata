@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Return Reason",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "OZg6W-SsV06shK61YuwJAQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/OZg6W-SsV06shK61YuwJAQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:59:03.9483942Z",
+  "Updated": "2024-11-27T07:59:03.9483942Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

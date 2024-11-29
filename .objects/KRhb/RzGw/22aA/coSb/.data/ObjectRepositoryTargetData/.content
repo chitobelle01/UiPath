@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Yo3P43QlNUKxxpZJ1qjrIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="315c7e0e-c3e4-489e-a023-dded4f96ca2e" DesignTimeRectangle="305, 261, 405, 29" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' /&gt;" Guid="7bc2af1a-3207-4012-a6f0-ec139449d041" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="315c7e0e-c3e4-489e-a023-dded4f96ca2e" CvTextArea="280, 225, 51, 22" CvTextArgument="Today" CvType="Text" DesignTimeRectangle="280, 221, 53, 27" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='UIGroupHeader' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='UIGroupHeader' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='text' check:text='Today' /&gt;" Guid="e5733b33-85dc-477d-aa93-4c672ab87c4d" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ad314808bd9430bf672078d7c26259d3.png" xmlns="">0aABrJ4KBlEu65klkhbZNbw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

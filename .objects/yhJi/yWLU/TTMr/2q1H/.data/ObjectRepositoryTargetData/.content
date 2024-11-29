@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9Mx_6T00o0yqObKe7vJ-6Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1844, 245, 58, 58" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='toolbar-item-user-tray' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='toolbar-item-user-tray' tag='BUTTON' type='button' class='toolbar-icon toolbar-icon-toggle-vertical' aaname='Vertical orientation' /&gt;" Guid="938d3762-6f4f-4002-98c4-31312280aa15" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACpSURBVGhD7c/BCQMgAATBNKD234KdWJA/wYSESAJXwboH+7vPPGqtm15r7bTWencF/NsfvJSy6f3iD3y/NsbYc84rEi48nIgJFx5OxIQLDydiwoWHEzHhwsOJmHDh4URMuPBwIiZceDgREy48nIgJFx5OxIQLDydiwoWHEzHhwsOJmHDh4URMuPBwIiZceDgREy48nIgJFx5OxIQLDydiB9573zf1ga/9BId16yNSdU6HAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Store Validator View - New Subs | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b0a0457033c96767d24e30445ffe507f.png" xmlns="">0XzI9FraFtUuoP6dd1gC-wA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "'Camera Access Permission' Popup Window",
+  "Type": "App",
+  "Id": "4xJFfKrP_kCy8oIMAqEQoA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/4xJFfKrP_kCy8oIMAqEQoA",
+  "Created": "2024-10-30T02:36:09.7315248Z",
+  "Updated": "2024-10-30T02:36:40.670034Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

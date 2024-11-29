@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LWoDPmKvtU6b3Xrd0aTZeA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1844, 247, 58, 58" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='toolbar-item-user-tray' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='toolbar-item-user-tray' tag='BUTTON' type='button' class='toolbar-icon toolbar-icon-toggle-vertical' aaname='Vertical orientation' /&gt;" Guid="5640375e-7bf0-4782-8fd0-b6a18feb3099" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADHSURBVGhD7c+xDYNAAENRFgD2X4EBQBR019AwAAswAd1JJooilMIT+L6l37l53TAMaqVxHFVr/db1fa/0/vEvXJ/t+677vpsIOHBzSgw4cHNKDDhwc0oMOHBzSgw4cHNKDDhwc0oMOHBzSgw4cHNKDDhwc0oMOHBzSgw4cHNKDDhwc0oMOHBzSgw4cHNKDDhwc0oMOHBzSgw4cHNKDDhwc0oMOHBzSuyFT9Oklnrh8zwrrWVZtK6rtm1TKUXHceg8T13X9YNXPaUVYtsCrwXGAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Resubmitted | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f37f578e5c764ac56a1196d26699bc2e.png" xmlns="">0DZubvB4a6k-rciVExSURyg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

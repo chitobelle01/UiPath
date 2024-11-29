@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Validate Registration(a…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "6MQGwUX-2EKuyjg3krM20Q",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/6MQGwUX-2EKuyjg3krM20Q",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:59:08.9870145Z",
+  "Updated": "2024-11-27T07:59:08.9870145Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

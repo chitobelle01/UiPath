@@ -1,0 +1,13 @@
+﻿{
+  "Name": "email",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "WovB1iWhC0Kh6C98a5h3YQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/WovB1iWhC0Kh6C98a5h3YQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/sDe_DWlV70yR-6ibpN6-wQ",
+  "Created": "2024-11-27T07:59:45.7372823Z",
+  "Updated": "2024-11-27T07:59:45.7372823Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

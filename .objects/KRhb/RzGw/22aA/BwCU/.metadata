@@ -1,0 +1,17 @@
+﻿{
+  "Name": "'Type of Registration' Menu",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "BwCUh8n32UGYnUHD-AOibg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/BwCUh8n32UGYnUHD-AOibg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/22aAPMhlhkO6vrHUzOpLbA",
+  "Created": "2024-10-30T02:55:53.7286465Z",
+  "Updated": "2024-10-30T02:56:08.0269956Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

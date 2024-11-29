@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TP_DFScLSEuTdBxia-f8IA" Reference="Mb_yfqsdSUWaXd39NmiObQ/eJNZBgRSaUmY9nDqcszSbg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e842e9b0-dbce-49db-b075-2fade95eef88" CvElementArea="131, 893, 1656, 62" CvType="InputBox" DesignTimeRectangle="135, 807, 1650, 56" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='edit-pass' tag='INPUT' type='password' class='form-text required form-control' aaname='Password' /&gt;" Guid="33e55b2a-d5ba-400a-8372-b5125cd248f6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Log in | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e842e9b0-dbce-49db-b075-2fade95eef88" CvTextArea="134, 849, 137, 24" CvTextArgument="Password *" CvType="Text" DesignTimeRectangle="135, 742, 144, 57" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='js-form-required form-required' check:text='Password' /&gt;" Guid="994f92ce-ad18-43f0-9f7a-8921596600a6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fb72fd2f4673c3229d855aeb8b194066.png" xmlns="">079iHRb77YUKmYZ_l5M8vpA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

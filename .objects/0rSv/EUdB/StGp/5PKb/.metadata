@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Locked for Review",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "5PKbqW6MAUWj5fh6N6JxCQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/5PKbqW6MAUWj5fh6N6JxCQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/StGp84WO0Emu-K2nKzYqfA",
+  "Created": "2024-11-27T07:59:38.0818909Z",
+  "Updated": "2024-11-27T07:59:38.0818909Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

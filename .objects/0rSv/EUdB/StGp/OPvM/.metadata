@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Address",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "OPvM87-uwkOk-XasY-8PXg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/OPvM87-uwkOk-XasY-8PXg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/StGp84WO0Emu-K2nKzYqfA",
+  "Created": "2024-11-27T07:59:30.7801318Z",
+  "Updated": "2024-11-27T07:59:30.7801318Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

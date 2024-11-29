@@ -1,0 +1,13 @@
+﻿{
+  "Name": "House Number: Street: V…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "HlmdgOdJ80Keim09ud09gA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/HlmdgOdJ80Keim09ud09gA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:58:55.5280095Z",
+  "Updated": "2024-11-27T07:58:55.5280095Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

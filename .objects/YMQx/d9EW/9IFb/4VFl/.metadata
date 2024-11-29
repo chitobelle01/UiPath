@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Approved",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "4VFlLbCj6E-8eV0-hX_GhQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/4VFlLbCj6E-8eV0-hX_GhQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:58:45.9721071Z",
+  "Updated": "2024-11-27T07:58:45.9721071Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

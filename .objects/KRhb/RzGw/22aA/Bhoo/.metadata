@@ -1,0 +1,17 @@
+﻿{
+  "Name": "'REGISTER YOUR SMART SIM NOW!'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "BhooQC_SgUGqtpYAjFQHAg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/BhooQC_SgUGqtpYAjFQHAg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/22aAPMhlhkO6vrHUzOpLbA",
+  "Created": "2024-10-30T02:54:47.810908Z",
+  "Updated": "2024-10-30T02:55:39.2567829Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Member for",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "MOKycaghuUKvKakv3sW5zw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/MOKycaghuUKvKakv3sW5zw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/Mh9EASWWl0m1WPUp1Mhssw",
+  "Created": "2024-11-27T07:58:27.9175909Z",
+  "Updated": "2024-11-27T07:58:27.9175909Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

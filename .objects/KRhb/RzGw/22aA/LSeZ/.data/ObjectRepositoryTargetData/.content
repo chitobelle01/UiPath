@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Cse-ZLsSZkeE6S3HBTi4sQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="d85f0aa8-52c5-4c9e-b8ab-27ec4cdb97ad" CvTextArea="837, 368, 214, 17" CvTextArgument="[TypeOfRegistration]" CvType="Text" DesignTimeRectangle="837, 368, 214, 17" DesignTimeScaleFactor="1" ElementType="Text" Guid="e1496524-8af8-4882-af87-463a6816e28b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9f78f4821ab7845b25070a270f781126.png" xmlns="">0_wSLD5ZkOUS5jk3vjT3v1Q</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="I'm registering my old SIM" Name="TypeOfRegistration" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

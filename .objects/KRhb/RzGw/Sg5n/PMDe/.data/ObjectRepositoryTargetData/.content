@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F98YGopQO02Jpr9yw7PVrA" Reference="5y7obp0hLUSA7kzKS4-dwg/PMDeMS1sH0eou0jxmPmaeg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/summaryPage" CVScreenId="0cad1bfd-c51d-47fb-945c-30023026d4aa" CvElementArea="1895, 15, 19, 19" CvType="CloseButton" DesignTimeRectangle="1882, 8, 46, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Smart SIM Registration - Microsoft Edge - Work 2' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Smart SIM Registration - Microsoft Edge - Work 2' role='pane' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="1bc453fc-a579-4451-ae4c-21fb7521b65e" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Smart SIM Registration - Work 2 - Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="0cad1bfd-c51d-47fb-945c-30023026d4aa" CvElementArea="1849, 15, 19, 18" CvType="MaximizeButton" DesignTimeRectangle="1836, 8, 46, 34" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Smart SIM Registration - Microsoft Edge - Work 2' role='pane' /&gt;&lt;ctrl name='Restore' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Smart SIM Registration - Microsoft Edge - Work 2' role='pane' /&gt;&lt;ctrl name='Restore' role='push button' automationid='' check:text='Restore' /&gt;" Guid="5770675f-450f-4ce2-8b97-c7d7d2de3bd6" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="290e5f34c123e11a20c81dc8e98966f6.png" xmlns="">01R1MFxl4fUeP_RK4zxbVPA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

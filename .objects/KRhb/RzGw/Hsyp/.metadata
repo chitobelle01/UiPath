@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Confirmation Page",
+  "Type": "Screen",
+  "Id": "Hsyp7v_73kS5orvhUpnjsA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/Hsyp7v_73kS5orvhUpnjsA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/RzGwhn1re0K775S3f55p3Q",
+  "Created": "2024-11-14T02:43:45.5467842Z",
+  "Updated": "2024-11-21T06:19:13.8100112Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

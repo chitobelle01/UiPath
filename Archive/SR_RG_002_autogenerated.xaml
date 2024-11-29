@@ -1,0 +1,751 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SR_RG_002" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="SR_RG_002_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>UiPath.Workflow.Runtime</x:String>
+      <x:String>System.Activities.Tracking</x:String>
+      <x:String>System.Activities.Statements.Tracking</x:String>
+      <x:String>System.Activities.Runtime</x:String>
+      <x:String>System.Activities.Runtime.DurableInstancing</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.ParallelTracking</x:String>
+      <x:String>System.Activities.Hosting</x:String>
+      <x:String>System.Activities.Persistence</x:String>
+      <x:String>System.Activities.DurableInstancing</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="1244,9703" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Object" Name="otpSentSuccess" />
+      <Variable x:TypeArguments="x:String" Name="otpReceivedSuccess" />
+      <Variable x:TypeArguments="x:Object" Name="confirmationMessageSuccess" />
+      <Variable x:TypeArguments="x:String" Name="emailAddress" />
+      <Variable x:TypeArguments="x:String" Name="alternateContactNumber" />
+      <Variable x:TypeArguments="x:String" Name="building" />
+      <Variable x:TypeArguments="x:String" Name="houseLotNumber" />
+      <Variable x:TypeArguments="x:String" Name="street" />
+      <Variable x:TypeArguments="x:String" Name="unitFloor" />
+      <Variable x:TypeArguments="x:String" Name="villageSubdivision" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="'Camera Access Permission' Popup Window (Browser)" sap:VirtualizedContainerService.HintSize="536,567" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a6edf087-692a-4a90-a8d5-01587312efb4" Version="V2">
+      <uix:NApplicationCard.AutoGenerationOptions>
+        <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
+          <uix:GenerationOptions.ExpectedOutputs>
+            <scg:List x:TypeArguments="x:String" Capacity="4">
+              <x:Null />
+            </scg:List>
+          </uix:GenerationOptions.ExpectedOutputs>
+        </uix:GenerationOptions>
+      </uix:NApplicationCard.AutoGenerationOptions>
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="416,244" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click on the 'Allow' button" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6edf087-692a-4a90-a8d5-01587312efb4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="98d46834-3898-43a3-b857-4d24677dcce2" ContentHash="cjksmotFTUSLLGlDuR0lkA" CvElementArea="65, 146, 206, 51" CvTextArea="141, 163, 54, 19" CvTextArgument="Allow" CvType="Button" DesignTimeRectangle="66, 147, 201, 48" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;ctrl name='stg1.simreg.smart.com.ph wants to' role='document' /&gt;&lt;ctrl name='Allow' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='stg1.simreg.smart.com.ph wants to' role='document' /&gt;&lt;ctrl name='Allow' role='push button' automationid='' check:fulltext='Allow' /&gt;" Guid="8bfdb5fe-1389-4e4a-983d-8691e501555c" InformativeScreenshot="5ed89d72451644a24c7c141680eabee1.png" Reference="5y7obp0hLUSA7kzKS4-dwg/J9zXPOI4h0W7TfPY7zdyVQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="106, 76, 549, 282" ContentHash="MQAI64fZSUaOsBM6yA2RwA" FilePath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" IconBase64="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" InformativeScreenshot="3dbcace2578922581a629cd94a97e004.png" Reference="5y7obp0hLUSA7kzKS4-dwg/zDshonrfkECebJRMsDEP3g" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Campaign Page" sap:VirtualizedContainerService.HintSize="536,554" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="Never" ScopeGuid="0b89daa8-1912-4f80-9b56-175e1ddaa6fd" Version="V2">
+      <uix:NApplicationCard.AutoGenerationOptions>
+        <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
+          <uix:GenerationOptions.ExpectedOutputs>
+            <scg:List x:TypeArguments="x:String" Capacity="4">
+              <x:Null />
+            </scg:List>
+          </uix:GenerationOptions.ExpectedOutputs>
+        </uix:GenerationOptions>
+      </uix:NApplicationCard.AutoGenerationOptions>
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="416,305" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type the subscriber's mobile number into the mobile number input box" sap:VirtualizedContainerService.HintSize="382,243" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="0b89daa8-1912-4f80-9b56-175e1ddaa6fd">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/campaignPage" CVScreenId="e29e44c4-7aef-4eb2-a392-14c21276cbf5" ContentHash="eBxBluK-SEu0gwKcTlabLg" CvElementArea="755, 546, 275, 69" CvTextArea="818, 572, 152, 15" CvTextArgument="Enter Mobile Number" CvType="Button" DesignTimeRectangle="756, 546, 274, 68" DesignTimeScaleFactor="1" ElementType="Button" Guid="51520f18-dfe8-42d5-8b38-8dd63b4b87df" InformativeScreenshot="41ceda79af8bae7a4c138ce384c8158f.png" Reference="5y7obp0hLUSA7kzKS4-dwg/HWo8VfrCQUWObEHZs_dpFw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="e29e44c4-7aef-4eb2-a392-14c21276cbf5" CvElementArea="687, 546, 72, 68" CvTextArea="709, 572, 28, 15" CvTextArgument="+63" CvType="Button" DesignTimeRectangle="710, 571, 27, 19" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='web-electable-region-context-menu' aaname='' /&gt;" Guid="c2c5fae3-b3b3-4448-a6a8-c0f27675ee59" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Edge" ContentHash="MtlU6qOfxUil0JZN98gE2g" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAABSlSURBVGhDvZkHVFVn1oZNVJB26VgTNeqMEREEaYIIGEB6EZAiIgqIdGnSe1WqCqIiVWkqIhpLjHLpRXoHsURNjEnmZzLJZDLjLN5/n8PFxMSMM0lm9lrvumvpWvc8z/72d75zLnN+j5KydvN/L/siV/bK6NT62/dfrG94iPUNDyiTlHtY3zgOuaZRyDUPY931lqm11VcmV6SmXxKSl9fkfcX/vmSsPfxlz3VOytc/m1bgPsMG7lPIcR9DruERD/4+ZAletnGCBEaxvmmEBAYpA5Bv7YNCWzc2tndCqbXphezZwl4RhfX/GxkZ6wP+8lceTSlx/w+K3C+xkfscjIA8CWxgBR7/RGCcwggMU2YE5Jr7ZwTaurCpsw3Kd5uh3nMHao0XppbuMvfnXer3LWE5dU2Fi5PPlLl/wSbuFJS4f2IFXsIT+IaGTyjM+NynEDwrMDaTpqEfCfTRKvSwAood7VDr5lLuQLPvJrQH66DBPfNMTPGPv9+KrAzOLVCu/8s0A6/M/ZoE/kwCMyug0PAZhRGYgZebnfsGGp0G6n4DIzDMZkagn9KLDS09tAqdJNBKK9DICmj1X2UF9EcqsX20bFouyaWAh/DrS+50W68q969Q4X5D8Ez3GfiZ7is20PiQgDxPQI46/4MAAz9K4CMs/LrGIVqFQZJgBHpIoJsn0A7VrjtQ7/4YW/quQXeoBgajlTC5V0g5A736hEkeyn9eCueGJ1W53+EHAab7UxQSaPiC8jkJfEoCT0jgASswMzrUdYJf18CAz2aIMsBmPa0AI6HQ1kF7oBkqdxtYAc1eRuAi9GgFjCeKYDZ5ClYPj8JyNOUbwaViy3lY/15tJHh17t8IflaAGZ8/s/BKLPzzlwLM6Gxgu890fnbuZ8EHf5RXBTa03IViO41Q56zAdZ5ABYzGZwWOYefjdNjei/+Oh/bm2nC6s5eBV3sp8O1rBD7HRoJXYDfv7OyPz4wO3XVmOs5A978E/yEzY7SxrR2bOpqgwgp8RCNEe2DgIgzHimEycRrmk3mweZQBu8epcPo0FlbtHm8ep1XB+QWbuX/HjAADz+QbEviaBJjx+eqlgCI7/4+woZHGp3HmwGLu+TObdhZ+Nj8V6IZ8SweU2hmB2yRwk1bgKj4YqoDBSAlPIBfWDzNh/ziFBGLg8jwMeiWml3ioPy8Ruc2a6vV/n97M/Z4VUCd4NYJXpe6rUPdZgQZGgBkf5u7z5EcCtALsPZ82K5sZ0F8Kuwda22kVWlmBzd0fst2fEShm4Xc8TCf4BEoSnD6Lwr7nQXD7wmd6keqi199ilS8+ecZ0/1WBb3kCU1hf9wSrS4ewsqAHK89QCrvpsxNrqvrw/o2xHwkM/ksBWboTMfOv0NpKK0C30K4b1P06bO2/AN2BShiOFsB04jgs72fSCKWSQBycPzvEwOPAV27YPWD7mIf8Qy229vXX4P6D4GcFvmMje/4plqTUQ8y3DBwvil8lxAKqIR5cM5PA8xAPqIC4bymkDpbgnWO3sKa257Xgs1nfxGziLhJoIwEuVDs/YldgS08NPhgspRUogsn4Cey4nwa7T+Kx60kYnD8NhPsXXqzAga/2YYPH+6+e2KpXvpzS4L6gU3BGQr72K4gH1UDYqxwi/jXgBNVBNORDiIXdhFjERxCPugWJ6I8hyeYW5SakIq9DMuwyJAPOQSbsHNZ82PszeNmmProL9ZDAXWxsbYJy+22odV4j+Fpo91VDb7AIhiP5MB3PgeXkYdg8SIDD4whWwPVzT7g/d4XHFy7YM7LjGQ99zpwl1H1NHrza7b9hWWY3hLyqIXTwMoQDP4TIoZvghN+GaFQDxGKbIR7fCvHENkhQJJPbIZVMn0mtkEpsgnRCPaTjPoZ05FVIkcjSzGt4n/vqODHdl2vuZEdIuf0WK6DVfR46feWsgMHQaRLIphVIhu2DKOz6JAi7n/hj72ee2P98Hzye74bnl45YrCo1sxeUzo1PanL/CfXbf4dEVD0E/eogFHgNwiEfQTicC5GoFojGtkM0oQtiyT0QT+2DRNoAJA4PQPLIAKQo0ul99NkD6cN3IZ3aBpmkJsgk3IZ0+GUsiq95KcHOf3MHFFpaoNh6hwRuksBVbOmuhE5vCfT6T2L7UB6MRzJhOZEI2/vhcHgUCOenvtj71BWun7rA43MHeH5hB6MSjZk7kkb9i2kGXpK6KxBwHQJBH0EwtB7CkS0QjumESHw3OEkDEE0ZhOjhYYgfGYVExhgkMschmcVkDFIU6ewRSGcNQzqzHzLpPZBJa4dMciOko69jUVIdK7G+qZsE2iHf3EwjxMWmto9I4BK0esqh23sa+v25MBrOgulICizGYmD3IASOD/2w+7H3SwH3zxyx/9lOuAwZPaPx8fPfQt2Xps4uCLwFgeDbEAxrgmBUO4RiuyGcMACR5CFwUkcJfhyiR8YhljEB8cx7kMiiZE9CMmcSUjn3IH10kjJBGYdMzghksvqxML0LC1NbIBN7E8uO3qIXmzaCb8LGljtQarkJ1fZaqHaQQFcJCZyCfl82tvdnwHQ4CZZjkbC5Fwz7+z5weuiGPY/dsO/pbhKwZwX2f2YxPUfpZGfvuoovwB9UjwUhDVgQ2gKBqE4IxvZCKGEQwkkjEEkZg0jaODiHJ0jgHkTT70EscxLiWfdJgAkjcR9SR+9D+th96n7ftyIOyWcEdV0CBHWcgzj2CaVScbf+Ih1zA3+oaYVCcwMUW26QwDWotZ+Hekc1TyCfBLKwvS8NZsMx9AwUAuvxENhN+sJh0h1OD1zg/MgJrk/tCN6aEcCczdf/Oi0S0w3+kGbwh7ZiQeRdCMT0QTB+EEKJIxBKHoNwyjgJ3IPI4XvgsAKTEM2YfCkhzkiQgGTmBJZ5lX3OzuVrimMXc3ZR8nUoNN2EYvNVbGq5BJXWKmh0FEPr7knodmVjW3cmDPviYTYUDcuRINiM+cBuwh2Ok/tIwJkEHOHyyJYkdsDtqRnmyFV+Cb5DbQTfgQURXVgQ3QeBuEEIJIxAMGkUQkljEEqZgHDqxL+UED10Bxwtzzs81l8szs6Yivfr6qHUXAfllmqotZ6FZkcRtt7NI4EM6PWkYntvPIz6ImE+GAirkYOwGd0P+4k92DVph90PbLHn4Q7sfWQB1ycksPzUU/CFdoIvvAv8kX3gjxnEgrgREhiFQNI4BJNnMishnEYiP5HgeF+GoE74tzzGN9aa0g+nlZouQLWlmFJEAieh1ZkL7bs50O+OpxWIhnFfMMwGg7BjxJOyH3bjjIA9nO7bkYA1CZjD9RMTzJEkkPnhPeCL6AVf9AAJjICfBBYkjEEgkcJI8EReJyESfAdCerHgV7Av5/G9sdZnlTxQbiqFSnMJ1EhgcxsJdGRBtzMB2zpjsb0nBMa9/jDr94LFwH5YDe4lASc4TtjBadIazvetsPehCfY9MsIc0dRxEujF/MgBEhgCX8ww+GNHwR8/9oNE4i9IRHQQfDSEjFIxf/W2UB7fG2uV76Fzyk3U/eYCqLfkQaMlA1vbkqHbHoNtHRHQ6wyBYbcfTHo9YdHvAsuBPbAZdoTdqC0cx63gNGEK50ljOPRum5ozL7wf8wh+fuQg5kcPk8AI+BiBuFE6A3qx+uA52EZkIuHESaioKSEsMhRnr15HdFEtdL0yIGWRBmHTLEYgmMf3xhKWW62p0ngCao05UG8+xgpsaUmATlskCYSSQBAMu3xg0u0G815nEnCG7fBO2A1bwmHMckbgnjF08jZemjM3YogEBjEvaogVmB9DGze8HetdEmFgYgSD7R9gz14H5OamYpuWIhLjD+HGlQpcrCjA2TPHUF6UD7eoPEjJG8fy+N5YK0McClQbsmcEGo9AozmVFdBuCcW29kMw6PCC0d39JLCPBHbDss8OOwbssHPIHPYj5nAcNcauMcNpoSULlpPAIFiJqGHKCJYH1sDEZifMLEwoxjA0NYCtnSl83G2wx1IbVvpqsDDcgqzUCJIoRGVRHqpKTqD4VN4LZUUFcx7jv6yNV1KnVLmZJJBBAmnQbIqDVnMktJuDsa0tEHrt3jDs3AvTbmeYdjnAotceVn2W2NFnDtsBE9gPbacXG2Uu+2VvhfW9mBs5xEqsc8/CTltTuLnaw8HeHDY2RrC1MYSdhTZMtinDz1YXyfsMsXnNIqxZJoHDCaGorSplBapLTqGqOH/aysww8i0q9stfU8vcTFJU6nPoHYPgG+Kh0RANzcYYaDWFYWtTAHRb/aHf7oHtHS4wvusEMxIw77KBVa85rPvNWAHrLoMf3o/fCmibejuCXr5DziM22gdHs0KQdywMZaXJuFSbRZAeUFNYi506G3Ehfh+4J4JRGW6DzauloLh2OQteU16M86WFuFBWhPNlBdDZstmF9/WvFJ+M+PJNt49Mq9xJhWp9Er1vxJBABDQbQgk+kBXY1uIB/bZ90G91hmG7A0w6rUlgByy6zGHVYwrLdoPvBBfT6Lwsx2KuEj0Glx7PRdXJfFSfysfZ3Fxwjx7Cw9NO8LTYDNmV7yDTdTs+zvHD1XQvXDu8D0cP6GGlOB8iDnrhek01LpQWo7b8LKUMFUX5/5CTXavHu8LLYgSUb8W/ULmTBLX6OKjXR9IjfBgJBBO8H3SaPLCtiYHfA4NWRxi27YTpXWuY3bWEZbc5jG7qPRN4BZ4pZSf/nKoW9Ld2YpCezx92tmNkoh/3Gi/gT+cPw3GbKnTkVyHP0wi1cbsJ3BC+tBeOelvCWPFd6GuqkkAV6qqqUVdZgStVlbh4rhgB3vtreVd4pSS05Xaq3Ip+oV4fgc31odCoDyaBIGxt9CQBdxJwwQfNLjBocSABG5h0WMKs02xaJX3T61/mRTgiC/NKT0wnHj2O+PyzSC29jIjcUqQVnEZ2MR3v6opw0VOB0wdaOOqmiwyXbdhlYIzTQbsRYrMF61cuodE5gyvnq3GpogyXK8/h4tlilJ3MnhYT5SzmXeZn9Y6rdoriWbdJtRs+323h+mBrwwHoNLpBt3Ev9Jp3UeymtevMnsmFKxQILBL45R+11FXWe4T4O0BXSw1b1TbB3T8MIfHJiDjkiuAAZyivlUWkgwUSd9ujMMAOF+NccPaQO7hZvoh22IrVi8RReiIdtZVl1PkikjmNc2dyUXj8CLMXPHiX+e9VtM9urqGGEhZJS+O9JTJQUd5Ey78H+ls2wFxHGSsWSiHD0wofJniiLMgel6J344y3NapDrBFhq4G1MuIoPp5K3Sf40lO0qfNRkp+NU1mJCPDxmLnV/TerKH3/nzdvWAlpSWmIi4pi++YNyPM1hePWtdjxgQqWSErATlsW5b4GOLlXHydtt+GUiz6qQs2xR0cWf5AWx5nsBFwqP0MCJ1mB4hNZOJ2dhBNZadP8spYpvEv9d+pUzI7vjbXkILBACHLLZZB3yA7lCc6I3LUFVsZb8YelC7GYIEMsN6HEQw8FdjqoCrZCvo8h1iyWwruiQkgN9aZNXIzqYjoPKCX5WSgggYKcZHB2nIKIafbUXMnVv+n3/nniKzX5V2z5+R8/IlwNvj/mbYA9WmuQGOiAylQ35B6ywvl0V6RH++E9GSlaHUlwOKI4sH0DCr31UeilBw/dtZAWE8UyESHY6WngcgWtAJ0BVXQyl5LAmexE5GfNCLCxOgkRk8wpgY27Ct4SkPi3f2lesNY4RUQnfFLcOAPixukQ+KPhqysqLSX+aNU7iyG3aim20l5wtNBFiJMBbpTFIcHHBu9KiGOpjDQ4ohLYuEwKSebyyN6lCmul5ZCh/1sixoGe/EpU5Uahpjgb1SRQQhu4OCcO6YdTXhHgWOVD1PIEG45R+pSwdmivkKYfl+89HX++97T9+SmCyvsuCav7cDnbk6dEjTOnxUwywYQREDM6Mj1PfMWrKykjJV67ZKEMpKUkIUUd5Z/PjwO7TdF8KR17LbZgqSgHi6WkICEuCbmlUkjesRHHd6tBfeVCiImKQUZQEN7WWjifG4JzWQGoOB6JstwUFGdFITjmlwVELfIouZTjEDVncgxiZkcpORAzZZJN4Fks/KyAoJzNz/9iIy4m6r9m1QqsfHcJjYo41q1ZjitFsbh8IgSW2gpYTFIyJCdJsE4af8RpT32U+hvCVXsdbWAxmNNhlh9uj5LD3jib7odykijMCGNj4pv1uwmIaAb08pBfrbfffnsth8OBpIQk+Pj44bPXHE0X0lCc6gEDxVWQfUcGMhwRWCqvQmmQOWrinVFLm/xC7C6c8jVEeZQ1ytI8UJDgiuqcQFw4HozijAjkJgZghWPe7yLA7AEe7utLWFj4hogIB+/QXqjMDcW1whicpge3NG8zZAbZ0EG2FcWBFqhLc0NdiitlH+oOu+Naxn5cSndHYZI7KjL9cPF4CKqy/JGf6IcDgVHgWJ/+zQJvhGdq7ty31/ItEPx+u/Ym1Fcm48KJcBTE78WZeBdcpFG6mHMQtZk+uJzphZo0d1w6vB9Xsnzo37xx7rAn8qKdcf5YCM6TQDWtwPEEPyzdmfubBYS3BL1+bF5Xc+fNc3Gz0EJbURguZPoiL3QnipIItCCKwA6h+mgwzlOqcwJQxSQ7AJWUiuxAFMTuweUMb9Qe8cC5WEdoOicQfMGvFhA1yZ5esNbkPz8ADVTXxbafCsSV1D04SodWRWYAK3DpRChqaLRqSOQihZnzi5QL1HVGoDTGER9neuI6PWY7uvlDZBb+Vwhw9BOezZV479cfehpyK8zLw3d8HW+nhnNHfFGTF4rKrIOoyPJDZYYvKtK9UX7Ek+KF8gw/WiV3VMY50XgdhGr0ZfC71UHIksaHYGfgCZzJGwQ4RmlTzDnAw/htJSmy4B0DhWVXkg6YoDTOGWeinCi7cIYe5App3gtjeKHROR5oici4GMhEtuPt8GEwb3dzwwbA73Ubgk4V4FBnOQTMxoqBJ3CeoIh9MUR0I+8zBxnv0r9vLZEU0dKVfzfGRU/u2iE7jbE0d4NvmIQ7bh13M950TUd+ZexyGY4W81I0x7GIO4deT98K7X/BSLAikUxGwBfSBf7gdgj4N0DM79Y/F3rXfb3IIbuZd5nfUHPm/D/Ef1yVXjS8LgAAAABJRU5ErkJggg==" InformativeScreenshot="1565b73884d305fa2f42f98a8b5baef1.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/qdjHSyeQhUSqr4zDN9mpFQ" Selector="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg1.simreg.smart.com.ph/flutter/campaignPage" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Campaign Page" sap:VirtualizedContainerService.HintSize="536,682" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" OpenMode="Never" ScopeGuid="f201da47-7f6e-46f7-89d3-125bfe3ad60e" Version="V2">
+      <uix:NApplicationCard.AutoGenerationOptions>
+        <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
+          <uix:GenerationOptions.ExpectedOutputs>
+            <scg:List x:TypeArguments="x:String" Capacity="4">
+              <x:Null />
+            </scg:List>
+          </uix:GenerationOptions.ExpectedOutputs>
+        </uix:GenerationOptions>
+      </uix:NApplicationCard.AutoGenerationOptions>
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="416,433" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click on the 'SEND OTP' Button" sap:VirtualizedContainerService.HintSize="382,189" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f201da47-7f6e-46f7-89d3-125bfe3ad60e">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="3d3f6452-f2ba-48d1-81cf-805ca0bfde7f" ContentHash="So_UI40MSE6z-LzraO6uQw" CvElementArea="1071, 496, 257, 78" CvTextArea="1134, 521, 130, 25" CvTextArgument="SEND OTP" CvType="Button" DesignTimeRectangle="1071, 496, 256, 78" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="58e63dea-f59b-4cac-a42c-47af0dd8c3a5" InformativeScreenshot="6621867865269935b577154aa1007697.png" Reference="5y7obp0hLUSA7kzKS4-dwg/i1oJThtBG0yRHZUnULGaPA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get the text of the OTP sent success message" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="f201da47-7f6e-46f7-89d3-125bfe3ad60e">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="153b06cd-050f-4278-b14b-663f0c525bc4" ContentHash="5fvcqjA-Ik--k5aKzg14aw" CvElementArea="899, 715, 141, 56" CvTextArea="954, 732, 31, 21" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="899, 714, 141, 57" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="cfd83080-92df-45a1-b4da-68ff0be9434d" InformativeScreenshot="d523e019ebf2cc2f3f8888795e4f2282.png" Reference="5y7obp0hLUSA7kzKS4-dwg/eGdZOJCTvES4cdmsfAMANA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Edge" ContentHash="MtlU6qOfxUil0JZN98gE2g" IconBase64="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" InformativeScreenshot="1565b73884d305fa2f42f98a8b5baef1.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/qdjHSyeQhUSqr4zDN9mpFQ" Selector="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg1.simreg.smart.com.ph/flutter/campaignPage" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Campaign Page" sap:VirtualizedContainerService.HintSize="536,857" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" OpenMode="Never" ScopeGuid="938316c5-1ea9-4466-a517-8da95365d2a7" Version="V2">
+      <uix:NApplicationCard.AutoGenerationOptions>
+        <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
+          <uix:GenerationOptions.ExpectedOutputs>
+            <scg:List x:TypeArguments="x:String" Capacity="4">
+              <x:Null />
+            </scg:List>
+          </uix:GenerationOptions.ExpectedOutputs>
+        </uix:GenerationOptions>
+      </uix:NApplicationCard.AutoGenerationOptions>
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="468,608" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign DisplayName="Set otpReceivedSuccess" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_1" />
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type the received OTP into the OTP Textbox" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="938316c5-1ea9-4466-a517-8da95365d2a7">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="4478eea2-d6fa-4de5-92d1-131728398b74" ContentHash="ZQwIHFMN_US8grkAKWScdw" CvElementArea="545, 903, 517, 105" CvType="InputBox" DesignTimeRectangle="545, 902, 517, 104" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="e767e25a-db42-46f7-abc4-d8a38e86ebd6" InformativeScreenshot="e6a343adaddc91ef275149ee8def95ca.png" Reference="5y7obp0hLUSA7kzKS4-dwg/RCjK6pUQAUW8M7jms9BCjg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="4478eea2-d6fa-4de5-92d1-131728398b74" CvTextArea="632, 849, 523, 29" CvTextArgument="Please enter the OTP sent to your mobile number" CvType="Text" DesignTimeRectangle="632, 849, 523, 28" ElementType="Text" Guid="dc426781-0b38-4636-a76a-14280cc010db" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click on the Verify OTP Button" sap:VirtualizedContainerService.HintSize="434,182" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="938316c5-1ea9-4466-a517-8da95365d2a7">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="632c79d4-fd90-40cb-8c29-7b8ac3207518" ContentHash="0rrzMKPOd0GIalO9tT3vEw" CvElementArea="1070, 886, 255, 78" CvTextArea="1122, 911, 150, 25" CvTextArgument="VERIFY OTP" CvType="Button" DesignTimeRectangle="1070, 885, 257, 78" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="1e081897-5075-46ec-b4a1-b59b870b08c7" InformativeScreenshot="8977b3c44a02047c6d55143955c99f22.png" Reference="5y7obp0hLUSA7kzKS4-dwg/u4iFE3Hm2U-apYz0NwQHSw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Edge" ContentHash="MtlU6qOfxUil0JZN98gE2g" IconBase64="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" InformativeScreenshot="1565b73884d305fa2f42f98a8b5baef1.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/qdjHSyeQhUSqr4zDN9mpFQ" Selector="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg1.simreg.smart.com.ph/flutter/campaignPage" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Confirmation Page" sap:VirtualizedContainerService.HintSize="536,493" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" OpenMode="Never" ScopeGuid="3c0b19db-cb14-4007-8944-ee1d56e310e8" Version="V2">
+      <uix:NApplicationCard.AutoGenerationOptions>
+        <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
+          <uix:GenerationOptions.ExpectedOutputs>
+            <scg:List x:TypeArguments="x:String" Capacity="4">
+              <x:Null />
+            </scg:List>
+          </uix:GenerationOptions.ExpectedOutputs>
+        </uix:GenerationOptions>
+      </uix:NApplicationCard.AutoGenerationOptions>
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="416,244" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetText DisplayName="Get the confirmation message text" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="3c0b19db-cb14-4007-8944-ee1d56e310e8">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/congratulationPage?isAutoApprove=true&amp;registrationType=I%27m+registering+a+newly+bought+SIM" CVScreenId="096ab4fc-dc79-4b9b-834b-13a49f95df22" ContentHash="N7M3BaKhx0u1jFK_Kvq2Bg" CvTextArea="525, 959, 890, 28" CvTextArgument="Please keep this Control Number as this will serve as your certificate of registration:" CvType="Text" DesignTimeRectangle="525, 958, 891, 29" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="28d92733-809b-48e3-bc31-03536555d9b9" InformativeScreenshot="12f3ba684a7fe148b6aec023d5c9dd79.png" Reference="5y7obp0hLUSA7kzKS4-dwg/2MmfhxGtl0-aXi3_uaYHyw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Edge" ContentHash="zxGMy75E2Eua88VofvLe2g" IconBase64="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" InformativeScreenshot="59b076c967c04b88d467463fcb5e1434.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/Hsyp7v_73kS5orvhUpnjsA" Selector="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg1.simreg.smart.com.ph/flutter/congratulationPage?isAutoApprove=true&amp;registrationType=I%27m+registering+a+newly+bought+SIM" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <Sequence DisplayName="Input details under Contact Information" sap:VirtualizedContainerService.HintSize="536,3989" sap2010:WorkflowViewState.IdRef="Sequence_10">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Customer Information Page" sap:VirtualizedContainerService.HintSize="502,1054" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" OpenMode="Never" ScopeGuid="0e9f494c-f219-44b5-837b-6e9450eb0492" Version="V2">
+        <uix:NApplicationCard.AutoGenerationOptions>
+          <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
+            <uix:GenerationOptions.ExpectedOutputs>
+              <scg:List x:TypeArguments="x:String" Capacity="4">
+                <x:Null />
+              </scg:List>
+            </uix:GenerationOptions.ExpectedOutputs>
+          </uix:GenerationOptions>
+        </uix:NApplicationCard.AutoGenerationOptions>
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="416,805" sap2010:WorkflowViewState.IdRef="Sequence_8">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the 'First Name' input box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="382,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="0e9f494c-f219-44b5-837b-6e9450eb0492">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="dbc42264-bb71-4cb6-a611-d455686d54a4" ContentHash="2PcENs_2Tk2CkFaf5207iw" CvElementArea="987, 413, 639, 51" CvType="InputBox" DesignTimeRectangle="988, 413, 639, 52" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="bb4ed264-7677-45d8-b6ec-ea8ea33f3204" InformativeScreenshot="0395910dbcd1ec421527988e572f4b80.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/t4XQsZ7mVE23tynCPYc9pA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="dbc42264-bb71-4cb6-a611-d455686d54a4" CvTextArea="990, 389, 89, 15" CvTextArgument="First Name *" CvType="Text" DesignTimeRectangle="990, 389, 89, 16" ElementType="Text" Guid="4b82a522-ef13-4b21-92a7-06b383ea2dab" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the 'Middle Name' input box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="382,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="0e9f494c-f219-44b5-837b-6e9450eb0492">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="8679d896-56fb-4e2c-8de1-752bbd49a39c" ContentHash="FVFP56O8JUSuAGdJxiRMsQ" CvElementArea="987, 517, 640, 51" CvType="InputBox" DesignTimeRectangle="988, 517, 638, 51" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="a9917295-42e6-45bf-8f69-2e692f6d090e" InformativeScreenshot="3cdc1ee9117b8157722592a32ce9da51.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/0uDUTiRcEEmvCA714cIi1w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="8679d896-56fb-4e2c-8de1-752bbd49a39c" CvTextArea="990, 493, 106, 15" CvTextArgument="Middle Name *" CvType="Text" DesignTimeRectangle="989, 493, 107, 16" ElementType="Text" Guid="789cb904-1ba7-4b22-b5a4-fbc7af7e16ad" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the 'Last Name' input box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="382,243" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="0e9f494c-f219-44b5-837b-6e9450eb0492">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="ae7a580e-526a-4030-a7f3-2b74efff940e" ContentHash="TC8GoGIgOUiSApma_f_ZfA" CvElementArea="988, 658, 638, 51" CvType="InputBox" DesignTimeRectangle="989, 658, 637, 51" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="83710aa6-e94b-4952-8197-0ffaf4575144" InformativeScreenshot="a446692844dd37fbdaac7789cc74bd2d.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/Ez9rGEbEeUGsadWoA8nlLg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="ae7a580e-526a-4030-a7f3-2b74efff940e" CvTextArea="990, 635, 88, 15" CvTextArgument="Last Name *" CvType="Text" DesignTimeRectangle="990, 634, 88, 16" ElementType="Text" Guid="9505e1f3-7a10-49b9-9024-3bb0bd5a73bf" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Edge" ContentHash="1abdRt1iQEu8FSE7KvUI8Q" IconBase64="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" InformativeScreenshot="c4e32bd3378b89906fd3a0bb8acd4448.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/22aAPMhlhkO6vrHUzOpLbA" Selector="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Address Information Page" sap:VirtualizedContainerService.HintSize="502,2843" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" OpenMode="Never" ScopeGuid="1d07f219-af0e-43f6-95c3-a6e744829acf" Version="V2">
+        <uix:NApplicationCard.AutoGenerationOptions>
+          <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
+            <uix:GenerationOptions.ExpectedOutputs>
+              <scg:List x:TypeArguments="x:String" Capacity="4">
+                <x:Null />
+              </scg:List>
+            </uix:GenerationOptions.ExpectedOutputs>
+          </uix:GenerationOptions>
+        </uix:NApplicationCard.AutoGenerationOptions>
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="468,2603" sap2010:WorkflowViewState.IdRef="Sequence_9">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Assign DisplayName="Set emailAddress" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_2" />
+              <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the 'Email Address' input box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="1d07f219-af0e-43f6-95c3-a6e744829acf">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="a7a06dc4-34f7-496e-97ca-9d0349da5815" ContentHash="jiup6LPO2EOcADYchDt9KQ" CvElementArea="986, 606, 461, 78" CvType="InputBox" DesignTimeRectangle="986, 606, 460, 77" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="c5a78dae-b569-4e78-b999-cc00cd817062" InformativeScreenshot="24cb003137cc61da8e7e6a57d63cce8e.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/O3_PHiuNwE2DZ0ZmYaoPBQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="a7a06dc4-34f7-496e-97ca-9d0349da5815" CvTextArea="987, 573, 266, 28" CvTextArgument="Email Address (optional)" CvType="Text" DesignTimeRectangle="987, 573, 267, 28" ElementType="Text" Guid="12d2faea-9239-42ba-b416-be496cf69d33" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <Assign DisplayName="Set alternateContactNumber" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_3" />
+              <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the 'Alternate Contact Number' input box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="1d07f219-af0e-43f6-95c3-a6e744829acf">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="70c511a7-af1c-4b0a-8fdd-fa3588370cf0" ContentHash="M_BGysaSSkiDX7yLma1lQw" CvElementArea="492, 705, 463, 78" CvType="InputBox" DesignTimeRectangle="493, 704, 462, 78" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="5b61f441-4246-49fd-85ba-4c1e4e4f11f3" InformativeScreenshot="5cc8566f37bf7e2301fc31ec03806431.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/6hVh7hz8PU6A1jVs9-tePw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="70c511a7-af1c-4b0a-8fdd-fa3588370cf0" CvTextArea="494, 672, 392, 28" CvTextArgument="Alternate Contact Number (optional)" CvType="Text" DesignTimeRectangle="495, 672, 391, 30" ElementType="Text" Guid="1d39543c-2c39-4d9b-aa97-92033fd774fd" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <Assign DisplayName="Set building" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_4" />
+              <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the 'Building' input box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="1d07f219-af0e-43f6-95c3-a6e744829acf">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="5a727234-e566-4c08-a689-eea79da55651" ContentHash="SrCqgYRv4kOtogyuWJzq6w" CvElementArea="328, 922, 630, 53" CvType="InputBox" DesignTimeRectangle="328, 922, 630, 52" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="278b0a27-8daf-4cca-84ae-24dfe3a2542b" InformativeScreenshot="75c0b0b6d7452f427d14419a08118b81.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/nLCNIb2mSk-3sbMwqwx-cA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="5a727234-e566-4c08-a689-eea79da55651" CvTextArea="331, 902, 58, 18" CvTextArgument="Building" CvType="Text" DesignTimeRectangle="332, 902, 57, 18" ElementType="Text" Guid="53269a0b-f5c1-4d13-9d5f-1ba422f38a1a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <Assign DisplayName="Set houseLotNumber" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_5" />
+              <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the 'HouseLot Number' input box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="1d07f219-af0e-43f6-95c3-a6e744829acf">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="b422eeea-1c34-4503-9ee7-6d7c2e531b93" ContentHash="rB1qRimFxEyAhUNX-MyJLg" CvElementArea="329, 578, 630, 53" CvType="InputBox" DesignTimeRectangle="328, 578, 631, 52" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="f9a9a6d9-f4f3-4af5-ae95-c32820e7da03" InformativeScreenshot="76f2c685cf0a5dd5ef04d034eb751689.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/1bm9p8oJ1EKh1Eb2sRN2cA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="b422eeea-1c34-4503-9ee7-6d7c2e531b93" CvTextArea="331, 558, 139, 15" CvTextArgument="House/Lot Number" CvType="Text" DesignTimeRectangle="331, 558, 139, 15" ElementType="Text" Guid="54d50029-bfd5-4350-a757-a6bc381f4e48" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <Assign DisplayName="Set street" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_6" />
+              <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the 'Street' input box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="1d07f219-af0e-43f6-95c3-a6e744829acf">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="5a727234-e566-4c08-a689-eea79da55651" ContentHash="W8U04I6G40mRiMT6sbUikQ" CvElementArea="328, 664, 630, 52" CvType="InputBox" DesignTimeRectangle="329, 664, 629, 53" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="3d80fb6e-8aa3-43f0-b624-f4ff04b30dbe" InformativeScreenshot="561348e34da3cda9ed36793d27782fc0.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/EWoYa0tWyUeSEKI4BtP6lQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="5a727234-e566-4c08-a689-eea79da55651" CvTextArea="331, 644, 43, 15" CvTextArgument="Street" CvType="Text" DesignTimeRectangle="331, 644, 43, 15" ElementType="Text" Guid="e2c5b370-c1e9-4999-a6b7-fe7191f0be46" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <Assign DisplayName="Set unitFloor" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_7" />
+              <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the 'UnitFloor' input box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="1d07f219-af0e-43f6-95c3-a6e744829acf">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="5a727234-e566-4c08-a689-eea79da55651" ContentHash="oF6W4uq3y0uXlHfs4bFfqg" CvElementArea="328, 836, 629, 53" CvType="InputBox" DesignTimeRectangle="328, 836, 630, 53" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="81a87b9a-d171-4d29-bdba-b2e666603130" InformativeScreenshot="648558292940d0686aaf13099e7cb180.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/sSf8D1oRtkKQjjZhG6zNCw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="5a727234-e566-4c08-a689-eea79da55651" CvTextArea="331, 816, 73, 15" CvTextArgument="Unit/Floor" CvType="Text" DesignTimeRectangle="331, 816, 73, 15" ElementType="Text" Guid="a74032b6-c298-4e98-885b-d0482b451b5b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <Assign DisplayName="Set villageSubdivision" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_8" />
+              <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the 'VillageSubdivision' input box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="434,243" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="1d07f219-af0e-43f6-95c3-a6e744829acf">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="5a727234-e566-4c08-a689-eea79da55651" ContentHash="E6A9nGrzVUS-rjNOVftZ2Q" CvElementArea="328, 750, 630, 53" CvType="InputBox" DesignTimeRectangle="329, 750, 630, 52" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="ca1528b4-da4c-47e3-89d6-7d7e42b038c5" InformativeScreenshot="e3c543a7d2b919dae98423388ac4127e.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/Wr5Fe1K3WU2W8vvmj0SxLg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="5a727234-e566-4c08-a689-eea79da55651" CvTextArea="331, 730, 137, 18" CvTextArgument="Village/Subdivision" CvType="Text" DesignTimeRectangle="331, 730, 137, 18" ElementType="Text" Guid="e70baabf-0ac6-4bd7-8e8b-92e091d17bed" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="1912, -8, 1936, 1048" BrowserType="Edge" ContentHash="FSgNbdQSB0W1kVvly9z5Pg" IconBase64="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" InformativeScreenshot="eefc3d8b49d333bc19c0e72ae783042d.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/PaMroJpxZkiRZcyykEItFg" Selector="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Customer Information Page" sap:VirtualizedContainerService.HintSize="536,493" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" OpenMode="Never" ScopeGuid="8ad7e89d-2753-4de5-a140-7928fccc061d" Version="V2">
+      <uix:NApplicationCard.AutoGenerationOptions>
+        <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
+          <uix:GenerationOptions.ExpectedOutputs>
+            <scg:List x:TypeArguments="x:String" Capacity="4">
+              <x:Null />
+            </scg:List>
+          </uix:GenerationOptions.ExpectedOutputs>
+        </uix:GenerationOptions>
+      </uix:NApplicationCard.AutoGenerationOptions>
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="416,244" sap2010:WorkflowViewState.IdRef="Sequence_11">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click on the 'Next' button" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8ad7e89d-2753-4de5-a140-7928fccc061d">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="3e0ae457-5055-481e-a471-497724f7db7d" ContentHash="JOxq2PGyyUmQ7MMe8t_cfA" CvElementArea="988, 799, 77, 39" CvTextArea="1005, 810, 43, 15" CvTextArgument="NEXT" CvType="Button" DesignTimeRectangle="988, 999, 76, 37" DesignTimeScaleFactor="1" ElementType="Button" Guid="82b65aed-adce-4c3a-b105-21b8e6d18dfe" InformativeScreenshot="d63f609ff5e5a5151bcff7e91f3cf826.png" Reference="5y7obp0hLUSA7kzKS4-dwg/BA2Q8ziw4EGeltUpwmqiOg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="c8db5482-208d-489d-9741-7d84954be62e" CvElementArea="892, 999, 77, 38" CvTextArea="908, 1010, 44, 16" CvTextArgument="BACK" CvType="Button" DesignTimeRectangle="892, 999, 76, 37" ElementType="Button" Guid="c458e096-4c49-4d80-b215-9262fe5f6a02" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Edge" ContentHash="1abdRt1iQEu8FSE7KvUI8Q" IconBase64="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" InformativeScreenshot="c4e32bd3378b89906fd3a0bb8acd4448.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/22aAPMhlhkO6vrHUzOpLbA" Selector="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Address Information Page" sap:VirtualizedContainerService.HintSize="536,2045" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" OpenMode="Never" ScopeGuid="d89bbbe1-04f3-4a34-9769-5f8021db8f25" Version="V2">
+      <uix:NApplicationCard.AutoGenerationOptions>
+        <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
+          <uix:GenerationOptions.ExpectedOutputs>
+            <scg:List x:TypeArguments="x:String" Capacity="4">
+              <x:Null />
+            </scg:List>
+          </uix:GenerationOptions.ExpectedOutputs>
+        </uix:GenerationOptions>
+      </uix:NApplicationCard.AutoGenerationOptions>
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="416,1805" sap2010:WorkflowViewState.IdRef="Sequence_12">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the house/lot number box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="382,250" sap2010:WorkflowViewState.IdRef="NTypeInto_13" ScopeIdentifier="d89bbbe1-04f3-4a34-9769-5f8021db8f25">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="b422eeea-1c34-4503-9ee7-6d7c2e531b93" ContentHash="rB1qRimFxEyAhUNX-MyJLg" CvElementArea="329, 578, 630, 53" CvType="InputBox" DesignTimeRectangle="328, 578, 631, 52" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="f9a9a6d9-f4f3-4af5-ae95-c32820e7da03" InformativeScreenshot="76f2c685cf0a5dd5ef04d034eb751689.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/1bm9p8oJ1EKh1Eb2sRN2cA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="b422eeea-1c34-4503-9ee7-6d7c2e531b93" CvTextArea="331, 558, 139, 15" CvTextArgument="House/Lot Number" CvType="Text" DesignTimeRectangle="331, 558, 139, 15" ElementType="Text" Guid="54d50029-bfd5-4350-a757-a6bc381f4e48" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the street box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="382,250" sap2010:WorkflowViewState.IdRef="NTypeInto_14" ScopeIdentifier="d89bbbe1-04f3-4a34-9769-5f8021db8f25">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="5a727234-e566-4c08-a689-eea79da55651" ContentHash="W8U04I6G40mRiMT6sbUikQ" CvElementArea="328, 664, 630, 52" CvType="InputBox" DesignTimeRectangle="329, 664, 629, 53" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="3d80fb6e-8aa3-43f0-b624-f4ff04b30dbe" InformativeScreenshot="561348e34da3cda9ed36793d27782fc0.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/EWoYa0tWyUeSEKI4BtP6lQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="5a727234-e566-4c08-a689-eea79da55651" CvTextArea="331, 644, 43, 15" CvTextArgument="Street" CvType="Text" DesignTimeRectangle="331, 644, 43, 15" ElementType="Text" Guid="e2c5b370-c1e9-4999-a6b7-fe7191f0be46" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the village/subdivision box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="382,250" sap2010:WorkflowViewState.IdRef="NTypeInto_15" ScopeIdentifier="d89bbbe1-04f3-4a34-9769-5f8021db8f25">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="5a727234-e566-4c08-a689-eea79da55651" ContentHash="E6A9nGrzVUS-rjNOVftZ2Q" CvElementArea="328, 750, 630, 53" CvType="InputBox" DesignTimeRectangle="329, 750, 630, 52" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="ca1528b4-da4c-47e3-89d6-7d7e42b038c5" InformativeScreenshot="e3c543a7d2b919dae98423388ac4127e.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/Wr5Fe1K3WU2W8vvmj0SxLg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="5a727234-e566-4c08-a689-eea79da55651" CvTextArea="331, 730, 137, 18" CvTextArgument="Village/Subdivision" CvType="Text" DesignTimeRectangle="331, 730, 137, 18" ElementType="Text" Guid="e70baabf-0ac6-4bd7-8e8b-92e091d17bed" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the unit/floor box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="382,250" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="d89bbbe1-04f3-4a34-9769-5f8021db8f25">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="5a727234-e566-4c08-a689-eea79da55651" ContentHash="oF6W4uq3y0uXlHfs4bFfqg" CvElementArea="328, 836, 629, 53" CvType="InputBox" DesignTimeRectangle="328, 836, 630, 53" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="81a87b9a-d171-4d29-bdba-b2e666603130" InformativeScreenshot="648558292940d0686aaf13099e7cb180.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/sSf8D1oRtkKQjjZhG6zNCw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="5a727234-e566-4c08-a689-eea79da55651" CvTextArea="331, 816, 73, 15" CvTextArgument="Unit/Floor" CvType="Text" DesignTimeRectangle="331, 816, 73, 15" ElementType="Text" Guid="a74032b6-c298-4e98-885b-d0482b451b5b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the building box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="382,250" sap2010:WorkflowViewState.IdRef="NTypeInto_17" ScopeIdentifier="d89bbbe1-04f3-4a34-9769-5f8021db8f25">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="5a727234-e566-4c08-a689-eea79da55651" ContentHash="SrCqgYRv4kOtogyuWJzq6w" CvElementArea="328, 922, 630, 53" CvType="InputBox" DesignTimeRectangle="328, 922, 630, 52" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="278b0a27-8daf-4cca-84ae-24dfe3a2542b" InformativeScreenshot="75c0b0b6d7452f427d14419a08118b81.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/nLCNIb2mSk-3sbMwqwx-cA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="5a727234-e566-4c08-a689-eea79da55651" CvTextArea="331, 902, 58, 18" CvTextArgument="Building" CvType="Text" DesignTimeRectangle="332, 902, 57, 18" ElementType="Text" Guid="53269a0b-f5c1-4d13-9d5f-1ba422f38a1a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the alternate contact number box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="382,250" sap2010:WorkflowViewState.IdRef="NTypeInto_18" ScopeIdentifier="d89bbbe1-04f3-4a34-9769-5f8021db8f25">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="70c511a7-af1c-4b0a-8fdd-fa3588370cf0" ContentHash="M_BGysaSSkiDX7yLma1lQw" CvElementArea="492, 705, 463, 78" CvType="InputBox" DesignTimeRectangle="493, 704, 462, 78" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="5b61f441-4246-49fd-85ba-4c1e4e4f11f3" InformativeScreenshot="5cc8566f37bf7e2301fc31ec03806431.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/6hVh7hz8PU6A1jVs9-tePw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="70c511a7-af1c-4b0a-8fdd-fa3588370cf0" CvTextArea="494, 672, 392, 28" CvTextArgument="Alternate Contact Number (optional)" CvType="Text" DesignTimeRectangle="495, 672, 391, 30" ElementType="Text" Guid="1d39543c-2c39-4d9b-aa97-92033fd774fd" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type into the email address box, create a new variable and a default value" sap:VirtualizedContainerService.HintSize="382,243" sap2010:WorkflowViewState.IdRef="NTypeInto_19" ScopeIdentifier="d89bbbe1-04f3-4a34-9769-5f8021db8f25">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" CVScreenId="a7a06dc4-34f7-496e-97ca-9d0349da5815" ContentHash="jiup6LPO2EOcADYchDt9KQ" CvElementArea="986, 606, 461, 78" CvType="InputBox" DesignTimeRectangle="986, 606, 460, 77" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="c5a78dae-b569-4e78-b999-cc00cd817062" InformativeScreenshot="24cb003137cc61da8e7e6a57d63cce8e.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/O3_PHiuNwE2DZ0ZmYaoPBQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="a7a06dc4-34f7-496e-97ca-9d0349da5815" CvTextArea="987, 573, 266, 28" CvTextArgument="Email Address (optional)" CvType="Text" DesignTimeRectangle="987, 573, 267, 28" ElementType="Text" Guid="12d2faea-9239-42ba-b416-be496cf69d33" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1912, -8, 1936, 1048" BrowserType="Edge" ContentHash="FSgNbdQSB0W1kVvly9z5Pg" IconBase64="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" InformativeScreenshot="eefc3d8b49d333bc19c0e72ae783042d.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/PaMroJpxZkiRZcyykEItFg" Selector="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

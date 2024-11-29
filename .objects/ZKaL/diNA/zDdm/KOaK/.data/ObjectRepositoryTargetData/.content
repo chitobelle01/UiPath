@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hfX4hPgLu0mCewFqb39jJw" Reference="Mb_yfqsdSUWaXd39NmiObQ/cR_-N_7W0kSMp9EHs5G26A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="17, 317, 1885, 565" DesignTimeScaleFactor="1.5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl class='desktop-banner' tag='IMG' type='' aaname='' /&gt;" Guid="cf8ced63-ae38-495c-8852-f746e53b211c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Log in | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="83eb4e351f6e8e003d6bbd9e7ff21b38.png" xmlns="">0kdK2oAMY5ESO_w4P8JnJRA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

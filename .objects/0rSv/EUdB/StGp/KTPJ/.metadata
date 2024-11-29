@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Reference Number",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "KTPJs2xBSkGI_RjcSvxoaw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/KTPJs2xBSkGI_RjcSvxoaw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/StGp84WO0Emu-K2nKzYqfA",
+  "Created": "2024-11-27T07:59:40.5158521Z",
+  "Updated": "2024-11-27T07:59:40.5158521Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

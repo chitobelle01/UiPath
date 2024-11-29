@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Assign Registration",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ZhVO70qGs0ejHpyP9VPDsw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/ZhVO70qGs0ejHpyP9VPDsw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/StGp84WO0Emu-K2nKzYqfA",
+  "Created": "2024-11-27T07:59:31.3967252Z",
+  "Updated": "2024-11-27T07:59:31.3967252Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

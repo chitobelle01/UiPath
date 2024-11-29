@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Edge: Validate Registration Approved | Sim Re app",
+  "Type": "App",
+  "Id": "YMQxk4kfwE6lBlNqvAVLSA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/YMQxk4kfwE6lBlNqvAVLSA",
+  "Created": "2024-11-27T07:58:36.2833552Z",
+  "Updated": "2024-11-27T07:58:36.2833552Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

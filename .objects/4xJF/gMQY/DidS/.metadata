@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Open",
+  "Type": "Screen",
+  "Id": "DidSsCNPjkOD4ZRLFH9IvA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/DidSsCNPjkOD4ZRLFH9IvA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/gMQYyMEy4kKuLy_DTRl_fQ",
+  "Created": "2024-11-14T02:20:03.0584733Z",
+  "Updated": "2024-11-14T02:20:03.0584733Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

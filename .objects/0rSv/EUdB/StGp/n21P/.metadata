@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Submitted",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "n21P3iYj0UumOvjtyxdTrw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/n21P3iYj0UumOvjtyxdTrw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/StGp84WO0Emu-K2nKzYqfA",
+  "Created": "2024-11-27T07:59:43.2428621Z",
+  "Updated": "2024-11-27T07:59:43.2428621Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

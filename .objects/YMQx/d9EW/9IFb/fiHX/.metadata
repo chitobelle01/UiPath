@@ -1,0 +1,13 @@
+﻿{
+  "Name": "20221220P000000701",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "fiHXIy0elkS1GvDHlMdt-Q",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/fiHXIy0elkS1GvDHlMdt-Q",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:58:43.3956637Z",
+  "Updated": "2024-11-27T07:58:43.3956637Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

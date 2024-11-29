@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Email Address text",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "17XLGNut_02wqfREYe5nlQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/17XLGNut_02wqfREYe5nlQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/Sg5n7iU1w0ixPdpAtbndrw",
+  "Created": "2024-11-14T02:38:37.9323263Z",
+  "Updated": "2024-11-14T02:38:46.8002404Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

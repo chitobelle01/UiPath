@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Edge: Validate Registration Submitted | Sim R app",
+  "Type": "App",
+  "Id": "iojnFemW7kWtx79gylJkyw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/iojnFemW7kWtx79gylJkyw",
+  "Created": "2024-11-27T08:00:01.875447Z",
+  "Updated": "2024-11-27T08:00:01.875447Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

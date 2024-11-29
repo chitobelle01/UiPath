@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Mobile Number (1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "D7xBfb1v6U--O-eCwdalvg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/D7xBfb1v6U--O-eCwdalvg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-11-27T08:00:10.2398487Z",
+  "Updated": "2024-11-27T08:00:10.2398487Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

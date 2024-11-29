@@ -1,0 +1,13 @@
+﻿{
+  "Name": "House Number: 15 Street…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "LrmGEI3W1Uas5sd5WdAhRw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/LrmGEI3W1Uas5sd5WdAhRw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/StGp84WO0Emu-K2nKzYqfA",
+  "Created": "2024-11-27T07:59:35.7198628Z",
+  "Updated": "2024-11-27T07:59:35.7198628Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

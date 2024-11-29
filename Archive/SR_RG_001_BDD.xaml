@@ -1,0 +1,1088 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SR_RG_001" this:SR_RG_001.aDSIMRegistration="[System.Text.Json.JsonSerializer.Deserialize(Of PLDTSMART_SIM_Registration.ADSIMRegistration)(&quot;{&quot;&quot;MobileNumber&quot;&quot;:&quot;&quot;9601191416&quot;&quot;,&quot;&quot;TypeofRegistration&quot;&quot;:&quot;&quot;1&quot;&quot;,&quot;&quot;Nationality&quot;&quot;:&quot;&quot;Philippines&quot;&quot;,&quot;&quot;IDCard&quot;&quot;:&quot;&quot;1&quot;&quot;,&quot;&quot;HouseLotNumber&quot;&quot;:&quot;&quot;Lot 1A&quot;&quot;,&quot;&quot;Street&quot;&quot;:&quot;&quot;Canghang-at St.&quot;&quot;,&quot;&quot;VillageSubdivision&quot;&quot;:&quot;&quot;North Verdana Subd.&quot;&quot;,&quot;&quot;UnitFloor&quot;&quot;:&quot;&quot;1st Floor&quot;&quot;,&quot;&quot;Building&quot;&quot;:&quot;&quot;La Guardia Flats&quot;&quot;,&quot;&quot;Province&quot;&quot;:&quot;&quot;CEBU&quot;&quot;,&quot;&quot;CityMunicipality&quot;&quot;:&quot;&quot;MANDAUE CITY&quot;&quot;,&quot;&quot;Barangay&quot;&quot;:&quot;&quot;TAWASON&quot;&quot;,&quot;&quot;ZipCode&quot;&quot;:&quot;&quot;6014&quot;&quot;,&quot;&quot;AlternateContactNumber&quot;&quot;:&quot;&quot;09991234567&quot;&quot;,&quot;&quot;EmailAddress&quot;&quot;:&quot;&quot;rose_tester@pldt.com&quot;&quot;,&quot;&quot;ReferenceNumber&quot;&quot;:&quot;&quot;20241016P000002007&quot;&quot;,&quot;&quot;TestExecutionStatus&quot;&quot;:&quot;&quot;DO NOT TEST&quot;&quot;,&quot;&quot;VisaType&quot;&quot;:&quot;&quot;1&quot;&quot;,&quot;&quot;FirstName&quot;&quot;:&quot;&quot;Firstcustname&quot;&quot;,&quot;&quot;MiddleName&quot;&quot;:&quot;&quot;Midcustname&quot;&quot;,&quot;&quot;LastName&quot;&quot;:&quot;&quot;Lastcustname&quot;&quot;,&quot;&quot;Sex&quot;&quot;:&quot;&quot;Male&quot;&quot;,&quot;&quot;IDNumber&quot;&quot;:&quot;&quot;P1234567&quot;&quot;,&quot;&quot;BirthMonth&quot;&quot;:&quot;&quot;Apr&quot;&quot;,&quot;&quot;Birthday&quot;&quot;:&quot;&quot;14&quot;&quot;,&quot;&quot;BirthYear&quot;&quot;:&quot;&quot;1984&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-15T15:31:12.3446815+08:00&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-11-20T18:18:02.8732423+08:00&quot;&quot;,&quot;&quot;RecordOwner&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;UpdatedBy&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;CreatedBy&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;OtherPertinentDocument&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;75A40F69-9F96-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/OtherPertinentDocument&quot;&quot;,&quot;&quot;Size&quot;&quot;:15537,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;Other Pertinent Document.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-30T17:54:16.211734+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;71631FEC-A496-EF11-8474-000D3A099189&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-30T17:54:16.211734+08:00&quot;&quot;},&quot;&quot;SchoolRegistrationandIDStudent&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;9B928760-9F96-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/SchoolRegistrationandIDStudent&quot;&quot;,&quot;&quot;Size&quot;&quot;:90736,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;School ID.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-30T17:53:30.6397085+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;0D0FF7D0-A496-EF11-8474-000D3A099189&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-30T17:53:30.6397085+08:00&quot;&quot;},&quot;&quot;AlienEmploymentPermitfromDOLE&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;5886D04E-9F96-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/AlienEmploymentPermitfromDOLE&quot;&quot;,&quot;&quot;Size&quot;&quot;:10462,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;Alien Employment Permit.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-30T17:52:17.7168516+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;642FCDA4-A496-EF11-8474-000D3A099189&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-30T17:52:17.7168516+08:00&quot;&quot;},&quot;&quot;ACRICard&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;7727F139-9F96-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/ACRICard&quot;&quot;,&quot;&quot;Size&quot;&quot;:10956,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACRI Card.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-30T17:52:03.5712324+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;EFEA0F9D-A496-EF11-8474-000D3A099189&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-30T17:52:03.5712324+08:00&quot;&quot;},&quot;&quot;ProofofAddressNonFilipino&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;22EB12A0-1895-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/ProofofAddressNonFilipino&quot;&quot;,&quot;&quot;Size&quot;&quot;:93735,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;non-filipino driver&amp;#39;s license.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-30T14:57:30.2581234+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;0A7F7B3A-8C96-EF11-8474-000D3A099189&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-30T14:57:30.2581234+08:00&quot;&quot;},&quot;&quot;ValidIDBack&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;81BAEF39-958A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/ValidIDBack&quot;&quot;,&quot;&quot;Size&quot;&quot;:227886,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;Back1.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-11-18T15:18:14.723064+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;49D41841-7DA5-EF11-88CF-000D3AA2C1A3&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-11-18T15:18:14.723064+08:00&quot;&quot;},&quot;&quot;ValidIDFront&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;AD3EE62E-958A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/ValidIDFront&quot;&quot;,&quot;&quot;Size&quot;&quot;:88875,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;d0c88b73-c78a-ef11-8475-000d3aa2bfc9_Philippines Passport_Front.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-11-18T15:17:56.3795981+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;137C0D3B-7DA5-EF11-88CF-000D3AA2C1A3&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-11-18T15:17:56.3795981+08:00&quot;&quot;}}&quot;)]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="clr-namespace:PLDTSMART_SIM_Registration;assembly=DataService.PLDTSMART_SIM_Registration" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="aDSIMRegistration" Type="InArgument(p:ADSIMRegistration)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>SR_RG_001_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Json</x:String>
+      <x:String>UiPath.DataService.Definition</x:String>
+      <x:String>PLDTSMART_SIM_Registration</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Json</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Definition</AssemblyReference>
+      <AssemblyReference>DataService.PLDTSMART_SIM_Registration</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="SR_RG_001" sap:VirtualizedContainerService.HintSize="1242.6666666666667,1031.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="TestResult">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Passed</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Campaign Page" sap:VirtualizedContainerService.HintSize="552,1008.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Open SMART SIM Registration Website" sap:VirtualizedContainerService.HintSize="518,926" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="dfd11219-ac81-4461-b26f-35b8118f8e51" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,684" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:Boolean" Name="SendOTPButtonEnabled" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence DisplayName="Given that SMART SIM Registration is Opened" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uta:VerifyControlAttribute KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Navigated to SIM Registration Homepage" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="1024,982" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_3" Operator="Equality" OutputArgument="Exists" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                  <uta:VerifyControlAttribute.ActivityToTest>
+                    <ActivityAction>
+                      <uix:NCheckState DisplayName="Validate that User is Redirected to Homepage" sap:VirtualizedContainerService.HintSize="990,846.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Timeout="30" Version="V4">
+                        <uix:NCheckState.Exists>
+                          <OutArgument x:TypeArguments="x:Boolean">
+                            <VariableReference x:TypeArguments="x:Boolean">
+                              <VariableReference.Variable>
+                                <Variable x:TypeArguments="x:Boolean" x:Name="__ReferenceID0" Name="_autogenerated_Exists" />
+                              </VariableReference.Variable>
+                            </VariableReference>
+                          </OutArgument>
+                        </uix:NCheckState.Exists>
+                        <uix:NCheckState.IfExists>
+                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,625.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Successfully navigated to Homepage.&quot;]" />
+                            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Scroll Down to 'Verify OTP' Button" sap:VirtualizedContainerService.HintSize="434,272.6666666666667" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="3" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Version="V4">
+                              <uix:NMouseScroll.SearchedElement>
+                                <uix:SearchedElement>
+                                  <uix:SearchedElement.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="632c79d4-fd90-40cb-8c29-7b8ac3207518" ContentHash="0rrzMKPOd0GIalO9tT3vEw" CvElementArea="1070, 886, 255, 78" CvTextArea="1122, 911, 150, 25" CvTextArgument="VERIFY OTP" CvType="Button" DesignTimeRectangle="1070, 885, 257, 78" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="1e081897-5075-46ec-b4a1-b59b870b08c7" InformativeScreenshot="8977b3c44a02047c6d55143955c99f22.png" Reference="5y7obp0hLUSA7kzKS4-dwg/u4iFE3Hm2U-apYz0NwQHSw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+                                  </uix:SearchedElement.Target>
+                                  <uix:SearchedElement.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:SearchedElement.Timeout>
+                                </uix:SearchedElement>
+                              </uix:NMouseScroll.SearchedElement>
+                            </uix:NMouseScroll>
+                            <Assign sap:VirtualizedContainerService.HintSize="434,110.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_1">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </uix:NCheckState.IfExists>
+                        <uix:NCheckState.IfNotExists>
+                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,352.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;Homepage not found.&quot;]" />
+                            <Assign sap:VirtualizedContainerService.HintSize="434,110.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_2">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </uix:NCheckState.IfNotExists>
+                        <uix:NCheckState.OutUiElement>
+                          <OutArgument x:TypeArguments="ui:UiElement">
+                            <VariableReference x:TypeArguments="ui:UiElement">
+                              <VariableReference.Variable>
+                                <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                              </VariableReference.Variable>
+                            </VariableReference>
+                          </OutArgument>
+                        </uix:NCheckState.OutUiElement>
+                        <uix:NCheckState.Target>
+                          <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/campaignPage" CVScreenId="d494fb50-5e22-40c2-a1c0-d30302824fd3" ContentHash="6L7i7t6D_k21ZseIr3Vwug" CvTextArea="197, 209, 131, 27" CvTextArgument="Explore Sites" CvType="Text" DesignTimeRectangle="198, 210, 130, 25" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="26c8b930-949c-4a7a-bfba-076f83aee698" InformativeScreenshot="e5182e9df37dab681f776356e5134646.png" Reference="5y7obp0hLUSA7kzKS4-dwg/q_dWzIOPxEO5dbrfHZzw4A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+                        </uix:NCheckState.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NCheckState>
+                    </ActivityAction>
+                  </uta:VerifyControlAttribute.ActivityToTest>
+                  <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                    <ActivityFunc x:TypeArguments="x:Object">
+                      <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_3">
+                        <uta:ArgumentsBridge.Input>
+                          <InArgument x:TypeArguments="x:Object">
+                            <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" />
+                          </InArgument>
+                        </uta:ArgumentsBridge.Input>
+                      </uta:ArgumentsBridge>
+                    </ActivityFunc>
+                  </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                  <uta:VerifyControlAttribute.Expression>
+                    <InArgument x:TypeArguments="x:Boolean">[True]</InArgument>
+                  </uta:VerifyControlAttribute.Expression>
+                </uta:VerifyControlAttribute>
+              </Sequence>
+              <Sequence DisplayName="When Mobile Number is Entered" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="If Redirected to Homepage" sap:VirtualizedContainerService.HintSize="502,651.3333333333334" sap2010:WorkflowViewState.IdRef="If_1">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,460.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Mobile Number Textbox'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="434,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Text="[aDSIMRegistration.MobileNumber]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/campaignPage" CVScreenId="e29e44c4-7aef-4eb2-a392-14c21276cbf5" ContentHash="P91u2PjO1UqhGzgZPOA2bQ" CvElementArea="755, 546, 275, 69" CvTextArea="818, 572, 152, 15" CvTextArgument="Enter Mobile Number" CvType="Button" DesignTimeRectangle="756, 546, 274, 68" DesignTimeScaleFactor="1" ElementType="Button" Guid="ceb9733c-bb4b-4ca6-ae94-5da0f830328a" InformativeScreenshot="732459bb5e20ef6b3bc516196063e98e.png" Reference="5y7obp0hLUSA7kzKS4-dwg/OlRgHhsiqkC-QSMBtu7Cpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="e29e44c4-7aef-4eb2-a392-14c21276cbf5" CvElementArea="687, 546, 72, 68" CvTextArea="709, 572, 28, 15" CvTextArgument="+63" CvType="Button" DesignTimeRectangle="710, 571, 27, 19" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='web-electable-region-context-menu' aaname='' /&gt;" Guid="966d170b-f003-4c1f-96fb-1d19a2968cea" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="Button 'Mobile Number Input'" ExpectedText="[aDSIMRegistration.MobileNumber]" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/campaignPage" CVScreenId="e29e44c4-7aef-4eb2-a392-14c21276cbf5" ContentHash="eBxBluK-SEu0gwKcTlabLg" CvElementArea="755, 546, 275, 69" CvTextArea="818, 572, 152, 15" CvTextArgument="Enter Mobile Number" CvType="Button" DesignTimeRectangle="756, 546, 274, 68" DesignTimeScaleFactor="1" ElementType="Button" Guid="51520f18-dfe8-42d5-8b38-8dd63b4b87df" InformativeScreenshot="41ceda79af8bae7a4c138ce384c8158f.png" Reference="5y7obp0hLUSA7kzKS4-dwg/HWo8VfrCQUWObEHZs_dpFw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="e29e44c4-7aef-4eb2-a392-14c21276cbf5" CvElementArea="687, 546, 72, 68" CvTextArea="709, 572, 28, 15" CvTextArgument="+63" CvType="Button" DesignTimeRectangle="710, 571, 27, 19" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='web-electable-region-context-menu' aaname='' /&gt;" Guid="c2c5fae3-b3b3-4448-a6a8-c0f27675ee59" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:VerifyExecutionTypeIntoOptions.Target>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_3">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+              <Sequence DisplayName="And Terms and Conditions Checkbox is checked" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="If Mobile Number is Typed" sap:VirtualizedContainerService.HintSize="502,550" sap2010:WorkflowViewState.IdRef="If_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,359.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NCheck Action="Check" DisplayName="&quot;Terms and Conditions&quot; Checkbox'" sap:VirtualizedContainerService.HintSize="434,191.33333333333334" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Version="V4">
+                        <uix:NCheck.Target>
+                          <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="3d3f6452-f2ba-48d1-81cf-805ca0bfde7f" ContentHash="LW2AbgmDa06Yn1YFZ_kEIA" CvElementArea="557, 611, 33, 32" CvType="CheckBox" DesignTimeRectangle="557, 611, 33, 32" DesignTimeScaleFactor="1.5" ElementType="CheckBox" Guid="3df07f80-8ef6-4aad-86f7-8a2363065e52" InformativeScreenshot="d5c80fd0216bad53ff40e9e07b915eec.png" Reference="5y7obp0hLUSA7kzKS4-dwg/Q3SGt3jEik6E5e1G7z0lmg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="3d3f6452-f2ba-48d1-81cf-805ca0bfde7f" CvTextArea="596, 617, 879, 24" CvTextArgument="I have read and understood the Terms &amp; Conditions and I acknowledge Smart's Privacy Notice." CvType="Text" DesignTimeRectangle="596, 618, 879, 22" ElementType="Text" Guid="0eedd0cd-072c-40e5-add1-cf0eb7337c8f" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NCheck.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NCheck>
+                      <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_5">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,108" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Sequence DisplayName="Then 'Send OTP' Button is Enabled" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="If T&amp;C is Checked" sap:VirtualizedContainerService.HintSize="518,764" sap2010:WorkflowViewState.IdRef="If_3">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <If.Then>
+                          <Sequence DisplayName="Check 'Send OTP' Button's Attribute" sap:VirtualizedContainerService.HintSize="484,516.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NGetAttributeGeneric x:TypeArguments="x:Boolean" Attribute="isUiPathJavaBridgeEnabled" DelayBefore="2" DisplayName="Get Attribute 'SEND OTP' Button'" sap:VirtualizedContainerService.HintSize="450,243.33333333333334" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" Result="[SendOTPButtonEnabled]" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Version="V4">
+                              <uix:NGetAttributeGeneric.Target>
+                                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="3d3f6452-f2ba-48d1-81cf-805ca0bfde7f" ContentHash="So_UI40MSE6z-LzraO6uQw" CvElementArea="1071, 496, 257, 78" CvTextArea="1134, 521, 130, 25" CvTextArgument="SEND OTP" CvType="Button" DesignTimeRectangle="1071, 496, 256, 78" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="58e63dea-f59b-4cac-a42c-47af0dd8c3a5" InformativeScreenshot="6621867865269935b577154aa1007697.png" Reference="5y7obp0hLUSA7kzKS4-dwg/i1oJThtBG0yRHZUnULGaPA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+                              </uix:NGetAttributeGeneric.Target>
+                            </uix:NGetAttributeGeneric>
+                            <If Condition="[SendOTPButtonEnabled = True]" DisplayName="Verify if Send OTP Button is Enabled" sap:VirtualizedContainerService.HintSize="450,213.33333333333334" sap2010:WorkflowViewState.IdRef="If_4">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <If.Then>
+                                <Sequence DisplayName="'Send OTP' Button is enabled" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;'Send OTP' button is enabled.&quot;]" />
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_6">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </Sequence>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence DisplayName="'Send OTP' Button is not enabled" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Error" Message="[&quot;'Send OTP' button is not enabled. &quot; &amp; SendOTPButtonEnabled]" />
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_7">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,84.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                    </Sequence>
+                  </Sequence>
+                </ui:CommentOut.Body>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:CommentOut>
+              <Sequence DisplayName="When 'Send OTP' Button is Clicked" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="If 'Send OTP' Button is Enabled" sap:VirtualizedContainerService.HintSize="502,767.3333333333334" sap2010:WorkflowViewState.IdRef="If_5">
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,576.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''SEND OTP' Button'" sap:VirtualizedContainerService.HintSize="434,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="3d3f6452-f2ba-48d1-81cf-805ca0bfde7f" ContentHash="So_UI40MSE6z-LzraO6uQw" CvElementArea="1071, 496, 257, 78" CvTextArea="1134, 521, 130, 25" CvTextArgument="SEND OTP" CvType="Button" DesignTimeRectangle="1071, 496, 256, 78" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="58e63dea-f59b-4cac-a42c-47af0dd8c3a5" InformativeScreenshot="6621867865269935b577154aa1007697.png" Reference="5y7obp0hLUSA7kzKS4-dwg/i1oJThtBG0yRHZUnULGaPA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Trace" Message="[&quot;'Send OTP' button clicked.&quot;]" />
+                      <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_8">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+              <Sequence DisplayName="And If Website Requests Camera Access" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NCheckState DisplayName="Allow Camera Access (Website)" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Timeout="3" Version="V4">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,582" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="434,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/campaignPage" CVScreenId="de77dc64-c4e2-4000-93aa-c303e2e4fa2f" ContentHash="uDo2kiEFv0eGlklk349Xrg" CvElementArea="892, 688, 156, 59" CvTextArea="954, 707, 33, 19" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="892, 688, 156, 59" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="ae9c827b-2178-4392-9a7a-ac5f9275ffe2" InformativeScreenshot="1a060948c1f937e49581b87145fe5133.png" Reference="5y7obp0hLUSA7kzKS4-dwg/lhVqb6_W8UmG-nY6qgE02g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Trace" Message="[&quot;Camera Access (website) granted.&quot;]" />
+                      <Assign sap:VirtualizedContainerService.HintSize="434,110.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_9">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,93.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/campaignPage" CVScreenId="f716ad47-b81e-4beb-abb9-4d706cb84e04" ContentHash="q3gjhG1TfU6rEhAhbVEpHQ" CvElementArea="892, 688, 156, 59" CvTextArea="954, 707, 33, 19" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="892, 688, 156, 59" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="a30ff2e8-94e0-40fa-9afd-ab06e436a434" InformativeScreenshot="b05a0779b842afc9e36c92d11a673e96.png" Reference="5y7obp0hLUSA7kzKS4-dwg/sk9RcrCDNEysC3mIP-FYkA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="f716ad47-b81e-4beb-abb9-4d706cb84e04" CvTextArea="602, 447, 736, 27" CvTextArgument="To proceed with the SIM Registration process, access to your device" CvType="Text" DesignTimeRectangle="602, 447, 736, 27" ElementType="Text" Guid="5ffc676c-3777-4957-9c7e-ad8239095d1e" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NCheckState.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NCheckState>
+                <uix:NCheckState DisplayName="Allow Camera Access (Browser)" sap:VirtualizedContainerService.HintSize="416,50.666666666666664" sap2010:WorkflowViewState.IdRef="NCheckState_4" IsLoose="True" Timeout="3" Version="V4">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="536,967.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="msedge.exe" sap:VirtualizedContainerService.HintSize="502,904.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="adcb17c7-2076-4719-8c4e-8358af2e281a" Version="V2">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,582" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Allow'" sap:VirtualizedContainerService.HintSize="434,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="adcb17c7-2076-4719-8c4e-8358af2e281a" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable CVScreenId="98d46834-3898-43a3-b857-4d24677dcce2" ContentHash="cjksmotFTUSLLGlDuR0lkA" CvElementArea="65, 146, 206, 51" CvTextArea="141, 163, 54, 19" CvTextArgument="Allow" CvType="Button" DesignTimeRectangle="66, 147, 201, 48" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;ctrl name='stg1.simreg.smart.com.ph wants to' role='document' /&gt;&lt;ctrl name='Allow' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='stg1.simreg.smart.com.ph wants to' role='document' /&gt;&lt;ctrl name='Allow' role='push button' automationid='' check:fulltext='Allow' /&gt;" Guid="8bfdb5fe-1389-4e4a-983d-8691e501555c" InformativeScreenshot="5ed89d72451644a24c7c141680eabee1.png" Reference="5y7obp0hLUSA7kzKS4-dwg/J9zXPOI4h0W7TfPY7zdyVQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Trace" Message="[&quot;Camera Access (Browser) granted.&quot;]" />
+                              <Assign sap:VirtualizedContainerService.HintSize="434,110.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_10">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                            </Sequence>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="106, 76, 549, 282" ContentHash="MQAI64fZSUaOsBM6yA2RwA" FilePath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" IconBase64="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" InformativeScreenshot="3dbcace2578922581a629cd94a97e004.png" Reference="5y7obp0hLUSA7kzKS4-dwg/zDshonrfkECebJRMsDEP3g" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" />
+                        </uix:NApplicationCard.TargetApp>
+                      </uix:NApplicationCard>
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,93.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable ContentHash="jDYG0toi1EaSg94_C-8sDg" DesignTimeRectangle="48, 24, 450, 189" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;ctrl name='stg1.simreg.smart.com.ph wants to' role='document' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='stg1.simreg.smart.com.ph wants to' role='document' /&gt;&lt;ctrl automationid='' role='grouping' check:fulltext='stg1.simreg.smart.com.ph wants to&amp;#xD;&amp;#xA;Use your cameras&amp;#xD;&amp;#xA;Allow Block' /&gt;" Guid="cbb5b87c-94ea-4b33-97c8-68186c389270" InformativeScreenshot="b010e25d9883a02e208ce8387b805230.png" Reference="5y7obp0hLUSA7kzKS4-dwg/blS0MmRYi0Cf_4KslGgkhQ" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                  </uix:NCheckState.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NCheckState>
+              </Sequence>
+              <Sequence DisplayName="When OTP is Entered" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:String" Name="OTP" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" sap:VirtualizedContainerService.HintSize="506.6666666666667,1130.6666666666667" sap2010:WorkflowViewState.IdRef="If_6">
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="472.6666666666667,940" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="438.6666666666667,278" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="One-Time Password" Title="Please input OTP">
+                        <ui:InputDialog.Result>
+                          <OutArgument x:TypeArguments="x:String">[OTP]</OutArgument>
+                        </ui:InputDialog.Result>
+                      </ui:InputDialog>
+                      <Assign sap:VirtualizedContainerService.HintSize="438.6666666666667,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_11">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438.6666666666667,484.6666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                        <TryCatch.Try>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Please enter the OTP se…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Text="[OTP]" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="4478eea2-d6fa-4de5-92d1-131728398b74" ContentHash="ZQwIHFMN_US8grkAKWScdw" CvElementArea="545, 903, 517, 105" CvType="InputBox" DesignTimeRectangle="545, 902, 517, 104" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="e767e25a-db42-46f7-abc4-d8a38e86ebd6" InformativeScreenshot="e6a343adaddc91ef275149ee8def95ca.png" Reference="5y7obp0hLUSA7kzKS4-dwg/RCjK6pUQAUW8M7jms9BCjg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="4478eea2-d6fa-4de5-92d1-131728398b74" CvTextArea="632, 849, 523, 29" CvTextArgument="Please enter the OTP sent to your mobile number" CvType="Text" DesignTimeRectangle="632, 849, 523, 28" ElementType="Text" Guid="dc426781-0b38-4636-a76a-14280cc010db" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                        </TryCatch.Try>
+                        <TryCatch.Catches>
+                          <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404.6666666666667,23.333333333333332" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ActivityAction x:TypeArguments="s:Exception">
+                              <ActivityAction.Argument>
+                                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                              </ActivityAction.Argument>
+                              <Sequence DisplayName="Error" sap:VirtualizedContainerService.HintSize="468,347.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:LogMessage DisplayName="Error Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Error" Message="[&quot;OTP Input Box Not Found.&quot;]" />
+                                <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_12">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </Sequence>
+                            </ActivityAction>
+                          </Catch>
+                        </TryCatch.Catches>
+                      </TryCatch>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+              <Sequence DisplayName="And 'Verify OTP' Button is Clicked" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" sap:VirtualizedContainerService.HintSize="450,612" sap2010:WorkflowViewState.IdRef="If_7">
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,421.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'VERIFY OTP'" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="632c79d4-fd90-40cb-8c29-7b8ac3207518" ContentHash="0rrzMKPOd0GIalO9tT3vEw" CvElementArea="1070, 886, 255, 78" CvTextArea="1122, 911, 150, 25" CvTextArgument="VERIFY OTP" CvType="Button" DesignTimeRectangle="1070, 885, 257, 78" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="1e081897-5075-46ec-b4a1-b59b870b08c7" InformativeScreenshot="8977b3c44a02047c6d55143955c99f22.png" Reference="5y7obp0hLUSA7kzKS4-dwg/u4iFE3Hm2U-apYz0NwQHSw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,170" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Trace" Message="[&quot;'Verify OTP' button clicked.&quot;]" />
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_39">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+              <Sequence DisplayName="Then Successful Message Pop-up Will Appear" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" sap:VirtualizedContainerService.HintSize="1092,997.3333333333334" sap2010:WorkflowViewState.IdRef="If_8">
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1058,806.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uta:VerifyControlAttribute KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="OTP Successfully Verified" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="1024,746.6666666666666" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="Exists" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True">
+                        <uta:VerifyControlAttribute.ActivityToTest>
+                          <ActivityAction>
+                            <uix:NCheckState DisplayName="Check App State ''OK' Button Successful Message'" sap:VirtualizedContainerService.HintSize="990,614" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Timeout="5" Version="V4">
+                              <uix:NCheckState.Exists>
+                                <OutArgument x:TypeArguments="x:Boolean">
+                                  <VariableReference x:TypeArguments="x:Boolean">
+                                    <VariableReference.Variable>
+                                      <Variable x:TypeArguments="x:Boolean" x:Name="__ReferenceID1" Name="_autogenerated_Exists" />
+                                    </VariableReference.Variable>
+                                  </VariableReference>
+                                </OutArgument>
+                              </uix:NCheckState.Exists>
+                              <uix:NCheckState.IfExists>
+                                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,352.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[&quot;Successful Message Appeared.&quot;]" />
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,110.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_13">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </Sequence>
+                              </uix:NCheckState.IfExists>
+                              <uix:NCheckState.IfNotExists>
+                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,352.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_42">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Error" Message="[&quot;Successful Message Not Found&quot;]" />
+                                  <Assign sap:VirtualizedContainerService.HintSize="434,110.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_14">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </Sequence>
+                              </uix:NCheckState.IfNotExists>
+                              <uix:NCheckState.OutUiElement>
+                                <OutArgument x:TypeArguments="ui:UiElement">
+                                  <VariableReference x:TypeArguments="ui:UiElement">
+                                    <VariableReference.Variable>
+                                      <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                                    </VariableReference.Variable>
+                                  </VariableReference>
+                                </OutArgument>
+                              </uix:NCheckState.OutUiElement>
+                              <uix:NCheckState.Target>
+                                <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="153b06cd-050f-4278-b14b-663f0c525bc4" ContentHash="5fvcqjA-Ik--k5aKzg14aw" CvElementArea="899, 715, 141, 56" CvTextArea="954, 732, 31, 21" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="899, 714, 141, 57" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="cfd83080-92df-45a1-b4da-68ff0be9434d" InformativeScreenshot="d523e019ebf2cc2f3f8888795e4f2282.png" Reference="5y7obp0hLUSA7kzKS4-dwg/eGdZOJCTvES4cdmsfAMANA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+                              </uix:NCheckState.Target>
+                            </uix:NCheckState>
+                          </ActivityAction>
+                        </uta:VerifyControlAttribute.ActivityToTest>
+                        <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                          <ActivityFunc x:TypeArguments="x:Object">
+                            <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
+                              <uta:ArgumentsBridge.Input>
+                                <InArgument x:TypeArguments="x:Object">
+                                  <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID1}" />
+                                </InArgument>
+                              </uta:ArgumentsBridge.Input>
+                            </uta:ArgumentsBridge>
+                          </ActivityFunc>
+                        </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                        <uta:VerifyControlAttribute.Expression>
+                          <InArgument x:TypeArguments="x:Boolean">[True]</InArgument>
+                        </uta:VerifyControlAttribute.Expression>
+                      </uta:VerifyControlAttribute>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+              <Sequence DisplayName="When 'OK' Button is Clicked" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" sap:VirtualizedContainerService.HintSize="502,585.3333333333334" sap2010:WorkflowViewState.IdRef="If_9">
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,397.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_49">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''OK' Button Successful Message'" sap:VirtualizedContainerService.HintSize="434,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="153b06cd-050f-4278-b14b-663f0c525bc4" ContentHash="5fvcqjA-Ik--k5aKzg14aw" CvElementArea="899, 715, 141, 56" CvTextArea="954, 732, 31, 21" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="899, 714, 141, 57" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="cfd83080-92df-45a1-b4da-68ff0be9434d" InformativeScreenshot="d523e019ebf2cc2f3f8888795e4f2282.png" Reference="5y7obp0hLUSA7kzKS4-dwg/eGdZOJCTvES4cdmsfAMANA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" />
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_15">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_50">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+              <Sequence DisplayName="Then User is Navigated to Customer Information Page" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="1024,746.6666666666666" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_2" Operator="Equality" OutputArgument="Exists" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                  <uta:VerifyControlAttribute.ActivityToTest>
+                    <ActivityAction>
+                      <uix:NCheckState DisplayName="Check App State ''Type of Registration' Menu'" sap:VirtualizedContainerService.HintSize="990,611.3333333333334" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="dfd11219-ac81-4461-b26f-35b8118f8e51" Timeout="10" Version="V4">
+                        <uix:NCheckState.Exists>
+                          <OutArgument x:TypeArguments="x:Boolean">
+                            <VariableReference x:TypeArguments="x:Boolean">
+                              <VariableReference.Variable>
+                                <Variable x:TypeArguments="x:Boolean" x:Name="__ReferenceID2" Name="_autogenerated_Exists" />
+                              </VariableReference.Variable>
+                            </VariableReference>
+                          </OutArgument>
+                        </uix:NCheckState.Exists>
+                        <uix:NCheckState.IfExists>
+                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,350" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info" Message="[&quot;User is Navigated to Customer Information Page.&quot;]" />
+                            <Assign sap:VirtualizedContainerService.HintSize="434,110.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_16">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </uix:NCheckState.IfExists>
+                        <uix:NCheckState.IfNotExists>
+                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,350" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_16" Level="Error" Message="[&quot;User is Not Navigated to Customer Information Page.&quot;]" />
+                            <Assign sap:VirtualizedContainerService.HintSize="434,110.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_17">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[TestResult]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </uix:NCheckState.IfNotExists>
+                        <uix:NCheckState.OutUiElement>
+                          <OutArgument x:TypeArguments="ui:UiElement">
+                            <VariableReference x:TypeArguments="ui:UiElement">
+                              <VariableReference.Variable>
+                                <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                              </VariableReference.Variable>
+                            </VariableReference>
+                          </OutArgument>
+                        </uix:NCheckState.OutUiElement>
+                        <uix:NCheckState.Target>
+                          <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="850bb34c-04b8-4801-9598-469d13367444" ContentHash="y46MeO2bA0-2bomdu4hIiQ" CvElementArea="758, 607, 453, 76" CvType="InputBox" DesignTimeRectangle="758, 607, 454, 75" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="aebbdb62-02e6-4dd4-8e44-3c462460b880" InformativeScreenshot="4333a4e8966b4ecdbcfa72e0ce2bc022.png" IsResponsive="True" Reference="5y7obp0hLUSA7kzKS4-dwg/BwCUh8n32UGYnUHD-AOibg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="850bb34c-04b8-4801-9598-469d13367444" CvTextArea="759, 579, 218, 27" CvTextArgument="Type of Registration" CvType="Text" DesignTimeRectangle="758, 579, 223, 27" ElementType="Text" Guid="3a952906-c5fc-4a4f-bb24-63757bc15df7" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NCheckState.Target>
+                      </uix:NCheckState>
+                    </ActivityAction>
+                  </uta:VerifyControlAttribute.ActivityToTest>
+                  <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                    <ActivityFunc x:TypeArguments="x:Object">
+                      <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_2">
+                        <uta:ArgumentsBridge.Input>
+                          <InArgument x:TypeArguments="x:Object">
+                            <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID2}" />
+                          </InArgument>
+                        </uta:ArgumentsBridge.Input>
+                      </uta:ArgumentsBridge>
+                    </ActivityFunc>
+                  </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                  <uta:VerifyControlAttribute.Expression>
+                    <InArgument x:TypeArguments="x:Boolean">[True]</InArgument>
+                  </uta:VerifyControlAttribute.Expression>
+                </uta:VerifyControlAttribute>
+              </Sequence>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Edge" ContentHash="MtlU6qOfxUil0JZN98gE2g" IconBase64="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" InformativeScreenshot="1565b73884d305fa2f42f98a8b5baef1.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/qdjHSyeQhUSqr4zDN9mpFQ" Selector="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" Title="Smart SIM Registration" Url="https://stg1.simreg.smart.com.ph/flutter/campaignPage" />
+        </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

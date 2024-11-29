@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nC_jUngJH02hzkTRGJ0yWA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1846, 245, 58, 58" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='toolbar-item-user-tray' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='toolbar-item-user-tray' tag='BUTTON' type='button' class='toolbar-icon toolbar-icon-toggle-vertical' aaname='Vertical orientation' /&gt;" Guid="0b045c3b-e319-4a56-9da8-a3f9afd54965" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADESURBVGhD7c/LDYJQAERRGoC3VUGCGpunEwqhghfW4yeGuJgKhjvJ3c3mNF3X6SiVUrSuq2qtatq2VXr/+B2u95Zl0bZthwg4cHNKDDhwc0oMOHBzSgw4cHNKDDhwc0oMOHBzSgw4cHNKDDhwc0oMOHBzSgw4cHNKDDhwc0oMOHBzSgw4cHNKDDhwc0oMOHBzSgw4cHNKDDhwc0oMOHBzSgw4cHNKbIfP86wjtcNPl6vi6j+N387DpH68aZgeGu/PH7zqBfZY3MI2YLLRAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='msedge.exe' title='T-MICarique@supplier.smart.com.ph | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="66ac232acc10483940989723bd31e0b6.png" xmlns="">0l5CSq0-HhkezNUdnUHNHgQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

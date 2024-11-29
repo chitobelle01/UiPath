@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LW2AbgmDa06Yn1YFZ_kEIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="3d3f6452-f2ba-48d1-81cf-805ca0bfde7f" CvElementArea="557, 611, 33, 32" CvType="CheckBox" DesignTimeRectangle="557, 611, 33, 32" DesignTimeScaleFactor="1.5" ElementType="CheckBox" Guid="3df07f80-8ef6-4aad-86f7-8a2363065e52" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="3d3f6452-f2ba-48d1-81cf-805ca0bfde7f" CvTextArea="596, 617, 879, 24" CvTextArgument="I have read and understood the Terms &amp; Conditions and I acknowledge Smart's Privacy Notice." CvType="Text" DesignTimeRectangle="596, 618, 879, 22" ElementType="Text" Guid="0eedd0cd-072c-40e5-add1-cf0eb7337c8f" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d5c80fd0216bad53ff40e9e07b915eec.png" xmlns="">0C8WUsdeWG0-vqhGcUbmfvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

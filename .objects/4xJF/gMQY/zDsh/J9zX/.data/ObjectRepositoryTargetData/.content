@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cjksmotFTUSLLGlDuR0lkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="98d46834-3898-43a3-b857-4d24677dcce2" CvElementArea="65, 146, 206, 51" CvTextArea="141, 163, 54, 19" CvTextArgument="Allow" CvType="Button" DesignTimeRectangle="66, 147, 201, 48" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;ctrl name='stg1.simreg.smart.com.ph wants to' role='document' /&gt;&lt;ctrl name='Allow' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='stg1.simreg.smart.com.ph wants to' role='document' /&gt;&lt;ctrl name='Allow' role='push button' automationid='' check:fulltext='Allow' /&gt;" Guid="8bfdb5fe-1389-4e4a-983d-8691e501555c" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5ed89d72451644a24c7c141680eabee1.png" xmlns="">020ADpQn13kOGLyvQim5zuA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

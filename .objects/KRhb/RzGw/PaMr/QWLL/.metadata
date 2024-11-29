@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Search File Path",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "QWLLF4l2z0uYrlJ--PJCBQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/QWLLF4l2z0uYrlJ--PJCBQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/PaMroJpxZkiRZcyykEItFg",
+  "Created": "2024-11-14T02:29:10.2709953Z",
+  "Updated": "2024-11-18T09:46:06.7073082Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

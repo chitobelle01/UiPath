@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6L7i7t6D_k21ZseIr3Vwug" Reference="5y7obp0hLUSA7kzKS4-dwg/kjWlkudAykWttxmwOE1TMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/campaignPage" CVScreenId="d494fb50-5e22-40c2-a1c0-d30302824fd3" CvTextArea="197, 209, 131, 27" CvTextArgument="Explore Sites" CvType="Text" DesignTimeRectangle="198, 210, 130, 25" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="26c8b930-949c-4a7a-bfba-076f83aee698" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e5182e9df37dab681f776356e5134646.png" xmlns="">0ityblz1Aw0ebg9qK6aO4Ag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

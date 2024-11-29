@@ -1,0 +1,13 @@
+﻿{
+  "Name": "'Allow' Button",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "J9zXPOI4h0W7TfPY7zdyVQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/J9zXPOI4h0W7TfPY7zdyVQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/zDshonrfkECebJRMsDEP3g",
+  "Created": "2024-10-30T02:38:11.7196759Z",
+  "Updated": "2024-10-30T02:38:11.7196759Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

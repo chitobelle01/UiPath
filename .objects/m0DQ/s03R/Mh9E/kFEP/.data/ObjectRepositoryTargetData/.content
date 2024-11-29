@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bLWouasKsUOY7fe6CR5rsg" Reference="Mb_yfqsdSUWaXd39NmiObQ/-X4mfv5uGUyJpRdOQhMD_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="4e1f98cb-0c45-4fa2-a916-ff6634003131" CvElementArea="364, 185, 485, 58" CvTextArea="415, 204, 408, 25" CvTextArgument="*" CvType="Button" DesignTimeRectangle="367, 186, 481, 59" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl id='toolbar-item-user' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='toolbar-item-user' tag='A' type='' class='toolbar-icon toolbar-icon-user trigger toolbar-item is-active' aaname='*' check:text='*' /&gt;" Guid="7c5300c4-05e2-4543-9685-ceb30da7bd55" ScopeSelectorArgument="&lt;html app='msedge.exe' title='T-MICarique@supplier.smart.com.ph | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d6b67ebc31290406d68ffb9d3657c660.png" xmlns="">0LRAYdo_Xn0-usiWHTAcnfA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

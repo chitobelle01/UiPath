@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Upload Employment Permit",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "r0E1LPxAIEK7eMgWJwKwkA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/r0E1LPxAIEK7eMgWJwKwkA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/mzBFQ1JXm0eTutI6ylSp5w",
+  "Created": "2024-11-14T02:36:15.4158525Z",
+  "Updated": "2024-11-14T02:36:51.4787116Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

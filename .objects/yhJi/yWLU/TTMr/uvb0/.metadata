@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Customer Authentication…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "uvb0KbUpsUCQtmGjvVEpIQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/uvb0KbUpsUCQtmGjvVEpIQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/TTMrYW0U70WGzx0PZ5anDA",
+  "Created": "2024-11-27T07:58:15.3990648Z",
+  "Updated": "2024-11-27T07:58:15.3990648Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

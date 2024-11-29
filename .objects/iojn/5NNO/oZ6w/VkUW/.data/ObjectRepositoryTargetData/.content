@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Vh5DT3nEY0iLQk3T9w_NqQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/validate-ekyc/submitted" CVScreenId="1f7a8290-acbf-4abd-ad56-905ca5215122" CvTextArea="84, 570, 733, 45" CvType="AnyWordGroup" DesignTimeRectangle="89, 560, 729, 63" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' /&gt;" Guid="4351b072-7c87-46b2-8ae6-d7de12347b97" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Submitted | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="99d943895c196d5a6f195db04fbfb428.png" xmlns="">0knZ1DAI1NkyCBTc5yVs_kA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

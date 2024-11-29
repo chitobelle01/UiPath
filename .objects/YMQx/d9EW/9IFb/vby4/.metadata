@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Sample sample",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vby4ONoGu0WgQOMowNW4MQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/vby4ONoGu0WgQOMowNW4MQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:59:04.6515687Z",
+  "Updated": "2024-11-27T07:59:04.6515687Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

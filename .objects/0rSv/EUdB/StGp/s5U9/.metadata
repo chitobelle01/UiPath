@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Please select date & ti…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "s5U9C6SXBkafZKyJ3ouwxA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/s5U9C6SXBkafZKyJ3ouwxA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/StGp84WO0Emu-K2nKzYqfA",
+  "Created": "2024-11-27T07:59:39.9731837Z",
+  "Updated": "2024-11-27T07:59:39.9731837Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

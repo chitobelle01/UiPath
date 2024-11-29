@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Summary Page",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "m-2iFli8J0SB83XM7fUZMQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/m-2iFli8J0SB83XM7fUZMQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/Sg5n7iU1w0ixPdpAtbndrw",
+  "Created": "2024-11-25T03:10:48.656426Z",
+  "Updated": "2024-11-25T03:11:02.3648282Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

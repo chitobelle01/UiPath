@@ -1,0 +1,13 @@
+﻿{
+  "Name": "1989/05/24",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "EBE82BH4dUaP94wWck542Q",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/EBE82BH4dUaP94wWck542Q",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9IFbDlbVgkSCcxE2Q8AoiA",
+  "Created": "2024-11-27T07:58:40.525462Z",
+  "Updated": "2024-11-27T07:58:40.525462Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
