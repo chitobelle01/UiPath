@@ -1,0 +1,13 @@
+﻿{
+  "Name": "'SEND OTP' Button",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "i1oJThtBG0yRHZUnULGaPA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/i1oJThtBG0yRHZUnULGaPA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/NWPYFkCMHkevRCf9_smppw",
+  "Created": "2024-12-02T07:24:29.5915103Z",
+  "Updated": "2024-12-02T07:24:29.5915103Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

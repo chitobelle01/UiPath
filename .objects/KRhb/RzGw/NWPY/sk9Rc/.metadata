@@ -4,11 +4,10 @@
   "TaxonomyType": "Button",
   "Id": "sk9RcrCDNEysC3mIP-FYkA",
   "Reference": "5y7obp0hLUSA7kzKS4-dwg/sk9RcrCDNEysC3mIP-FYkA",
-  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/qdjHSyeQhUSqr4zDN9mpFQ",
-  "Created": "2024-11-13T08:13:47.6487075Z",
-  "Updated": "2024-11-13T08:13:47.6487075Z",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/NWPYFkCMHkevRCf9_smppw",
+  "Created": "2024-12-02T07:24:30.2574752Z",
+  "Updated": "2024-12-02T07:24:30.2574752Z",
   "CreatedBy": [
-    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
     "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
   ]
 }

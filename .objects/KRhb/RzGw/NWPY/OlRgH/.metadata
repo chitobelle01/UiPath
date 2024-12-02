@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Mobile Number Textbox",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "OlRgHhsiqkC-QSMBtu7Cpg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/OlRgHhsiqkC-QSMBtu7Cpg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/NWPYFkCMHkevRCf9_smppw",
+  "Created": "2024-12-02T07:24:30.8304603Z",
+  "Updated": "2024-12-02T07:24:30.8304603Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

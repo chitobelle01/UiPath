@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Campaign Page",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "j3zuxeD9IUi_td7Zw-ypwQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/j3zuxeD9IUi_td7Zw-ypwQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/NWPYFkCMHkevRCf9_smppw",
+  "Created": "2024-12-02T07:24:30.4406113Z",
+  "Updated": "2024-12-02T07:24:30.4406113Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

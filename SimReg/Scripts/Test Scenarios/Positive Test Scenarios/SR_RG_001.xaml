@@ -104,11 +104,11 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
       <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
       <AssemblyReference>UiPath.Testing</AssemblyReference>
-      <AssemblyReference>PLDTSMART SIM Registration.Core</AssemblyReference>
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>PLDTSMART SIM Registration.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1022,3868" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="1022,3637" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:DateTime" Name="StartTime" />
       <Variable x:TypeArguments="x:String" Name="TestStatus" />
@@ -124,7 +124,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign DisplayName="Get Execution Start Time" sap:VirtualizedContainerService.HintSize="688,57" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign DisplayName="Get Execution Start Time" sap:VirtualizedContainerService.HintSize="688,84" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="s:DateTime">[StartTime]</OutArgument>
       </Assign.To>
@@ -138,7 +138,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign DisplayName="Fetch Test Data by Test Status" sap:VirtualizedContainerService.HintSize="688,57" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign DisplayName="Fetch Test Data by Test Status" sap:VirtualizedContainerService.HintSize="688,84" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[TestStatus]</OutArgument>
       </Assign.To>
@@ -169,9 +169,9 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InvokeWorkflowFile>
-    <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Proceed with Testing" sap:VirtualizedContainerService.HintSize="688,3527" sap2010:WorkflowViewState.IdRef="If_15">
+    <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Proceed with Testing" sap:VirtualizedContainerService.HintSize="688,3242" sap2010:WorkflowViewState.IdRef="If_15">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="654,3341" sap2010:WorkflowViewState.IdRef="Sequence_59">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="654,3056" sap2010:WorkflowViewState.IdRef="Sequence_59">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="BackIDOldName" />
             <Variable x:TypeArguments="x:String" Name="BackIDNewName" />
@@ -182,7 +182,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="620,173" sap2010:WorkflowViewState.IdRef="LogMessage_57" Level="Trace" Message="[&quot;Checking if Successfully Fetched Valid Data For Testing.&quot;]" />
-          <Sequence DisplayName="Organize Fetched Data" sap:VirtualizedContainerService.HintSize="620,3108" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Organize Fetched Data" sap:VirtualizedContainerService.HintSize="620,2823" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:TimeSpan" Name="ExecutionTime" />
               <Variable x:TypeArguments="x:Int32" Name="TotalMin" />
@@ -197,22 +197,22 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <If Condition="[TotalRecords &gt; 0]" DisplayName="Check if Fetched Data is not NULL" sap:VirtualizedContainerService.HintSize="586,1877" sap2010:WorkflowViewState.IdRef="If_1">
+            <If Condition="[TotalRecords &gt; 0]" DisplayName="Check if Fetched Data is not NULL" sap:VirtualizedContainerService.HintSize="586,1592" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Then>
-                <Sequence DisplayName="Fetched Data is not NULL" sap:VirtualizedContainerService.HintSize="552,1361" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Fetched Data is not NULL" sap:VirtualizedContainerService.HintSize="552,1076" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="518,173" sap2010:WorkflowViewState.IdRef="LogMessage_58" Level="Trace" Message="[&quot;Organizing Fetched Data.&quot;]" />
-                  <ui:ForEach x:TypeArguments="p:ADSIMRegistration" CurrentIndex="{x:Null}" DisplayName="For Each Current List of AD_SIM Registration" sap:VirtualizedContainerService.HintSize="518,1128" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[OutputRecords]">
+                  <ui:ForEach x:TypeArguments="p:ADSIMRegistration" CurrentIndex="{x:Null}" DisplayName="For Each Current List of AD_SIM Registration" sap:VirtualizedContainerService.HintSize="518,843" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[OutputRecords]">
                     <ui:ForEach.Body>
                       <ActivityAction x:TypeArguments="p:ADSIMRegistration">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="p:ADSIMRegistration" Name="currentADSIMRegistration" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,991" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,706" sap2010:WorkflowViewState.IdRef="Sequence_3">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="MobileNumber" />
                             <Variable x:TypeArguments="x:String" Name="TypeOfRegistration" />
@@ -984,180 +984,203 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:CommentOut>
-                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Campaign Page - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Input Mobile Number and OTP.xaml)" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Campaign Page.xaml">
+                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Campaign Page - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Input Mobile Number and OTP.xaml)" sap:VirtualizedContainerService.HintSize="450,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Campaign Page.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
                               <InArgument x:TypeArguments="x:String" x:Key="in_MobileNumber">[MobileNumber]</InArgument>
                               <OutArgument x:TypeArguments="x:String" x:Key="out_TestResult">[TestResult]</OutArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:InvokeWorkflowFile>
-                          <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Customer Information Page" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="If_152">
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                            <If.Then>
-                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="Sequence_86">
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                            <ui:CommentOut.Body>
+                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,393" sap2010:WorkflowViewState.IdRef="Sequence_384">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Customer Information Page_Philippines - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Customer Information Page_Philippines.xaml)" sap:VirtualizedContainerService.HintSize="382,195" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_12" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Customer Information Page_Philippines_Passport.xaml">
+                                <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Customer Information Page" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="If_152">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <If.Then>
+                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="Sequence_86">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Customer Information Page_Philippines - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Customer Information Page_Philippines.xaml)" sap:VirtualizedContainerService.HintSize="382,195" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_12" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Customer Information Page_Philippines_Passport.xaml">
+                                        <ui:InvokeWorkflowFile.Arguments>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_Birthday">[Birthday]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_TestResult">[TestResult]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_Sex">[Sex]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_Nationality">[SelectedNationality]</OutArgument>
+                                          <InArgument x:TypeArguments="s:Guid" x:Key="in_Id">[currentADSIMRegistration.Id]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_FilePath">[FilePath]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_FrontIDOldName">[FilePath + currentADSIMRegistration.ValidIDFront.Name]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_FrontIDNewName">[FilePath + currentADSIMRegistration.Id.ToString + "_" + SelectedIDType + "_" +currentADSIMRegistration.ValidIDFront.Name]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_BackIDOldName">[BackIDOldName]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_BackIDNewName">[BackIDNewName]</InArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_VisaType">[VisaType]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_Firstname">[FirstName]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_MiddleName">[MiddleName]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_Lastname">[LastName]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_IDNumber">[IDNumber]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_IDType">[SelectedIDType]</OutArgument>
+                                        </ui:InvokeWorkflowFile.Arguments>
+                                      </ui:InvokeWorkflowFile>
+                                    </Sequence>
+                                  </If.Then>
+                                  <If.Else>
+                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_85">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </Sequence>
+                                  </If.Else>
+                                </If>
+                                <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Address Information Page" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="If_155">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <If.Then>
+                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="Sequence_382">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Address Information Page_Philippines - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Address Information Page_Philippines.xaml)" sap:VirtualizedContainerService.HintSize="382,195" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_16" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Address Information Page_Philippines.xaml">
+                                        <ui:InvokeWorkflowFile.Arguments>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_HouseOrLotNumber">[currentADSIMRegistration.HouseLotNumber]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_Street">[currentADSIMRegistration.Street]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_VillageOrSubdivision">[currentADSIMRegistration.VillageSubdivision]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_UnitOrFloor">[currentADSIMRegistration.UnitFloor]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_Building">[currentADSIMRegistration.Building]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_AlternateContactNumber">[currentADSIMRegistration.AlternateContactNumber]</InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_EmailAddress">[currentADSIMRegistration.EmailAddress]</InArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_FullAddress">[FullAddress]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_Province">[Province]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_CityOrMunicipality">[CityMunicipality]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_Barangay">[Barangay]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_ZipCode">[ZipCode]</OutArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_TestResult">[TestResult]</OutArgument>
+                                        </ui:InvokeWorkflowFile.Arguments>
+                                      </ui:InvokeWorkflowFile>
+                                    </Sequence>
+                                  </If.Then>
+                                  <If.Else>
+                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,81" sap2010:WorkflowViewState.IdRef="Sequence_383">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </Sequence>
+                                  </If.Else>
+                                </If>
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Summary Page_Philippines - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Summary Page_Philippines.xaml)" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_18" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Summary Page_Philippines.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_Birthday">[Birthday]</OutArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_Nationality">[SelectedNationality]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_IDCard">[SelectedIDType]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_IDNumber">[IDNumber]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_FirstName">[FirstName]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_MiddleName">[MiddleName]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_LastName">[LastName]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_Birthday">[Birthday]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_Sex">[Sex]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_HouseLotNumber">[HouseLotNumber]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_Street">[Street]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_VillageSubd">[VillageSubdivision]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_UnitFloor">[UnitFloor]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_Building">[Building]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_Province">[Province]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_CityMunicipality">[CityMunicipality]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_Barangay">[Barangay]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_ZipCode">[ZipCode]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_AlternateContactNumber">[AlternateContactNumber]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_EmailAddress">[EmailAddress]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_FullAddress">[FullAddress]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_MobileNumber">[MobileNumber]</InArgument>
                                     <OutArgument x:TypeArguments="x:String" x:Key="out_TestResult">[TestResult]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_Sex">[Sex]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_Nationality">[SelectedNationality]</OutArgument>
-                                    <InArgument x:TypeArguments="s:Guid" x:Key="in_Id">[currentADSIMRegistration.Id]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_FilePath">[FilePath]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_FrontIDOldName">[FilePath + currentADSIMRegistration.ValidIDFront.Name]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_FrontIDNewName">[FilePath + currentADSIMRegistration.Id.ToString + "_" + SelectedIDType + "_" +currentADSIMRegistration.ValidIDFront.Name]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_BackIDOldName">[BackIDOldName]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_BackIDNewName">[BackIDNewName]</InArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_VisaType">[VisaType]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_Firstname">[FirstName]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_MiddleName">[MiddleName]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_Lastname">[LastName]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_IDNumber">[IDNumber]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_IDType">[SelectedIDType]</OutArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </ui:InvokeWorkflowFile>
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Confirmation Page - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Confirmation Page.xaml)" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_19" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Confirmation Page.xaml">
+                                  <ui:InvokeWorkflowFile.Arguments>
+                                    <OutArgument x:TypeArguments="x:String" x:Key="out_ReferenceNumber">[ReferenceNumber]</OutArgument>
+                                  </ui:InvokeWorkflowFile.Arguments>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </ui:InvokeWorkflowFile>
+                                <uda:UpdateEntityRecord x:TypeArguments="p:ADSIMRegistration" InputEntity="{x:Null}" IsInRecordView="{x:Null}" OutputEntity="{x:Null}" VisibleDynamicPropertiesInfo="{x:Null}" ContinueOnError="False" DisplayName="Save Reference Number" EntityId="110976e7-948a-ef11-8473-000d3ac8832a" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="UpdateEntityRecord`1_3" InputEntityInFieldView="[new PLDTSMART_SIM_Registration.ADSIMRegistration() With {  .ReferenceNumber = ReferenceNumber, .Id = currentADSIMRegistration.Id }]" RecordId="[currentADSIMRegistration.Id]" TimeoutInMs="30000">
+                                  <uda:UpdateEntityRecord.State>
+                                    <udam:RecordState RequiredFieldCount="16">
+                                      <udam:RecordState.SelectedFields>
+                                        <scg:List x:TypeArguments="udam:DynamicEntityField" Capacity="1">
+                                          <udam:DynamicEntityField Id="1316137c-958a-ef11-8473-000d3ac8832a" Name="ReferenceNumber">
+                                            <udam:DynamicEntityField.ArgumentValue>
+                                              <InArgument x:TypeArguments="x:String">[ReferenceNumber]</InArgument>
+                                            </udam:DynamicEntityField.ArgumentValue>
+                                          </udam:DynamicEntityField>
+                                        </scg:List>
+                                      </udam:RecordState.SelectedFields>
+                                    </udam:RecordState>
+                                  </uda:UpdateEntityRecord.State>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </uda:UpdateEntityRecord>
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SR_RG_001_AutoApproved - Invoke Workflow File (SimReg\Scripts\Test Scenarios\Positive Test Scenarios\SR_RG_001_AutoApproved.xaml)" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_20" UnSafe="False" WorkflowFileName="SimReg\Scripts\Test Scenarios\Positive Test Scenarios\SR_RG_001_AutoApproved.xaml">
+                                  <ui:InvokeWorkflowFile.Arguments>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_Username">[Username]</InArgument>
+                                    <InArgument x:TypeArguments="ss:SecureString" x:Key="in_Password">[Password]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_MobileNumber">[currentADSIMRegistration.MobileNumber]</InArgument>
+                                  </ui:InvokeWorkflowFile.Arguments>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>
-                            </If.Then>
-                            <If.Else>
-                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_85">
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                              </Sequence>
-                            </If.Else>
-                          </If>
-                          <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Address Information Page" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="If_155">
+                            </ui:CommentOut.Body>
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <If.Then>
-                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="Sequence_382">
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Address Information Page_Philippines - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Address Information Page_Philippines.xaml)" sap:VirtualizedContainerService.HintSize="382,195" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_16" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Address Information Page_Philippines.xaml">
-                                  <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_HouseOrLotNumber">[currentADSIMRegistration.HouseLotNumber]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_Street">[currentADSIMRegistration.Street]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_VillageOrSubdivision">[currentADSIMRegistration.VillageSubdivision]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_UnitOrFloor">[currentADSIMRegistration.UnitFloor]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_Building">[currentADSIMRegistration.Building]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_AlternateContactNumber">[currentADSIMRegistration.AlternateContactNumber]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_EmailAddress">[currentADSIMRegistration.EmailAddress]</InArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_FullAddress">[FullAddress]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_Province">[Province]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_CityOrMunicipality">[CityMunicipality]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_Barangay">[Barangay]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_ZipCode">[ZipCode]</OutArgument>
-                                    <OutArgument x:TypeArguments="x:String" x:Key="out_TestResult">[TestResult]</OutArgument>
-                                  </ui:InvokeWorkflowFile.Arguments>
-                                </ui:InvokeWorkflowFile>
-                              </Sequence>
-                            </If.Then>
-                            <If.Else>
-                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,81" sap2010:WorkflowViewState.IdRef="Sequence_383">
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                              </Sequence>
-                            </If.Else>
-                          </If>
-                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Summary Page_Philippines - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Summary Page_Philippines.xaml)" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_18" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Summary Page_Philippines.xaml">
-                            <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_Nationality">[SelectedNationality]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_IDCard">[SelectedIDType]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_IDNumber">[IDNumber]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_FirstName">[FirstName]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_MiddleName">[MiddleName]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_LastName">[LastName]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_Birthday">[Birthday]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_Sex">[Sex]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_HouseLotNumber">[HouseLotNumber]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_Street">[Street]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_VillageSubd">[VillageSubdivision]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_UnitFloor">[UnitFloor]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_Building">[Building]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_Province">[Province]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_CityMunicipality">[CityMunicipality]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_Barangay">[Barangay]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_ZipCode">[ZipCode]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_AlternateContactNumber">[AlternateContactNumber]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_EmailAddress">[EmailAddress]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_FullAddress">[FullAddress]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_MobileNumber">[MobileNumber]</InArgument>
-                              <OutArgument x:TypeArguments="x:String" x:Key="out_TestResult">[TestResult]</OutArgument>
-                            </ui:InvokeWorkflowFile.Arguments>
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                          </ui:InvokeWorkflowFile>
-                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Confirmation Page - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Confirmation Page.xaml)" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_19" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Confirmation Page.xaml">
-                            <ui:InvokeWorkflowFile.Arguments>
-                              <OutArgument x:TypeArguments="x:String" x:Key="out_ReferenceNumber">[ReferenceNumber]</OutArgument>
-                            </ui:InvokeWorkflowFile.Arguments>
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                          </ui:InvokeWorkflowFile>
-                          <uda:UpdateEntityRecord x:TypeArguments="p:ADSIMRegistration" InputEntity="{x:Null}" IsInRecordView="{x:Null}" OutputEntity="{x:Null}" VisibleDynamicPropertiesInfo="{x:Null}" ContinueOnError="False" DisplayName="Save Reference Number" EntityId="110976e7-948a-ef11-8473-000d3ac8832a" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="UpdateEntityRecord`1_3" InputEntityInFieldView="[new PLDTSMART_SIM_Registration.ADSIMRegistration() With {  .ReferenceNumber = ReferenceNumber, .Id = currentADSIMRegistration.Id }]" RecordId="[currentADSIMRegistration.Id]" TimeoutInMs="30000">
-                            <uda:UpdateEntityRecord.State>
-                              <udam:RecordState RequiredFieldCount="16">
-                                <udam:RecordState.SelectedFields>
-                                  <scg:List x:TypeArguments="udam:DynamicEntityField" Capacity="1">
-                                    <udam:DynamicEntityField Id="1316137c-958a-ef11-8473-000d3ac8832a" Name="ReferenceNumber">
-                                      <udam:DynamicEntityField.ArgumentValue>
-                                        <InArgument x:TypeArguments="x:String">[ReferenceNumber]</InArgument>
-                                      </udam:DynamicEntityField.ArgumentValue>
-                                    </udam:DynamicEntityField>
-                                  </scg:List>
-                                </udam:RecordState.SelectedFields>
-                              </udam:RecordState>
-                            </uda:UpdateEntityRecord.State>
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                          </uda:UpdateEntityRecord>
-                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SR_RG_001_AutoApproved - Invoke Workflow File (SimReg\Scripts\Test Scenarios\Positive Test Scenarios\SR_RG_001_AutoApproved.xaml)" sap:VirtualizedContainerService.HintSize="450,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_20" UnSafe="False" WorkflowFileName="SimReg\Scripts\Test Scenarios\Positive Test Scenarios\SR_RG_001_AutoApproved.xaml">
-                            <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_Username">[Username]</InArgument>
-                              <InArgument x:TypeArguments="ss:SecureString" x:Key="in_Password">[Password]</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="in_MobileNumber">[currentADSIMRegistration.MobileNumber]</InArgument>
-                            </ui:InvokeWorkflowFile.Arguments>
-                          </ui:InvokeWorkflowFile>
+                          </ui:CommentOut>
                           <uta:VerifyExpressionWithOperator KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Overall Test Status" ContinueOnFailure="True" DisplayName="Overall Test Status" sap:VirtualizedContainerService.HintSize="450,214" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
                             <uta:VerifyExpressionWithOperator.FirstExpression>
                               <InArgument x:TypeArguments="x:String">[TestResult]</InArgument>

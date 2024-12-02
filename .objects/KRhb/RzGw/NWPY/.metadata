@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Campaign Page",
+  "Type": "Screen",
+  "Id": "NWPYFkCMHkevRCf9_smppw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/NWPYFkCMHkevRCf9_smppw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/RzGwhn1re0K775S3f55p3Q",
+  "Created": "2024-12-02T07:24:28.7933398Z",
+  "Updated": "2024-12-02T07:24:28.7933398Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
