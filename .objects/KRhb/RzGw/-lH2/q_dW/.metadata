@@ -1,0 +1,13 @@
+﻿{
+  "Name": "\"Explore Sites\" Text on Homepage",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "q_dWzIOPxEO5dbrfHZzw4A",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/q_dWzIOPxEO5dbrfHZzw4A",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/-lH2GCmeRE-722KOwGSskw",
+  "Created": "2024-12-04T06:54:13.6190956Z",
+  "Updated": "2024-12-04T06:54:13.6190956Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

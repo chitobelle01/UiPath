@@ -1,11 +1,11 @@
 ﻿{
-  "Name": "Campaign Page",
+  "Name": "Campaign Page_hardcoded",
   "Type": "Screen",
   "Id": "qdjHSyeQhUSqr4zDN9mpFQ",
   "Reference": "5y7obp0hLUSA7kzKS4-dwg/qdjHSyeQhUSqr4zDN9mpFQ",
   "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/RzGwhn1re0K775S3f55p3Q",
   "Created": "2024-10-30T02:31:58.0525262Z",
-  "Updated": "2024-10-30T02:55:16.7471521Z",
+  "Updated": "2024-12-04T06:53:57.4919562Z",
   "CreatedBy": [
     "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
     "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"

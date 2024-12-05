@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Type Into 'HouseLot Number'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "1bm9p8oJ1EKh1Eb2sRN2cA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/1bm9p8oJ1EKh1Eb2sRN2cA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/7kO7KjecREOIDV7Xh-DhLw",
+  "Created": "2024-12-04T06:57:08.4679871Z",
+  "Updated": "2024-12-04T06:57:08.4679871Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

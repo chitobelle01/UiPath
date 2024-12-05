@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Register Another SIM button",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "fMlx5y_l5kiRYq_j5gZ4mA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/fMlx5y_l5kiRYq_j5gZ4mA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/A_0wu6DyUkK_wGP2V685Ow",
+  "Created": "2024-12-04T07:21:39.598431Z",
+  "Updated": "2024-12-04T07:21:39.598431Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

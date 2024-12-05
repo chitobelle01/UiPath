@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Address Information Page",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "jBTW9yk37EK1Nn4Mkho8Fg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/jBTW9yk37EK1Nn4Mkho8Fg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/7kO7KjecREOIDV7Xh-DhLw",
+  "Created": "2024-12-04T06:56:58.0648686Z",
+  "Updated": "2024-12-04T06:56:58.0648686Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

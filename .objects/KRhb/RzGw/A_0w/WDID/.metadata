@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Mouse Scroll 'Register Another SIM button'",
+  "Type": "Element",
+  "Id": "WDIDGVXbdkSbdFb1r1tbFQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/WDIDGVXbdkSbdFb1r1tbFQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/A_0wu6DyUkK_wGP2V685Ow",
+  "Created": "2024-12-04T07:21:37.4395579Z",
+  "Updated": "2024-12-04T07:21:37.4395579Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

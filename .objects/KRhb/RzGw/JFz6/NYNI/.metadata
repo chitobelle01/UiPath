@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Upload Other Pertinent Document",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "NYNI-g5H5UuG_Q3xSni5oQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/NYNI-g5H5UuG_Q3xSni5oQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/JFz617bWgUeoySvFpAE3nw",
+  "Created": "2024-12-04T09:09:59.9474169Z",
+  "Updated": "2024-12-04T09:09:59.9474169Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

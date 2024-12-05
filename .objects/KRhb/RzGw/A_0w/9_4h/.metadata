@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get Text 'Please keep this SIM Re…'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "9_4hDNZCaESwhiz_J9L4NA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/9_4hDNZCaESwhiz_J9L4NA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/A_0wu6DyUkK_wGP2V685Ow",
+  "Created": "2024-12-04T07:21:36.2884072Z",
+  "Updated": "2024-12-04T07:21:36.2884072Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

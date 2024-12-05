@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get Text 'Nationality'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "BSQMQvOxsUir8Qoj5z313w",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/BSQMQvOxsUir8Qoj5z313w",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "Created": "2024-12-04T09:13:25.0933212Z",
+  "Updated": "2024-12-04T09:13:25.0933212Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

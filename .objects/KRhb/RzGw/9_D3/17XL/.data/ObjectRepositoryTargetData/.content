@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XJ9SH9z5tE2dfQE_owBOzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/summaryPage" CVScreenId="b7d91608-a435-432b-b8c4-ded3e10de241" CvTextArea="669, 936, 138, 21" CvTextArgument="Email Address" CvType="Text" DesignTimeRectangle="671, 936, 136, 21" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="a2e07a29-3e97-402b-9b1c-7512e46c2a46" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="be600cd0c323b2b58b9ef899ce2f1c35.png" xmlns="">0R63TCHxJIkiungo7Iwh7LQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

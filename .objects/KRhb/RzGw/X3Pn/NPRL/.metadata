@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click 'Take Photo' for Selfie Verification",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "NPRLjm8mn0ilHDX7ivA74w",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/NPRLjm8mn0ilHDX7ivA74w",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:28:04.1291745Z",
+  "Updated": "2024-12-04T07:28:04.1291745Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

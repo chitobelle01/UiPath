@@ -1,11 +1,11 @@
 ﻿{
-  "Name": "Customer Information Page",
+  "Name": "Customer Information Page_hardcoded",
   "Type": "Screen",
   "Id": "22aAPMhlhkO6vrHUzOpLbA",
   "Reference": "5y7obp0hLUSA7kzKS4-dwg/22aAPMhlhkO6vrHUzOpLbA",
   "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/RzGwhn1re0K775S3f55p3Q",
   "Created": "2024-10-30T02:54:47.0661946Z",
-  "Updated": "2024-10-30T02:55:09.4664449Z",
+  "Updated": "2024-12-04T07:26:15.6323518Z",
   "CreatedBy": [
     "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
     "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"

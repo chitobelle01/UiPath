@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Upload Front ID",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ICwJ3fVPSEmCbPl7V6CpwA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/ICwJ3fVPSEmCbPl7V6CpwA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:29:36.2044774Z",
+  "Updated": "2024-12-04T07:29:36.2044774Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

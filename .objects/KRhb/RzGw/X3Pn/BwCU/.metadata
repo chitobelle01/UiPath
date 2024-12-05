@@ -1,0 +1,13 @@
+﻿{
+  "Name": "'Type of Registration' Menu",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "BwCUh8n32UGYnUHD-AOibg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/BwCUh8n32UGYnUHD-AOibg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:27:15.3916458Z",
+  "Updated": "2024-12-04T07:27:15.3916458Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

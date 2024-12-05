@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="gmfJIk63YUWwVFKYQKVhEQ" Reference="5y7obp0hLUSA7kzKS4-dwg/voNyIC81tkK_JbI-KBHCrg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg2.simreg.smart.com.ph/congratulationPage?isAutoApprove=false&amp;registrationType=I%27m+registering+a+newly+bought+SIM" CVScreenId="75173e4d-390f-4337-8a2d-0d12c6646276" CvTextArea="717, 730, 500, 15" CvTextArgument="You have submitted your SIM Registration application for verification." CvType="Text" DesignTimeRectangle="716, 729, 504, 19" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='flt-pv-41' tag='DIV' type='' class='web-selectable-region-context-menu' aaname='' /&gt;" Guid="ef4c01e2-7041-4f67-b0c4-6d9f465ae9f2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="4b81fe224cfb1169560cb5ca8bf414e0.png" xmlns="">0D5bwKaPpik-bpImPxdRTQw</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">None</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

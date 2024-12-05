@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click 'Upload'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "zVHfxQArP0ukA1EH6JgeyQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/zVHfxQArP0ukA1EH6JgeyQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/7kO7KjecREOIDV7Xh-DhLw",
+  "Created": "2024-12-04T06:56:58.9295258Z",
+  "Updated": "2024-12-04T06:56:58.9295258Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

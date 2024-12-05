@@ -102,9 +102,10 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
       <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
       <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>PLDTSMART SIM Registration.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1046,4399" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="995,8501" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:DateTime" Name="StartTime" />
       <Variable x:TypeArguments="x:String" Name="TestStatus" />
@@ -112,13 +113,19 @@
       <Variable x:TypeArguments="x:Int64" Name="TotalRecords" />
       <Variable x:TypeArguments="x:String" Name="FilePath" />
       <Variable x:TypeArguments="x:String" Name="TestResult" />
+      <Variable x:TypeArguments="x:String" Name="CampaignPageURL" />
+      <Variable x:TypeArguments="x:String" Name="CustomerInfoPageURL" />
+      <Variable x:TypeArguments="x:String" Name="AddressInfoPageURL" />
+      <Variable x:TypeArguments="x:String" Name="OtherSuppDocPageURL" />
+      <Variable x:TypeArguments="x:String" Name="SummaryPageURL" />
+      <Variable x:TypeArguments="x:String" Name="ConfirmationPageURL" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign DisplayName="Get Execution Start Time" sap:VirtualizedContainerService.HintSize="688,84" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign DisplayName="Get Execution Start Time" sap:VirtualizedContainerService.HintSize="758,57" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="s:DateTime">[StartTime]</OutArgument>
       </Assign.To>
@@ -132,7 +139,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <Assign DisplayName="Fetch Test Data by Test Status" sap:VirtualizedContainerService.HintSize="688,84" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign DisplayName="Fetch Test Data by Test Status" sap:VirtualizedContainerService.HintSize="758,57" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[TestStatus]</OutArgument>
       </Assign.To>
@@ -146,7 +153,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Fetch Data - Invoke Workflow File (SimReg\Scripts\Data\Fetch Data.xaml)" sap:VirtualizedContainerService.HintSize="688,84" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="SimReg\Scripts\Data\Fetch Data.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Fetch Data - Invoke Workflow File (SimReg\Scripts\Data\Fetch Data.xaml)" sap:VirtualizedContainerService.HintSize="758,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="SimReg\Scripts\Data\Fetch Data.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <OutArgument x:TypeArguments="scg:IList(p:ADSIMRegistration)" x:Key="out_OutputRecords">[OutputRecords]</OutArgument>
         <OutArgument x:TypeArguments="x:Int64" x:Key="out_TotalRecords">[TotalRecords]</OutArgument>
@@ -161,9 +168,9 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InvokeWorkflowFile>
-    <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Proceed with Testing" sap:VirtualizedContainerService.HintSize="688,4124" sap2010:WorkflowViewState.IdRef="If_15">
+    <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Proceed with Testing" sap:VirtualizedContainerService.HintSize="758,8307" sap2010:WorkflowViewState.IdRef="If_15">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="654,3938" sap2010:WorkflowViewState.IdRef="Sequence_59">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="724,8121" sap2010:WorkflowViewState.IdRef="Sequence_59">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="BackIDOldName" />
             <Variable x:TypeArguments="x:String" Name="BackIDNewName" />
@@ -173,8 +180,8 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="620,173" sap2010:WorkflowViewState.IdRef="LogMessage_57" Level="Trace" Message="[&quot;Checking if Successfully Fetched Valid Data For Testing.&quot;]" />
-          <Sequence DisplayName="Organize Fetched Data" sap:VirtualizedContainerService.HintSize="620,3705" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="690,173" sap2010:WorkflowViewState.IdRef="LogMessage_57" Level="Trace" Message="[&quot;Checking if Successfully Fetched Valid Data For Testing.&quot;]" />
+          <Sequence DisplayName="Organize Fetched Data" sap:VirtualizedContainerService.HintSize="690,7888" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:TimeSpan" Name="ExecutionTime" />
               <Variable x:TypeArguments="x:Int32" Name="TotalMin" />
@@ -189,22 +196,22 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <If Condition="[TotalRecords &gt; 0]" DisplayName="Check if Fetched Data is not NULL" sap:VirtualizedContainerService.HintSize="586,2461" sap2010:WorkflowViewState.IdRef="If_1">
+            <If Condition="[TotalRecords &gt; 0]" DisplayName="Check if Fetched Data is not NULL" sap:VirtualizedContainerService.HintSize="656,6644" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Then>
-                <Sequence DisplayName="Fetched Data is not NULL" sap:VirtualizedContainerService.HintSize="552,1942" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Fetched Data is not NULL" sap:VirtualizedContainerService.HintSize="622,6125" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="518,173" sap2010:WorkflowViewState.IdRef="LogMessage_58" Level="Trace" Message="[&quot;Organizing Fetched Data.&quot;]" />
-                  <ui:ForEach x:TypeArguments="p:ADSIMRegistration" CurrentIndex="{x:Null}" DisplayName="For Each Current List of AD_SIM Registration" sap:VirtualizedContainerService.HintSize="518,1709" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[OutputRecords]">
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="588,173" sap2010:WorkflowViewState.IdRef="LogMessage_58" Level="Trace" Message="[&quot;Organizing Fetched Data.&quot;]" />
+                  <ui:ForEach x:TypeArguments="p:ADSIMRegistration" CurrentIndex="{x:Null}" DisplayName="For Each Current List of AD_SIM Registration" sap:VirtualizedContainerService.HintSize="588,5892" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[OutputRecords]">
                     <ui:ForEach.Body>
                       <ActivityAction x:TypeArguments="p:ADSIMRegistration">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="p:ADSIMRegistration" Name="currentADSIMRegistration" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,1572" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="554,5755" sap2010:WorkflowViewState.IdRef="Sequence_3">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="MobileNumber" />
                             <Variable x:TypeArguments="x:String" Name="TypeOfRegistration" />
@@ -263,7 +270,87 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Sequence DisplayName="Assign Data Fetched to Variables" sap:VirtualizedContainerService.HintSize="450,99" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                          <If Condition="[currentADSIMRegistration.StagingEnvi.ToUpper.Equals(&quot;STG1&quot;)]" sap:VirtualizedContainerService.HintSize="520,2372" sap2010:WorkflowViewState.IdRef="If_157">
+                            <If.Then>
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,1101" sap2010:WorkflowViewState.IdRef="Sequence_387">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Campaign Page URL_stg1" CacheStrategy="None" DisplayName="Get Campaign Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_13">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[CampaignPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Customer Information Page URL_stg1" CacheStrategy="None" DisplayName="Get Customer Information Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_14">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[CustomerInfoPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Address Information Page URL_stg1" CacheStrategy="None" DisplayName="Get Address Information Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_15">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[AddressInfoPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Other Supporting Documents URL_stg1" CacheStrategy="None" DisplayName="Get Other Supporting Documnet Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_16">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[OtherSuppDocPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Summary Page URL_stg1" CacheStrategy="None" DisplayName="Get Summary Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_17">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[SummaryPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Confirmation Page URL_stg1" CacheStrategy="None" DisplayName="Get Confirmation Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,166" sap2010:WorkflowViewState.IdRef="GetRobotAsset_18">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[ConfirmationPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,1101" sap2010:WorkflowViewState.IdRef="Sequence_388">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Campaign Page URL_stg2" CacheStrategy="None" DisplayName="Get Campaign Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_19">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[CampaignPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Customer Information Page URL_stg2" CacheStrategy="None" DisplayName="Get Customer Information Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_20">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[CustomerInfoPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Address Information Page URL_stg2" CacheStrategy="None" DisplayName="Get Address Information Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_21">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[AddressInfoPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Other Supporting Documents URL_stg2" CacheStrategy="None" DisplayName="Get Other Supporting Documnet Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_22">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[OtherSuppDocPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Summary Page URL_stg2" CacheStrategy="None" DisplayName="Get Summary Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_23">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[SummaryPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                                <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Confirmation Page URL_stg2" CacheStrategy="None" DisplayName="Get Confirmation Page URL" FolderPath="SIMReg Automation" sap:VirtualizedContainerService.HintSize="382,166" sap2010:WorkflowViewState.IdRef="GetRobotAsset_24">
+                                  <ui:GetRobotAsset.Value>
+                                    <OutArgument x:TypeArguments="x:String">[ConfirmationPageURL]</OutArgument>
+                                  </ui:GetRobotAsset.Value>
+                                </ui:GetRobotAsset>
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                          <Sequence DisplayName="Assign Data Fetched to Variables" sap:VirtualizedContainerService.HintSize="520,57" sap2010:WorkflowViewState.IdRef="Sequence_40">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -545,7 +632,7 @@
                               </If.Else>
                             </If>
                           </Sequence>
-                          <Sequence DisplayName="Check for Empty Values" sap:VirtualizedContainerService.HintSize="450,99" sap2010:WorkflowViewState.IdRef="Sequence_217">
+                          <Sequence DisplayName="Check for Empty Values" sap:VirtualizedContainerService.HintSize="520,57" sap2010:WorkflowViewState.IdRef="Sequence_217">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -927,7 +1014,7 @@
                               </If.Else>
                             </If>
                           </Sequence>
-                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,84" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="520,57" sap2010:WorkflowViewState.IdRef="CommentOut_7">
                             <ui:CommentOut.Body>
                               <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_383">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -944,24 +1031,25 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:CommentOut>
-                          <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Campaign Page" sap:VirtualizedContainerService.HintSize="450,84" sap2010:WorkflowViewState.IdRef="If_155">
+                          <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Campaign Page" sap:VirtualizedContainerService.HintSize="520,450" sap2010:WorkflowViewState.IdRef="If_155">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <If.Then>
-                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,260.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_381">
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="Sequence_381">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Campaign Page - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Input Mobile Number and OTP.xaml)" sap:VirtualizedContainerService.HintSize="382,200.66666666666666" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Campaign Page.xaml">
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Campaign Page - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Input Mobile Number and OTP.xaml)" sap:VirtualizedContainerService.HintSize="382,195" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Campaign Page.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
                                     <InArgument x:TypeArguments="x:String" x:Key="in_MobileNumber">[MobileNumber]</InArgument>
                                     <OutArgument x:TypeArguments="x:String" x:Key="out_TestResult">[TestResult]</OutArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_CampaignPageURL">[CampaignPageURL]</InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -973,7 +1061,7 @@
                               </Sequence>
                             </If.Then>
                             <If.Else>
-                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,84.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_382">
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_382">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -983,10 +1071,10 @@
                               </Sequence>
                             </If.Else>
                           </If>
-                          <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Customer Information Page" sap:VirtualizedContainerService.HintSize="450,84" sap2010:WorkflowViewState.IdRef="If_152">
+                          <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Customer Information Page" sap:VirtualizedContainerService.HintSize="520,450" sap2010:WorkflowViewState.IdRef="If_152">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
@@ -1017,6 +1105,7 @@
                                     <OutArgument x:TypeArguments="x:String" x:Key="out_MiddleName">[MiddleName]</OutArgument>
                                     <OutArgument x:TypeArguments="x:String" x:Key="out_Lastname">[LastName]</OutArgument>
                                     <OutArgument x:TypeArguments="x:String" x:Key="out_IDNumber">[IDNumber]</OutArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_CustomerInformationPageURL">[CustomerInfoPageURL]</InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>
@@ -1032,10 +1121,10 @@
                               </Sequence>
                             </If.Else>
                           </If>
-                          <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Address Information Page" sap:VirtualizedContainerService.HintSize="450,84" sap2010:WorkflowViewState.IdRef="If_26">
+                          <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Address Information Page" sap:VirtualizedContainerService.HintSize="520,450" sap2010:WorkflowViewState.IdRef="If_26">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
@@ -1066,6 +1155,7 @@
                                     <InArgument x:TypeArguments="x:String" x:Key="in_FilePath">[FilePath]</InArgument>
                                     <InArgument x:TypeArguments="x:String" x:Key="in_ProofOfAddressFileName">[currentADSIMRegistration.ProofofAddressNonFilipino.Name]</InArgument>
                                     <InArgument x:TypeArguments="x:String" x:Key="in_ReturnTicketFileName">[currentADSIMRegistration.ReturnTickettoCountry.Name]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_AddressInformationPageURL">[AddressInfoPageURL]</InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>
@@ -1081,7 +1171,7 @@
                               </Sequence>
                             </If.Else>
                           </If>
-                          <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Summary Page" sap:VirtualizedContainerService.HintSize="450,680" sap2010:WorkflowViewState.IdRef="If_27">
+                          <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Summary Page" sap:VirtualizedContainerService.HintSize="520,680" sap2010:WorkflowViewState.IdRef="If_27">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1170,6 +1260,7 @@
                                     <InArgument x:TypeArguments="x:String" x:Key="in_MobileNumber">[currentADSIMRegistration.MobileNumber]</InArgument>
                                     <OutArgument x:TypeArguments="x:String" x:Key="out_TestResult">[TestResult]</OutArgument>
                                     <InArgument x:TypeArguments="x:String" x:Key="in_VisaType">[VisaType]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="in_SummaryPageURL">[SummaryPageURL]</InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>
@@ -1185,15 +1276,15 @@
                               </Sequence>
                             </If.Else>
                           </If>
-                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,84" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="520,908" sap2010:WorkflowViewState.IdRef="CommentOut_1">
                             <ui:CommentOut.Body>
-                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,768.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,757" sap2010:WorkflowViewState.IdRef="Sequence_29">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Confirmation Page" sap:VirtualizedContainerService.HintSize="450,708.6666666666666" sap2010:WorkflowViewState.IdRef="If_28">
+                                <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Confirmation Page" sap:VirtualizedContainerService.HintSize="450,697" sap2010:WorkflowViewState.IdRef="If_28">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1201,20 +1292,21 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <If.Then>
-                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,520.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_91">
+                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,511" sap2010:WorkflowViewState.IdRef="Sequence_91">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Confirmation Page - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Confirmation Page.xaml)" sap:VirtualizedContainerService.HintSize="382,210" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Confirmation Page.xaml">
+                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Confirmation Page - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Confirmation Page.xaml)" sap:VirtualizedContainerService.HintSize="382,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Confirmation Page.xaml">
                                         <ui:InvokeWorkflowFile.Arguments>
                                           <OutArgument x:TypeArguments="x:String" x:Key="out_ReferenceNumber">[ReferenceNumber]</OutArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_ConfirmationPageURL">[ConfirmationPageURL]</InArgument>
                                         </ui:InvokeWorkflowFile.Arguments>
                                       </ui:InvokeWorkflowFile>
-                                      <uda:UpdateEntityRecord x:TypeArguments="p:ADSIMRegistration" InputEntity="{x:Null}" IsInRecordView="{x:Null}" OutputEntity="{x:Null}" VisibleDynamicPropertiesInfo="{x:Null}" ContinueOnError="False" DisplayName="Save Reference Number" EntityId="110976e7-948a-ef11-8473-000d3ac8832a" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="382,250.66666666666666" sap2010:WorkflowViewState.IdRef="UpdateEntityRecord`1_1" InputEntityInFieldView="[new PLDTSMART_SIM_Registration.ADSIMRegistration() With {  .ReferenceNumber = ReferenceNumber, .Id = currentADSIMRegistration.Id }]" RecordId="[currentADSIMRegistration.Id]" TimeoutInMs="30000">
+                                      <uda:UpdateEntityRecord x:TypeArguments="p:ADSIMRegistration" InputEntity="{x:Null}" IsInRecordView="{x:Null}" OutputEntity="{x:Null}" VisibleDynamicPropertiesInfo="{x:Null}" ContinueOnError="False" DisplayName="Save Reference Number" EntityId="110976e7-948a-ef11-8473-000d3ac8832a" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="382,247" sap2010:WorkflowViewState.IdRef="UpdateEntityRecord`1_1" InputEntityInFieldView="[new PLDTSMART_SIM_Registration.ADSIMRegistration() With {  .ReferenceNumber = ReferenceNumber, .Id = currentADSIMRegistration.Id }]" RecordId="[currentADSIMRegistration.Id]" TimeoutInMs="30000">
                                         <uda:UpdateEntityRecord.State>
-                                          <udam:RecordState RequiredFieldCount="16">
+                                          <udam:RecordState RequiredFieldCount="6">
                                             <udam:RecordState.SelectedFields>
                                               <scg:List x:TypeArguments="udam:DynamicEntityField" Capacity="1">
                                                 <udam:DynamicEntityField Id="1316137c-958a-ef11-8473-000d3ac8832a" Name="ReferenceNumber">
@@ -1230,7 +1322,7 @@
                                     </Sequence>
                                   </If.Then>
                                   <If.Else>
-                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_92">
+                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_92">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1244,12 +1336,12 @@
                             </ui:CommentOut.Body>
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:CommentOut>
-                          <uta:VerifyExpressionWithOperator KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Overall Test Status" ContinueOnFailure="True" DisplayName="Overall Test Status" sap:VirtualizedContainerService.HintSize="450,214" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                          <uta:VerifyExpressionWithOperator KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Overall Test Status" ContinueOnFailure="True" DisplayName="Overall Test Status" sap:VirtualizedContainerService.HintSize="520,214" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
                             <uta:VerifyExpressionWithOperator.FirstExpression>
                               <InArgument x:TypeArguments="x:String">[TestResult]</InArgument>
                             </uta:VerifyExpressionWithOperator.FirstExpression>

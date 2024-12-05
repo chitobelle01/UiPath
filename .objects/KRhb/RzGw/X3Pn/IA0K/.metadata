@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click 'Birthday' '",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "IA0KxivpYkC0qSvA3wuCvw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/IA0KxivpYkC0qSvA3wuCvw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:27:34.9985934Z",
+  "Updated": "2024-12-04T07:27:34.9985934Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

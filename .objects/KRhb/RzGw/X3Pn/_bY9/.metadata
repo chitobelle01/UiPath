@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click 'ID Card' Menu",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "_bY9SuKPPEaK_qAqH1_1mw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/_bY9SuKPPEaK_qAqH1_1mw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:27:52.727571Z",
+  "Updated": "2024-12-04T07:27:52.727571Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

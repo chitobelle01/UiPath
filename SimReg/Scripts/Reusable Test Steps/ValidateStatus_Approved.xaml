@@ -130,7 +130,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: Validate Registration Approved | Sim Re" sap:VirtualizedContainerService.HintSize="1124,2086" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge: Validate Registration Approved | Sim Re" sap:VirtualizedContainerService.HintSize="1124,2086" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen" ScopeGuid="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

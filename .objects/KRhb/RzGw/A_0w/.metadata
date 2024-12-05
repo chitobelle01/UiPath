@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Confirmation Page",
+  "Type": "Screen",
+  "Id": "A_0wu6DyUkK_wGP2V685Ow",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/A_0wu6DyUkK_wGP2V685Ow",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/RzGwhn1re0K775S3f55p3Q",
+  "Created": "2024-12-04T07:19:43.5373914Z",
+  "Updated": "2024-12-04T07:19:43.5373914Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

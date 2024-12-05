@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click 'Close'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "PMDeMS1sH0eou0jxmPmaeg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/PMDeMS1sH0eou0jxmPmaeg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "Created": "2024-12-04T09:13:06.7568525Z",
+  "Updated": "2024-12-04T09:13:06.7568525Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

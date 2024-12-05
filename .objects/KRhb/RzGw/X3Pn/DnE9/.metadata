@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Mouse Scroll 'Customer Information Page'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "DnE9jBOs2EacAKeqd0SYcg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/DnE9jBOs2EacAKeqd0SYcg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:28:37.1363813Z",
+  "Updated": "2024-12-04T07:28:37.1363813Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

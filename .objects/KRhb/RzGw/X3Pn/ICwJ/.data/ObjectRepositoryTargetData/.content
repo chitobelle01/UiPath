@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="U5EH8YGXiUiikq5Z_rwyoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="fec8e144-8f1b-4ea3-be27-d3fa630b8204" CvElementArea="834, 758, 124, 34" CvTextArea="870, 767, 52, 18" CvTextArgument="Upload" CvType="Button" DesignTimeRectangle="834, 758, 124, 34" DesignTimeScaleFactor="1" ElementType="Button" Guid="31d21cb6-f1b9-4316-90a0-ca999f4935d8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="fec8e144-8f1b-4ea3-be27-d3fa630b8204" CvTextArea="331, 753, 115, 18" CvTextArgument="Upload Front ID" CvType="Text" DesignTimeRectangle="331, 753, 115, 17" ElementType="Text" Guid="a2c57132-6f84-4ca9-840f-049598b89d7e" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1a24c5775baf56a9ece1d28b03b5a379.png" xmlns="">04-dJ1aDTSkGbpTDYUlTiGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get Text 'First Name'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "mTHg-L7nqEGTuCgP1T5HEQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/mTHg-L7nqEGTuCgP1T5HEQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "Created": "2024-12-04T09:13:14.7226552Z",
+  "Updated": "2024-12-04T09:13:14.7226552Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

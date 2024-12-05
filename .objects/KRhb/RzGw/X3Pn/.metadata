@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Customer Information Page",
+  "Type": "Screen",
+  "Id": "X3PnApAGnUiYHU6TU9vhcw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/RzGwhn1re0K775S3f55p3Q",
+  "Created": "2024-12-04T07:26:24.2490096Z",
+  "Updated": "2024-12-04T07:26:24.2490096Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

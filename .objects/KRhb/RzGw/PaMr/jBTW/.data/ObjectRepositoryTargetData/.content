@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="FZk3csfbUUCJplKOI29SxA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/addressInfoPage" DesignTimeRectangle="12, 125, 1912, 911" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl tag='FLUTTER-VIEW' type='' class='' aaname='' /&gt;" Guid="b07f789a-235e-4bb8-b113-1b3872bff2ee" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="5a635cc46d00c7a13ebdd010fdd17816.png" xmlns="">0gaRrgSCMBkWIIfOoXhaRBg</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">MouseScroll</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

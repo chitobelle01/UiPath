@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Upload Proof of Address",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "KIE050r_7ki8ORYt6XQk_A",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/KIE050r_7ki8ORYt6XQk_A",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/7kO7KjecREOIDV7Xh-DhLw",
+  "Created": "2024-12-04T06:57:15.3729256Z",
+  "Updated": "2024-12-04T06:57:15.3729256Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get Text 'First Line Address'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "JzCALWaA60KRhCxlOT4AsA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/JzCALWaA60KRhCxlOT4AsA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "Created": "2024-12-04T09:13:13.7992723Z",
+  "Updated": "2024-12-04T09:13:13.7992723Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

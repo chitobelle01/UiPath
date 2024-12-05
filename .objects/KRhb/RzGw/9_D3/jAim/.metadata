@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get Text 'Middle Name'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jAim-mMpm0WCgRrCcSGggQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/jAim-mMpm0WCgRrCcSGggQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "Created": "2024-12-04T09:13:20.5732222Z",
+  "Updated": "2024-12-04T09:13:20.5732222Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

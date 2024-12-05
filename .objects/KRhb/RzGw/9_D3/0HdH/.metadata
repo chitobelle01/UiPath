@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click 'Leave'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "0HdHB_bVPEC1-LDPT4ig0A",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/0HdHB_bVPEC1-LDPT4ig0A",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "Created": "2024-12-04T09:13:09.4528905Z",
+  "Updated": "2024-12-04T09:13:09.4528905Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

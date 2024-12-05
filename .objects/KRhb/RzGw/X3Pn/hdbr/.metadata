@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click 'Jan'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "hdbr-apCYkinF6GOvG4OZg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/hdbr-apCYkinF6GOvG4OZg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:27:58.3225882Z",
+  "Updated": "2024-12-04T07:27:58.3225882Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

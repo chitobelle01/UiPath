@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get Text 'ID Number'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "c0f1p-0HQE6kVfv9nOJGXw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/c0f1p-0HQE6kVfv9nOJGXw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "Created": "2024-12-04T09:13:18.6497873Z",
+  "Updated": "2024-12-04T09:13:18.6497873Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

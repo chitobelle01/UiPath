@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Scroll Down",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "RJwCE_6vWUOuXI2orzj4_Q",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/RJwCE_6vWUOuXI2orzj4_Q",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/7kO7KjecREOIDV7Xh-DhLw",
+  "Created": "2024-12-04T06:57:00.5066134Z",
+  "Updated": "2024-12-04T06:57:00.5066134Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

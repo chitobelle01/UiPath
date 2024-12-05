@@ -1,0 +1,13 @@
+﻿{
+  "Name": "'Month' Menu",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "jtuzqQeTv0is15N5feXm7A",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/jtuzqQeTv0is15N5feXm7A",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:26:51.5881158Z",
+  "Updated": "2024-12-04T07:26:51.5881158Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
