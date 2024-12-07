@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Summary Page",
+  "Type": "Screen",
+  "Id": "9_D39dLpg0qNIRPeWUqWHQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/RzGwhn1re0K775S3f55p3Q",
+  "Created": "2024-12-04T09:12:43.6792418Z",
+  "Updated": "2024-12-04T09:12:43.6792418Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

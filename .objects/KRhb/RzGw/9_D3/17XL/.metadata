@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Email Address text",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "17XLGNut_02wqfREYe5nlQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/17XLGNut_02wqfREYe5nlQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "Created": "2024-12-04T09:13:10.0742121Z",
+  "Updated": "2024-12-04T09:13:10.0742121Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

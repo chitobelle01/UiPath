@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Mouse Scroll '02'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vMhFzwC_z0O0ICuDYzuxcA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/vMhFzwC_z0O0ICuDYzuxcA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:28:26.7318928Z",
+  "Updated": "2024-12-04T07:28:26.7318928Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

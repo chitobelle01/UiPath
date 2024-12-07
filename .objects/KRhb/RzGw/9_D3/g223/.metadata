@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get Text 'Birthday'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "g223pgsREkS320xcYywj7Q",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/g223pgsREkS320xcYywj7Q",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "Created": "2024-12-04T09:13:12.5441853Z",
+  "Updated": "2024-12-04T09:13:12.5441853Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

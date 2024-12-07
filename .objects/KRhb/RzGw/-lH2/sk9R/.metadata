@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Allow Camera Access",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "sk9RcrCDNEysC3mIP-FYkA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/sk9RcrCDNEysC3mIP-FYkA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/-lH2GCmeRE-722KOwGSskw",
+  "Created": "2024-12-04T06:54:17.0145999Z",
+  "Updated": "2024-12-04T06:54:17.0145999Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

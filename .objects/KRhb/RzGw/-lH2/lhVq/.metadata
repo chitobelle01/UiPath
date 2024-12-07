@@ -1,0 +1,13 @@
+﻿{
+  "Name": "'OK' Button for 'Allow Camera Access'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "lhVqb6_W8UmG-nY6qgE02g",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/lhVqb6_W8UmG-nY6qgE02g",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/-lH2GCmeRE-722KOwGSskw",
+  "Created": "2024-12-04T06:54:10.1424257Z",
+  "Updated": "2024-12-04T06:54:10.1424257Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

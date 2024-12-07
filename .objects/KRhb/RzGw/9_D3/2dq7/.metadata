@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get Text 'Mobile Number'(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "2dq7SVN3TkiobmXQol4RSQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/2dq7SVN3TkiobmXQol4RSQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "Created": "2024-12-04T09:13:23.2511163Z",
+  "Updated": "2024-12-04T09:13:23.2511163Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

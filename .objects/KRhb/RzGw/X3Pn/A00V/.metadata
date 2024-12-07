@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get Text 'Upload Valid ID'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "A00VcRelqE-os1KbvmASmg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/A00VcRelqE-os1KbvmASmg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:28:15.2098254Z",
+  "Updated": "2024-12-04T07:28:15.2098254Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

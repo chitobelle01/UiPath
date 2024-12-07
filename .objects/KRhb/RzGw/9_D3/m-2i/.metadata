@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Summary Page",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "m-2iFli8J0SB83XM7fUZMQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/m-2iFli8J0SB83XM7fUZMQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/9_D39dLpg0qNIRPeWUqWHQ",
+  "Created": "2024-12-04T09:13:31.3758396Z",
+  "Updated": "2024-12-04T09:13:31.3758396Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

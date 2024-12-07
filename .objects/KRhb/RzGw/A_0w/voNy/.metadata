@@ -1,0 +1,13 @@
+﻿{
+  "Name": "\"Thank you\" Message",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "voNyIC81tkK_JbI-KBHCrg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/voNyIC81tkK_JbI-KBHCrg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/A_0wu6DyUkK_wGP2V685Ow",
+  "Created": "2024-12-04T07:21:34.9693094Z",
+  "Updated": "2024-12-04T07:21:34.9693094Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

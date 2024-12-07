@@ -1,0 +1,13 @@
+﻿{
+  "Name": "OTP Textbox",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "RCjK6pUQAUW8M7jms9BCjg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/RCjK6pUQAUW8M7jms9BCjg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/-lH2GCmeRE-722KOwGSskw",
+  "Created": "2024-12-04T06:54:19.4057798Z",
+  "Updated": "2024-12-04T06:54:19.4057798Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

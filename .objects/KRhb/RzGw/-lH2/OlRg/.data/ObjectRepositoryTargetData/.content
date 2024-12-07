@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="P91u2PjO1UqhGzgZPOA2bQ" Reference="5y7obp0hLUSA7kzKS4-dwg/OlRgHhsiqkC-QSMBtu7Cpg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/campaignPage" CVScreenId="e29e44c4-7aef-4eb2-a392-14c21276cbf5" CvElementArea="755, 546, 275, 69" CvTextArea="818, 572, 152, 15" CvTextArgument="Enter Mobile Number" CvType="Button" DesignTimeRectangle="756, 546, 274, 68" DesignTimeScaleFactor="1" ElementType="Button" Guid="ceb9733c-bb4b-4ca6-ae94-5da0f830328a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e29e44c4-7aef-4eb2-a392-14c21276cbf5" CvElementArea="687, 546, 72, 68" CvTextArea="709, 572, 28, 15" CvTextArgument="+63" CvType="Button" DesignTimeRectangle="710, 571, 27, 19" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='web-electable-region-context-menu' aaname='' /&gt;" Guid="966d170b-f003-4c1f-96fb-1d19a2968cea" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="732459bb5e20ef6b3bc516196063e98e.png" xmlns="">0PJmTJNTOkE2Ozu-84Jw7Zw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

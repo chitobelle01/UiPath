@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="So_UI40MSE6z-LzraO6uQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/%20link" CVScreenId="3d3f6452-f2ba-48d1-81cf-805ca0bfde7f" CvElementArea="1071, 496, 257, 78" CvTextArea="1134, 521, 130, 25" CvTextArgument="SEND OTP" CvType="Button" DesignTimeRectangle="1071, 496, 256, 78" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="58e63dea-f59b-4cac-a42c-47af0dd8c3a5" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="6621867865269935b577154aa1007697.png" xmlns="">04ija6BAh9Uybt-RiRNLeew</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

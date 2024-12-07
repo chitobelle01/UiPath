@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Type Into 'UnitFloor'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "sSf8D1oRtkKQjjZhG6zNCw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/sSf8D1oRtkKQjjZhG6zNCw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/7kO7KjecREOIDV7Xh-DhLw",
+  "Created": "2024-12-04T06:57:11.9639995Z",
+  "Updated": "2024-12-04T06:57:11.9639995Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

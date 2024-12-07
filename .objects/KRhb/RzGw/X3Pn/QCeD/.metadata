@@ -1,0 +1,13 @@
+﻿{
+  "Name": "'Month' Option",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "QCeDplUVBUeRp1__0s8qgQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/QCeDplUVBUeRp1__0s8qgQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:26:53.6250019Z",
+  "Updated": "2024-12-04T07:26:53.6250019Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

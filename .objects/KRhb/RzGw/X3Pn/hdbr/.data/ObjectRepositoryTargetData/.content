@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8o6hadjSwkW5um-XI1dF4g" Reference="5y7obp0hLUSA7kzKS4-dwg/hdbr-apCYkinF6GOvG4OZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="c534981a-5e42-48a2-a056-94834b283083" CvTextArea="998, 477, 22, 12" CvTextArgument="Jan" CvType="Text" DesignTimeRectangle="998, 477, 22, 12" DesignTimeScaleFactor="1" ElementType="Text" Guid="0cfb82d6-2828-46f5-be4d-c658be6c12eb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="40711552fcdf49057a850599b0bd8e25.png" xmlns="">0k84J2peZa0ulmMOzwZLqxQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

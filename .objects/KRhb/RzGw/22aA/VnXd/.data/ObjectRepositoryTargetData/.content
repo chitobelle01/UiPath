@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="21IfQ1rLm0-aQNp0TDnoWA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/flutter/customerInfoPage" CVScreenId="a2f66439-628d-4a6b-ac04-391c4915d95b" CvTextArea="966, 666, 127, 28" CvTextArgument="Uploading..." CvType="Text" DesignTimeRectangle="966, 666, 127, 28" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="26f6574c-eab6-4864-9c5b-59d3d10c1326" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="fd8794159b39dbd736005b987079b128.png" xmlns="">07iGfcT-BPk2sWg8JAH-4qA</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">CheckState</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

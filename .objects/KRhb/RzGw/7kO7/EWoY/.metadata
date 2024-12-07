@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Type Into 'Street'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "EWoYa0tWyUeSEKI4BtP6lQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/EWoYa0tWyUeSEKI4BtP6lQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/7kO7KjecREOIDV7Xh-DhLw",
+  "Created": "2024-12-04T06:57:10.1107615Z",
+  "Updated": "2024-12-04T06:57:10.1107615Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

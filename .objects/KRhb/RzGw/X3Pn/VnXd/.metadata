@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Check App State 'Uploading...'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "VnXdiJMyDUGafMJ0s9wjyA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/VnXdiJMyDUGafMJ0s9wjyA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/X3PnApAGnUiYHU6TU9vhcw",
+  "Created": "2024-12-04T07:27:25.3018207Z",
+  "Updated": "2024-12-04T07:27:25.3018207Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
