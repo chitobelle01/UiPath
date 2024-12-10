@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RHhiYYB1bEuzCcNYTZznKw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/728" CVScreenId="3a970ca6-089c-492d-a1e6-2e3c4c731016" CvTextArea="122, 403, 289, 19" CvTextArgument="The moderation state has been updated." CvType="Text" DesignTimeRectangle="124, 399, 1713, 24" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='messages__content' tag='DIV' type='' aaname='                           The moderation state has been updated.                       ' check:innerText='The moderation state has been updated.' /&gt;" Guid="35a13c96-c1fe-4205-9308-09a6c961006b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9603226907 | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3a970ca6-089c-492d-a1e6-2e3c4c731016" CvTextArea="122, 365, 119, 18" CvTextArgument="Status message" CvType="Text" DesignTimeRectangle="124, 362, 115, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='message-status-title' tag='H2' type='' class='messages__title' aaname='                   Status message                 ' check:innerText='Status message' /&gt;" Guid="637c4f0c-6132-4729-98be-76f2ae46f674" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e24e7aba387697ed68a8eced1a531f7d.png" xmlns="">0Jqiv-n92eEOWkb9CwWQmJw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

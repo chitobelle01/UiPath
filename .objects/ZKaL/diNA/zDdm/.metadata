@@ -5,9 +5,12 @@
   "Reference": "5y7obp0hLUSA7kzKS4-dwg/zDdmoRQbzEyNk-iO_qwj9w",
   "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/diNAqkdjpU24uaxR_Y0Nzw",
   "Created": "2024-11-27T07:57:59.0238915Z",
-  "Updated": "2024-11-27T07:57:59.0238915Z",
+  "Updated": "2024-12-06T05:51:43.2866567Z",
   "CreatedBy": [
     "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
     "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
   ]
 }

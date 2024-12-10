@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jQCGBZ4SC0izCY0HJnf06w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/validate-ekyc/returned" CVScreenId="7c6d05fb-c021-4575-ba05-7010c8b7133d" CvElementArea="82, 903, 96, 52" CvTextArea="107, 921, 48, 19" CvTextArgument="Apply" CvType="Button" DesignTimeRectangle="85, 905, 92, 48" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='edit-apply' tag='INPUT' type='submit' class='button js-form-submit form-submit' aaname='Apply' check:text='Apply' /&gt;" Guid="55aa2caf-a97f-4a46-91a1-9dc1866686ac" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Returned | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="85de4edb2bdc427b606e47f9f9ae8764.png" xmlns="">04xAuJH2ThUCwgX-m4V1HjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

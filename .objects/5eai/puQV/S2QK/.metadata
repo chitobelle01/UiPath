@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Edge Assign Registration_Locked for Review_1",
+  "Type": "Screen",
+  "Id": "S2QKPLLzNEGjObCOnURzmA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/S2QKPLLzNEGjObCOnURzmA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/puQVyiZXdEaif77lty59qg",
+  "Created": "2024-12-09T06:28:59.8260905Z",
+  "Updated": "2024-12-09T10:40:36.9367442Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

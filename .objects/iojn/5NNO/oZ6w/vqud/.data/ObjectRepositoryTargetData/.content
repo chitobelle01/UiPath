@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HX6p_zPZhk-wzIdO9_cNPA" Reference="5y7obp0hLUSA7kzKS4-dwg/vqudyh3j7ESyYs6efcgQPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/validate-ekyc/submitted" CVScreenId="77b8140f-3f8e-4475-89aa-c84766c0a39a" CvTextArea="1201, 392, 68, 16" CvTextArgument="Approved" CvType="Text" DesignTimeRectangle="1171, 378, 130, 40" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Approved' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='tabs__link js-tabs-link' check:innerText='Approved' /&gt;" Guid="6a4bac06-428c-47bd-a7d7-01ed6d7b1b99" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Submitted | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="77b8140f-3f8e-4475-89aa-c84766c0a39a" CvTextArea="553, 347, 159, 19" CvTextArgument="Validate Registration" CvType="Text" DesignTimeRectangle="523, 330, 220, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Validate Registration(active tab)' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='tabs__link js-tabs-link is-active' check:innerText='Validate Registration&amp;#xA;(active tab)' /&gt;" Guid="5e172026-cc90-48af-9c7a-5c2e2d54c571" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dfff16a60197ea1fdc2e5a8036fd72e2.png" xmlns="">01i_D_B_Yy0C3-AjprPwaGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

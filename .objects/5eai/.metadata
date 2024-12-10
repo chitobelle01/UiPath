@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Edge Assign Registration",
+  "Type": "App",
+  "Id": "5eaicHVscEWD9Cj0LWrUYg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/5eaicHVscEWD9Cj0LWrUYg",
+  "Created": "2024-12-09T04:26:14.2574077Z",
+  "Updated": "2024-12-09T06:21:13.0800891Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

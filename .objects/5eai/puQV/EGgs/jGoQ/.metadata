@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Validate Successfully Changed Status",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jGoQ4EQBd0Gl0e7VgBvgjg",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/jGoQ4EQBd0Gl0e7VgBvgjg",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/EGgswo2Hakiu1Y1VcMsbGQ",
+  "Created": "2024-12-10T06:44:46.6474294Z",
+  "Updated": "2024-12-10T06:44:46.6474294Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

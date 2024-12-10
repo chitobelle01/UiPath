@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3X5nnCtgpECSRW509GLsvg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/726" CVScreenId="ebbe4ef3-e7be-4f03-a72f-347e461ca933" CvElementArea="555, 805, 339, 32" CvType="InputBox" DesignTimeRectangle="563, 809, 187, 25" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='edit_return_reason_chosen' tag='INPUT' type='text' class='chosen-search-input default' aaname='' /&gt;" Guid="49779892-ed1d-4e26-b8bb-05d31c06cd53" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9815877645 | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ebbe4ef3-e7be-4f03-a72f-347e461ca933" CvTextArea="540, 771, 106, 13" CvTextArgument="Return Reason *" CvType="Text" DesignTimeRectangle="541, 769, 107, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Return Reason' parentid='content-moderation-entity-moderation-form' tag='LABEL' type='' class='form-item__label js-form-required form-required' check:innerText='Return Reason' /&gt;" Guid="a04254e1-b011-42a5-ae38-e248864e6da6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b4da2193b5d14c06241773cd719b06db.png" xmlns="">0AJ6U29LDi06IQulO0VWiOA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

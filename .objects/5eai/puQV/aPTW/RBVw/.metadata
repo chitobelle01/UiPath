@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Check App State 'Assign Registration Submitted'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "RBVweGF--UGZiFizrkRFEQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/RBVweGF--UGZiFizrkRFEQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/aPTW9n5ZcEWTIBqguRWxlw",
+  "Created": "2024-12-09T06:12:35.2939452Z",
+  "Updated": "2024-12-09T07:39:14.502214Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

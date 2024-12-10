@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Check App State 'MIN Records'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "yIoFU5SPZUy5FO1QtYJSPw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/yIoFU5SPZUy5FO1QtYJSPw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/aPTW9n5ZcEWTIBqguRWxlw",
+  "Created": "2024-12-10T03:23:09.8075283Z",
+  "Updated": "2024-12-10T03:24:11.4850998Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

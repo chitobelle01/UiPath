@@ -2,6 +2,7 @@
   <x:Members>
     <x:Property Name="out_ReferenceNumber" Type="OutArgument(x:String)" />
     <x:Property Name="in_ConfirmationPageURL" Type="InArgument(x:String)" />
+    <x:Property Name="out_TestResult" Type="OutArgument(x:String)" />
   </x:Members>
   <VisualBasic.Settings>
     <x:Null />
@@ -127,19 +128,19 @@
       <AssemblyReference>PLDTSMART SIM Registration.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Confirmation_Page" sap:VirtualizedContainerService.HintSize="1040,1801" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Confirmation_Page" sap:VirtualizedContainerService.HintSize="1113,1947" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Confirmation Page" sap:VirtualizedContainerService.HintSize="1040,1778" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="11b944e4-d4d3-4377-966d-431d9c2b9317" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Confirmation Page" sap:VirtualizedContainerService.HintSize="1058,1924" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="11b944e4-d4d3-4377-966d-431d9c2b9317" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1006,1538" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1024,1684" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="SuccessfulMessage" />
               <Variable x:TypeArguments="x:Boolean" Name="Resultt" />
@@ -149,9 +150,9 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check App State 'Check App State 'DIV''" Exists="{x:Null}" sap:VirtualizedContainerService.HintSize="972,1476" sap2010:WorkflowViewState.IdRef="NCheckState_1" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" Result="{x:Null}" ScopeIdentifier="11b944e4-d4d3-4377-966d-431d9c2b9317" Timeout="10" Version="V4">
+            <uix:NCheckState DisplayName="Check App State 'Check App State 'DIV''" sap:VirtualizedContainerService.HintSize="990,1622" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="11b944e4-d4d3-4377-966d-431d9c2b9317" Timeout="10" Version="V4">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,1194" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,1340" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="ReferenceNumber" />
                   </Sequence.Variables>
@@ -160,7 +161,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NMouseScroll ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Register Another SIM button'" sap:VirtualizedContainerService.HintSize="434,289" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InScope="{x:Null}" InUiElement="{x:Null}" InteractionMode="HardwareEvents" KeyModifiers="{x:Null}" MovementUnits="1" OutUiElement="{x:Null}" ScopeIdentifier="11b944e4-d4d3-4377-966d-431d9c2b9317" Timeout="{x:Null}" Version="V4">
+                  <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Register Another SIM button'" sap:VirtualizedContainerService.HintSize="434,289" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="1" ScopeIdentifier="11b944e4-d4d3-4377-966d-431d9c2b9317" Version="V4">
                     <uix:NMouseScroll.SearchedElement>
                       <uix:SearchedElement>
                         <uix:SearchedElement.Target>
@@ -175,7 +176,7 @@
                       <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/flutter/congratulationPage?isAutoApprove=false&amp;registrationType=I%27m+registering+a+newly+bought+SIM" ContentHash="e3VqRshBlk2M7WXI46aYdA" DesignTimeRectangle="12, 125, 1912, 911" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl tag='FLUTTER-VIEW' type='' class='' aaname='' check:text='flutter-view flt-scene-host {  font: normal normal 14px sans-serif;}flutter-view flt-semantics input[type=range] {  appearance: none;  -webkit-appearance: none;  width: 100%;  position: absolute;  border: none;  top: 0;  right: 0;  bottom: 0;  left: 0;}flutter-view input::selection {  background-color: transparent;}flutter-view textarea::selection {  background-color: transparent;}flutter-view flt-semantics input,flutter-view flt-semantics textarea,flutter-view flt-semantics [contentEditable=&amp;quot;true&amp;quot;] {  caret-color: transparent;}flutter-view .flt-text-editing::placeholder {  opacity: 0;}flutter-view:focus { outline: none;}flutter-view .transparentTextEditing:-webkit-autofill,flutter-view .transparentTextEditing:-webkit-autofill:hover,flutter-view .transparentTextEditing:-webkit-autofill:focus,flutter-view .transparentTextEditing:-webkit-autofill:active {  opacity: 0 !important;}flutter-view input::-ms-reveal {  display: none;}' /&gt;" Guid="bda6a735-92a8-4321-bddf-4b8180fde650" InformativeScreenshot="49e118004829a98154f55ccae3ef0ae5.png" Reference="5y7obp0hLUSA7kzKS4-dwg/WDIDGVXbdkSbdFb1r1tbFQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Smart SIM Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
                     </uix:NMouseScroll.Target>
                   </uix:NMouseScroll>
-                  <p:CVScope ScopeId="{x:Null}" ApiKey="{x:Null}" ContinueOnError="{x:Null}" CvMethod="ElementDetection, OCR" DelayBefore="{x:Null}" DesignTimeCacheId="aa85e18a-f748-43eb-8348-89198a8e251a" DisplayName="Check if there's a successful message" sap:VirtualizedContainerService.HintSize="434,618" sap2010:WorkflowViewState.IdRef="CVScope_6" ScrollOffset="{x:Null}" SendOnPremData="False" Server="{x:Null}" TimeoutMS="{x:Null}" Version="V6">
+                  <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="aa85e18a-f748-43eb-8348-89198a8e251a" DisplayName="Check if there's a successful message" sap:VirtualizedContainerService.HintSize="434,650" sap2010:WorkflowViewState.IdRef="CVScope_6" SendOnPremData="False" Version="V6">
                     <p:CVScope.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
@@ -187,7 +188,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="400,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
                             <ui:CommentOut.Body>
                               <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,529" sap2010:WorkflowViewState.IdRef="Sequence_7">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -227,7 +228,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:CommentOut>
-                          <p:CvGetTextWithDescriptor ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" Descriptor="[&quot;Target: AnyText (532,420,206,18)&quot; +&#xA;&quot;Anchor: Text 'Please keep this Control Number as this will serve as your certificate of registration:' (338,380,594,20)&quot;]" DesignTimeCacheId="8760529f-d351-4bb5-a398-5e3d985f74eb" DesignTimeScaleFactor="1.5" DisplayName="Get Reference Number" sap:VirtualizedContainerService.HintSize="382,243" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_3" InRegion="{x:Null}" InformativeScreenshot="63b705637830d5aafc28bd294c97d7b9" MethodType="ClipboardRow" NumberOfScrolls="2" OutRegion="{x:Null}" RefreshBefore="True" Result="[out_ReferenceNumber]" Scroll="{x:Null}" ScrollDirection="None" ScrollOffset="{x:Null}" TimeoutMS="{x:Null}" Version="V6">
+                          <p:CvGetTextWithDescriptor DelayScreenshotAfterScroll="{x:Null}" ScrollOffset="{x:Null}" Descriptor="[&quot;Target: AnyText (532,420,206,18)&quot; +&#xA;&quot;Anchor: Text 'Please keep this Control Number as this will serve as your certificate of registration:' (338,380,594,20)&quot;]" DesignTimeCacheId="8760529f-d351-4bb5-a398-5e3d985f74eb" DesignTimeScaleFactor="1.5" DisplayName="Get Reference Number" sap:VirtualizedContainerService.HintSize="400,243" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_3" InformativeScreenshot="63b705637830d5aafc28bd294c97d7b9" NumberOfScrolls="2" RefreshBefore="True" Result="[out_ReferenceNumber]" ScrollDirection="None" Version="V6">
                             <p:CvGetTextWithDescriptor.DesignTimeDescriptor>
                               <uc:CvDescriptor Id="b976553c-5a0e-4ae9-b7ee-bd18e1f4158e">
                                 <uc:CvDescriptor.Anchors>
@@ -350,7 +351,7 @@
                         <ActivityFunc.Argument>
                           <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
                         </ActivityFunc.Argument>
-                        <p1:UiPathScreenOCR ApiKey="{x:Null}" ComputeSkewAngle="False" Endpoint="{x:Null}" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_3" Image="[Image]" Language="en" NoopExecution="False" Output="{x:Null}" PredictionId="{x:Null}" Profile="Screen" Result="{x:Null}" Scale="1" Text="{x:Null}" Timeout="100000" UseAccents="{x:Null}" UseLocalServer="{x:Null}" />
+                        <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseAccents="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_3" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
                       </ActivityFunc>
                     </p:CVScope.OCREngine>
                     <p:CVScope.Target>
@@ -392,16 +393,32 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:CommentOut>
+                  <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">Passed</InArgument>
+                    </Assign.Value>
+                  </Assign>
                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,168" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[out_ReferenceNumber]" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,169" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
+                  <Assign sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="Assign_2">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">Failed</InArgument>
+                    </Assign.Value>
+                  </Assign>
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>

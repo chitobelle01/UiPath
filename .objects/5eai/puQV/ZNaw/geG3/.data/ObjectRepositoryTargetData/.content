@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LDaFUv3_skaqB7cDR_UnLw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/726" DesignTimeRectangle="77, 769, 131, 50" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='edit-current' tag='DIV' type='' class='js-form-item form-item js-form-type-item form-type--item js-form-item-current form-item--current' aaname='                        Locked For Review         ' check:innerText='Status&amp;#xA;Locked For Review' /&gt;" Guid="d55e3f78-388c-47a2-83c1-ff6daf437726" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9815877645 | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b0bfa218-22f2-46ce-9d00-df7aa70ff26a" CvTextArea="76, 771, 43, 13" CvTextArgument="Status" CvType="Text" DesignTimeRectangle="77, 769, 41, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='form-item__label' aaname='Status' check:innerText='Status' /&gt;" Guid="4a482bac-11d8-4873-a0c0-a31098f74408" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="23a3463f8f694834108fb342bd2276e2.png" xmlns="">0hLJ_h7yLF0SK3wmVSw9y1w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Apply'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ojAo4ZDNuUGWcC4s8gnK4w",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/ojAo4ZDNuUGWcC4s8gnK4w",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/aPTW9n5ZcEWTIBqguRWxlw",
+  "Created": "2024-12-09T07:09:36.3910821Z",
+  "Updated": "2024-12-09T07:09:36.3910821Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

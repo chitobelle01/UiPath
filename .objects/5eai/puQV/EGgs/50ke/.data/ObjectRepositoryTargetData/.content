@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SLHaCF-sV0GNC4SSr47fyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/728" CVScreenId="f8ae9b72-4f17-4373-83f2-ecd1aa65b7a8" CvElementArea="239, 794, 239, 50" CvType="InputBox" DesignTimeRectangle="240, 795, 237, 48" DesignTimeScaleFactor="1" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='edit-new-state' tag='SELECT' type='' class='form-select form-element form-element--type-select' aaname='Change to' /&gt;" Guid="80466154-faeb-4393-874e-7bd59280a04e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9603226907 | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f8ae9b72-4f17-4373-83f2-ecd1aa65b7a8" CvTextArea="238, 771, 70, 16" CvTextArgument="Change to" CvType="Text" DesignTimeRectangle="240, 769, 68, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='content-moderation-entity-moderation-form' tag='LABEL' type='' class='form-item__label' aaname='Change to' check:innerText='Change to' /&gt;" Guid="89c74788-97e5-4170-9040-482f5b191055" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a55979ed9cb7f6db130f2b40f0c55756.png" xmlns="">0J3zsTn6AoUqapbdcDqoiHQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vFClT72peU-1g-NSsHVq1Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/validate-ekyc/locked-for-review" CVScreenId="1c6782a8-2014-4014-bb72-8d0d70124b9e" CvElementArea="83, 683, 512, 51" CvType="InputBox" DesignTimeRectangle="85, 685, 507, 48" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='edit-main-subscriber-mobile' tag='INPUT' type='text' class='form-text form-element form-element--type-text form-element--api-textfield' aaname='Mobile Number' /&gt;" Guid="998415af-d33d-4740-b26c-501af14ed0e9" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Locked for Review | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1c6782a8-2014-4014-bb72-8d0d70124b9e" CvTextArea="84, 665, 108, 13" CvTextArgument="Mobile Number" CvType="Text" DesignTimeRectangle="85, 663, 106, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Mobile Number' tag='LABEL' type='' class='form-item__label' check:innerText='Mobile Number' /&gt;" Guid="3e50e3c0-aba1-4022-9147-f23582bfa0a0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d14de95d400687e0fa166e9719874929.png" xmlns="">0LEL5KB4epkefI_BPeTJdWw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

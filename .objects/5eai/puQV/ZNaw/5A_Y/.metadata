@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Select Item 'Change to'",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "5A_YR940DEuvrKxL42v_aQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/5A_YR940DEuvrKxL42v_aQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/ZNaw9yN-EU-ASGqU2iDQyQ",
+  "Created": "2024-12-10T05:22:09.2623603Z",
+  "Updated": "2024-12-10T05:22:09.2623603Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

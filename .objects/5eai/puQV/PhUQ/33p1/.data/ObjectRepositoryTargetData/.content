@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-CONdOhPCEqZIADrqsphlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/1787" DesignTimeRectangle="77, 812, 73, 49" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='edit-current' tag='DIV' type='' class='js-form-item form-item js-form-type-item form-type--item js-form-item-current form-item--current' aaname='                        Submitted         ' check:innerText='Status&amp;#xA;Submitted' /&gt;" Guid="9aa3cfa2-ebc9-4b00-8fbd-7a8b860abf10" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9210868613 | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="de5d0eb0c193c915b89533a57958780a.png" xmlns="">0vtTe8zhM2UWavBhkD18C2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

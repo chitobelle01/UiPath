@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Check App State 'Status message The mode…'",
+  "Type": "Element",
+  "Id": "RgDX3cr5w0KFcxkqWusO6w",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/RgDX3cr5w0KFcxkqWusO6w",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/S2QKPLLzNEGjObCOnURzmA",
+  "Created": "2024-12-10T02:48:58.3872727Z",
+  "Updated": "2024-12-10T02:48:58.3872727Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

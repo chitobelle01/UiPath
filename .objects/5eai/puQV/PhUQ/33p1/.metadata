@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Status: Submitted",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "33p1qZTOHUm2kgFCuWU2Ag",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/33p1qZTOHUm2kgFCuWU2Ag",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/PhUQWnqalUqcr_XSjT_xqw",
+  "Created": "2024-12-09T10:13:47.4954009Z",
+  "Updated": "2024-12-09T10:18:10.3726198Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

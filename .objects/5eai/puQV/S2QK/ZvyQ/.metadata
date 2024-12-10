@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Check App State 'Assign Registration_LockedForReview'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ZvyQYFj2kU6-VqzST174LA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/ZvyQYFj2kU6-VqzST174LA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/S2QKPLLzNEGjObCOnURzmA",
+  "Created": "2024-12-09T10:54:57.9704018Z",
+  "Updated": "2024-12-09T10:54:57.9704018Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

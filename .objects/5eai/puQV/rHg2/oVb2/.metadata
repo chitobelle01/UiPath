@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Click 'Locked for Review'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oVb2rD15N0WsGgiAV9zx2Q",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/oVb2rD15N0WsGgiAV9zx2Q",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/rHg2yfbg20qyWpl7CXUDlA",
+  "Created": "2024-12-09T10:41:27.0125674Z",
+  "Updated": "2024-12-09T10:42:50.7019189Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

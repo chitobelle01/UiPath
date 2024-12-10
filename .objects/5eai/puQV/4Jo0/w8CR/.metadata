@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Select Item 'Change to Locked For Review'",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "w8CRXUaVnkGr26blI7-cVw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/w8CRXUaVnkGr26blI7-cVw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/4Jo0qjA9_UOJ_aJyDmCxag",
+  "Created": "2024-12-10T04:52:45.2996771Z",
+  "Updated": "2024-12-10T04:54:35.324466Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

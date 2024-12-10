@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8gnrIM22n0iMNApb4qW0_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/validate-ekyc/submitted" CVScreenId="7f0b657c-32a9-4827-8cff-804cf7c19475" CvTextArea="1201, 446, 68, 16" CvTextArgument="Approved" CvType="Text" DesignTimeRectangle="1171, 432, 130, 40" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Approved' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='tabs__link js-tabs-link' check:innerText='Approved' /&gt;" Guid="97e2eeb1-6aa0-4162-a3a6-0df856512f91" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Submitted | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7f0b657c-32a9-4827-8cff-804cf7c19475" CvTextArea="553, 401, 159, 19" CvTextArgument="Validate Registration" CvType="Text" DesignTimeRectangle="523, 384, 220, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Validate Registration(active tab)' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='tabs__link js-tabs-link is-active' check:innerText='Validate Registration&amp;#xA;(active tab)' /&gt;" Guid="e8b14ea3-58aa-4986-b3ce-434f853658c6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cab38373532e9444d5578f7809bbd8de.png" xmlns="">07VfbsQQytUiiyd5_6KFt8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

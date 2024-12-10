@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Check App State 'Validate Registration_Res'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "M0HBqmJeDUqZJBjFL0D3oQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/M0HBqmJeDUqZJBjFL0D3oQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/lfcZkiHPUkiGIXxaRnsBVA",
+  "Created": "2024-12-09T06:22:05.6128367Z",
+  "Updated": "2024-12-09T06:23:05.5614978Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

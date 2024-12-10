@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Check App State 'ValidateStatus_LockedForReview",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "geG3dG9NVESAO_jDgg6BFw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/geG3dG9NVESAO_jDgg6BFw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/ZNaw9yN-EU-ASGqU2iDQyQ",
+  "Created": "2024-12-10T05:17:40.7551912Z",
+  "Updated": "2024-12-10T05:18:32.8381546Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

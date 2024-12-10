@@ -1,12 +1,15 @@
 ﻿{
-  "Name": "Edge: Validate Registration Approved | Sim Re (1)",
+  "Name": "Edge: Validate Registration Approved | Sim Re",
   "Type": "Screen",
   "Id": "VQeanSQcUUm0rkr_zrX_0Q",
   "Reference": "5y7obp0hLUSA7kzKS4-dwg/VQeanSQcUUm0rkr_zrX_0Q",
   "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/d9EWbfT2DUq6QQrEaD6bLw",
   "Created": "2024-11-27T07:59:09.7132133Z",
-  "Updated": "2024-11-27T07:59:09.7132133Z",
+  "Updated": "2024-12-09T01:11:48.4604403Z",
   "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
     "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
   ]
 }

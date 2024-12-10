@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get Text 'Status'",
+  "Type": "Element",
+  "Id": "sDxl3wVytkGPztH8V0vesQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/sDxl3wVytkGPztH8V0vesQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/aPTW9n5ZcEWTIBqguRWxlw",
+  "Created": "2024-12-10T03:58:38.463788Z",
+  "Updated": "2024-12-10T03:58:38.463788Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

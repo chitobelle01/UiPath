@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Assign Registration_Submitted_Status",
+  "Type": "Screen",
+  "Id": "4Jo0qjA9_UOJ_aJyDmCxag",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/4Jo0qjA9_UOJ_aJyDmCxag",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/puQVyiZXdEaif77lty59qg",
+  "Created": "2024-12-09T10:30:14.9212093Z",
+  "Updated": "2024-12-09T10:30:14.9212093Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

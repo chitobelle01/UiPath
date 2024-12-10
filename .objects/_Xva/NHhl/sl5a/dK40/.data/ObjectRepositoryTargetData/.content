@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z-V7zDaEPUWPoUlpZw-LyA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/validate-ekyc/returned" CVScreenId="fec003b4-d865-4062-9db3-0e07f1b172db" CvElementArea="83, 683, 512, 51" CvType="InputBox" DesignTimeRectangle="85, 685, 507, 48" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='edit-main-subscriber-mobile' tag='INPUT' type='text' class='form-text form-element form-element--type-text form-element--api-textfield' aaname='Mobile Number' /&gt;" Guid="76e9a0d5-df3b-4f8f-a795-2536b422555a" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Returned | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fec003b4-d865-4062-9db3-0e07f1b172db" CvTextArea="84, 665, 108, 13" CvTextArgument="Mobile Number" CvType="Text" DesignTimeRectangle="85, 663, 106, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Mobile Number' tag='LABEL' type='' class='form-item__label' check:innerText='Mobile Number' /&gt;" Guid="383e2d2c-3eef-4821-bb92-ce33e1c8f340" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d14de95d400687e0fa166e9719874929.png" xmlns="">02BdmfKykmU6HWUdhuEI3tw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
