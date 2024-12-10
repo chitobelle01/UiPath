@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="o1rAuQ4zPkuQMjbM-qv58A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/validate-ekyc/locked-for-review" CVScreenId="3c30ae92-7735-4b69-b472-68b165665ae1" CvTextArea="58, 338, 608, 28" CvTextArgument="Validate Registration Locked for Review" CvType="Text" DesignTimeRectangle="60, 330, 605, 42" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' aaname='Validate Registration Locked for Review' check:innerText='Validate Registration Locked for Review' /&gt;" Guid="a21d135f-784b-4749-8a56-633e568cb464" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Locked for Review | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3c30ae92-7735-4b69-b472-68b165665ae1" CvTextArea="553, 401, 159, 19" CvTextArgument="Validate Registration" CvType="Text" DesignTimeRectangle="523, 384, 220, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Validate Registration(active tab)' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='is-active tabs__link js-tabs-link' check:innerText='Validate Registration&amp;#xA;(active tab)' /&gt;" Guid="9a6a8147-ab2d-4216-a5d6-aed7e915dc53" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="740fa8f07e0e9769128fe22a1c5945fb.png" xmlns="">0JvQTNSOOuEe8Z10S2hsFCw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

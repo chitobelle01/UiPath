@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Check App State 'Assign Registration_LockedFR'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ocT1tm5PHU6kD_C8qWf1cQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/ocT1tm5PHU6kD_C8qWf1cQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/S2QKPLLzNEGjObCOnURzmA",
+  "Created": "2024-12-10T05:05:24.9783208Z",
+  "Updated": "2024-12-10T05:07:56.9251227Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

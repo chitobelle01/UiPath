@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N3WWZjUn_kC6dwbHdxVM7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/supervisor/assign-jobs/locked-for-review" CVScreenId="7032e061-c941-4552-804f-8af0b800367f" CvTextArea="58, 338, 652, 34" CvTextArgument="Supervisor Assign Job (Locked For Review)" CvType="Text" DesignTimeRectangle="60, 330, 652, 42" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' aaname='Supervisor Assign Job (Locked For Review)' check:innerText='Supervisor Assign Job (Locked For Review)' /&gt;" Guid="2ebffe05-7fcd-4ced-9a97-d2c5f088624a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Supervisor Assign Job (Locked For Review) | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7032e061-c941-4552-804f-8af0b800367f" CvTextArea="344, 401, 147, 19" CvTextArgument="Assign Registration" CvType="Text" DesignTimeRectangle="313, 384, 210, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Assign Registration(active tab)' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='is-active tabs__link js-tabs-link' check:innerText='Assign Registration&amp;#xA;(active tab)' /&gt;" Guid="782a33cc-8087-4fe2-b471-5fbd8b1f29a5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6b37a22f5cca2e2b52fd9b8c3f98914c.png" xmlns="">0mpm7IB7-X0CZx9kt9b7gXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

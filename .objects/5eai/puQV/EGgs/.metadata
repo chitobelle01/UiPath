@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Edge Validate Registration_LockedForReview_Status",
+  "Type": "Screen",
+  "Id": "EGgswo2Hakiu1Y1VcMsbGQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/EGgswo2Hakiu1Y1VcMsbGQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/puQVyiZXdEaif77lty59qg",
+  "Created": "2024-12-10T06:02:24.9220562Z",
+  "Updated": "2024-12-10T06:04:04.9358176Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

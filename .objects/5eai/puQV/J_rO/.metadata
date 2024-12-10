@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Validate Registration_EndorsedForInvesti",
+  "Type": "Screen",
+  "Id": "J_rOfW8MEUuiqdYiXmE-4w",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/J_rOfW8MEUuiqdYiXmE-4w",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/puQVyiZXdEaif77lty59qg",
+  "Created": "2024-12-10T05:42:24.2604974Z",
+  "Updated": "2024-12-10T05:42:24.2604974Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

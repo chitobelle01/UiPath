@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="D4uabXRO1k653OFE5_X4vQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/supervisor/assign-jobs/locked-for-review" CVScreenId="298f4108-a3ff-47f1-ac45-179f51fc3160" CvElementArea="82, 865, 97, 52" CvTextArea="107, 883, 47, 19" CvTextArgument="Apply" CvType="Button" DesignTimeRectangle="85, 867, 92, 48" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='edit-apply' tag='INPUT' type='submit' class='button js-form-submit form-submit' aaname='Apply' check:text='Apply' /&gt;" Guid="e2d13dfb-d1d1-45ea-b6cb-74a9ea5dc49e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Supervisor Assign Job (Locked For Review) | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="33ef4f22d2df170df7365ae20ddd14c2.png" xmlns="">096734cQlGkePek2QgLS9kw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

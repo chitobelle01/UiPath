@@ -1,4 +1,5 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="SR_RG_001_Validator" this:SR_RG_001_Validator.aDSIMRegistration="[System.Text.Json.JsonSerializer.Deserialize(Of SIMReg_WebTesting.ADSIMRegistration)(&quot;{&quot;&quot;MobileNumber&quot;&quot;:&quot;&quot;9618866140&quot;&quot;,&quot;&quot;TypeofRegistration&quot;&quot;:&quot;&quot;1&quot;&quot;,&quot;&quot;Nationality&quot;&quot;:&quot;&quot;Philippines&quot;&quot;,&quot;&quot;IDCard&quot;&quot;:&quot;&quot;2&quot;&quot;,&quot;&quot;HouseLotNumber&quot;&quot;:&quot;&quot;Lot 1A&quot;&quot;,&quot;&quot;Street&quot;&quot;:&quot;&quot;Canghang-at St.&quot;&quot;,&quot;&quot;VillageSubdivision&quot;&quot;:&quot;&quot;North Verdana Subd.&quot;&quot;,&quot;&quot;UnitFloor&quot;&quot;:&quot;&quot;1st Floor&quot;&quot;,&quot;&quot;Building&quot;&quot;:&quot;&quot;La Guardia Flats&quot;&quot;,&quot;&quot;Province&quot;&quot;:&quot;&quot;CEBU&quot;&quot;,&quot;&quot;CityMunicipality&quot;&quot;:&quot;&quot;MANDAUE CITY&quot;&quot;,&quot;&quot;Barangay&quot;&quot;:&quot;&quot;TAWASON&quot;&quot;,&quot;&quot;ZipCode&quot;&quot;:&quot;&quot;6014&quot;&quot;,&quot;&quot;AlternateContactNumber&quot;&quot;:&quot;&quot;09991234567&quot;&quot;,&quot;&quot;EmailAddress&quot;&quot;:&quot;&quot;rose_tester@pldt.com&quot;&quot;,&quot;&quot;ReferenceNumber&quot;&quot;:&quot;&quot;20241016P000002007&quot;&quot;,&quot;&quot;TestExecutionStatus&quot;&quot;:&quot;&quot;For Testing&quot;&quot;,&quot;&quot;VisaType&quot;&quot;:&quot;&quot;Non-Tourist&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-15T15:31:12.3446815+08:00&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-21T11:52:36.765096+08:00&quot;&quot;,&quot;&quot;RecordOwner&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;UpdatedBy&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;CreatedBy&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;ValidIDFront&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;AD3EE62E-958A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/ValidIDFront&quot;&quot;,&quot;&quot;Size&quot;&quot;:93735,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;non-filipino driver&amp;#39;s license.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-21T09:59:17.4743014+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;DD57D713-508F-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-21T09:59:17.4743014+08:00&quot;&quot;}}&quot;)]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Activity mc:Ignorable="sap sap2010" x:Class="SR_RG_001_Validator" this:SR_RG_001_Validator.aDSIMRegistration="[System.Text.Json.JsonSerializer.Deserialize(Of SIMReg_WebTesting.ADSIMRegistration)(&quot;{&quot;&quot;MobileNumber&quot;&quot;:&quot;&quot;9618866140&quot;&quot;,&quot;&quot;TypeofRegistration&quot;&quot;:&quot;&quot;1&quot;&quot;,&quot;&quot;Nationality&quot;&quot;:&quot;&quot;Philippines&quot;&quot;,&quot;&quot;IDCard&quot;&quot;:&quot;&quot;2&quot;&quot;,&quot;&quot;HouseLotNumber&quot;&quot;:&quot;&quot;Lot 1A&quot;&quot;,&quot;&quot;Street&quot;&quot;:&quot;&quot;Canghang-at St.&quot;&quot;,&quot;&quot;VillageSubdivision&quot;&quot;:&quot;&quot;North Verdana Subd.&quot;&quot;,&quot;&quot;UnitFloor&quot;&quot;:&quot;&quot;1st Floor&quot;&quot;,&quot;&quot;Building&quot;&quot;:&quot;&quot;La Guardia Flats&quot;&quot;,&quot;&quot;Province&quot;&quot;:&quot;&quot;CEBU&quot;&quot;,&quot;&quot;CityMunicipality&quot;&quot;:&quot;&quot;MANDAUE CITY&quot;&quot;,&quot;&quot;Barangay&quot;&quot;:&quot;&quot;TAWASON&quot;&quot;,&quot;&quot;ZipCode&quot;&quot;:&quot;&quot;6014&quot;&quot;,&quot;&quot;AlternateContactNumber&quot;&quot;:&quot;&quot;09991234567&quot;&quot;,&quot;&quot;EmailAddress&quot;&quot;:&quot;&quot;rose_tester@pldt.com&quot;&quot;,&quot;&quot;ReferenceNumber&quot;&quot;:&quot;&quot;20241016P000002007&quot;&quot;,&quot;&quot;TestExecutionStatus&quot;&quot;:&quot;&quot;For Testing&quot;&quot;,&quot;&quot;VisaType&quot;&quot;:&quot;&quot;Non-Tourist&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-15T15:31:12.3446815+08:00&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-21T11:52:36.765096+08:00&quot;&quot;,&quot;&quot;RecordOwner&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;UpdatedBy&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;CreatedBy&quot;&quot;:{&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Email&quot;&quot;:&quot;&quot;T-RAPasumala@supplier.smart.com.ph&quot;&quot;,&quot;&quot;Type&quot;&quot;:0,&quot;&quot;Name&quot;&quot;:&quot;&quot;ACCENTURE: PASUMALA, Rose Janine A.&quot;&quot;,&quot;&quot;IsActive&quot;&quot;:true,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-08-13T14:05:06.99+08:00&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;},&quot;&quot;ValidIDFront&quot;&quot;:{&quot;&quot;CreatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;FieldId&quot;&quot;:&quot;&quot;AD3EE62E-958A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;RecordId&quot;&quot;:&quot;&quot;D0C88B73-C78A-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;Path&quot;&quot;:&quot;&quot;ADSIMRegistration/d0c88b73-c78a-ef11-8475-000d3aa2bfc9/ValidIDFront&quot;&quot;,&quot;&quot;Size&quot;&quot;:93735,&quot;&quot;UpdatedBy&quot;&quot;:&quot;&quot;52525251-9501-41B9-8DEF-57D34FADDD0F&quot;&quot;,&quot;&quot;Name&quot;&quot;:&quot;&quot;non-filipino driver&amp;#39;s license.jpg&quot;&quot;,&quot;&quot;Type&quot;&quot;:&quot;&quot;image/jpeg&quot;&quot;,&quot;&quot;UpdateTime&quot;&quot;:&quot;&quot;2024-10-21T09:59:17.4743014+08:00&quot;&quot;,&quot;&quot;EntityId&quot;&quot;:&quot;&quot;110976E7-948A-EF11-8473-000D3AC8832A&quot;&quot;,&quot;&quot;Id&quot;&quot;:&quot;&quot;DD57D713-508F-EF11-8475-000D3AA2BFC9&quot;&quot;,&quot;&quot;CreateTime&quot;&quot;:&quot;&quot;2024-10-21T09:59:17.4743014+08:00&quot;&quot;}}&quot;)]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="aDSIMRegistration" Type="x:String" />
     <x:Property Name="in_Username" Type="InArgument(x:String)" />
@@ -56,6 +57,16 @@
       <x:String>System.Linq.Expressions</x:String>
       <x:String>System.Security</x:String>
       <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -111,41 +122,124 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>PLDTSMART SIM Registration.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="SR_RG_001_Validator" sap:VirtualizedContainerService.HintSize="1022,1238" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="SR_RG_001_Validator" sap:VirtualizedContainerService.HintSize="1113,2422" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Login - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Login.xaml)" sap:VirtualizedContainerService.HintSize="416,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Login.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Login - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Login.xaml)" sap:VirtualizedContainerService.HintSize="1056,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Login.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:String" x:Key="in_Username">[in_Username]</InArgument>
         <InArgument x:TypeArguments="ss:SecureString" x:Key="in_Password">[in_Password]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="StoreValidator_View - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\StoreValidator_View.xaml)" sap:VirtualizedContainerService.HintSize="416,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\StoreValidator_View.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="StoreValidator_View_ValidateRegistration - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\StoreValidator_View_ValidateRegistration.xaml)" sap:VirtualizedContainerService.HintSize="1056,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\StoreValidator_View_ValidateRegistration.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ValidateRegistration_Approved - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\ValidateRegistration_Approved.xaml)" sap:VirtualizedContainerService.HintSize="416,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_13" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\ValidateRegistration_Approved.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <scg:Dictionary x:TypeArguments="x:String, Argument" />
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Validate Registration_SearchMIN - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Validate Registration_SearchMIN.xaml)" sap:VirtualizedContainerService.HintSize="416,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_14" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Validate Registration_SearchMIN.xaml">
+    <Sequence DisplayName="Navigate to Approve Tab" sap:VirtualizedContainerService.HintSize="1056,1388" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: Validate Registration_Approve" sap:VirtualizedContainerService.HintSize="1022,1296" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a6ad3130-0738-45a6-a759-49af1aa74c9c" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="988,1056" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click 'Approved''" sap:VirtualizedContainerService.HintSize="954,225" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ad3130-0738-45a6-a759-49af1aa74c9c" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/admin/validate-ekyc/submitted" CVScreenId="77b8140f-3f8e-4475-89aa-c84766c0a39a" ContentHash="YoD6pymO2kSFLfMZ0FsPBg" CvTextArea="1201, 392, 68, 16" CvTextArgument="Approved" CvType="Text" DesignTimeRectangle="1171, 378, 130, 40" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Approved' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='tabs__link js-tabs-link' check:innerText='Approved' /&gt;" Guid="6a4bac06-428c-47bd-a7d7-01ed6d7b1b99" InformativeScreenshot="dfff16a60197ea1fdc2e5a8036fd72e2.png" Reference="5y7obp0hLUSA7kzKS4-dwg/vqudyh3j7ESyYs6efcgQPQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Submitted | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="77b8140f-3f8e-4475-89aa-c84766c0a39a" CvTextArea="553, 347, 159, 19" CvTextArgument="Validate Registration" CvType="Text" DesignTimeRectangle="523, 330, 220, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Validate Registration(active tab)' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='tabs__link js-tabs-link is-active' check:innerText='Validate Registration&amp;#xA;(active tab)' /&gt;" Guid="5e172026-cc90-48af-9c7a-5c2e2d54c571" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="954,175" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Click Approved&quot;]" />
+              <uix:NCheckState DisplayName="Check App State 'Validate Registration_Approved'" sap:VirtualizedContainerService.HintSize="954,594" sap2010:WorkflowViewState.IdRef="NCheckState_2" IsLoose="True" Timeout="10" Version="V3">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,352" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Validate Registration Approved displayed&quot;]" />
+                    <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="416,115" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Error" Message="[&quot;did not reached page&quot;]" />
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/admin/validate-ekyc/approved" CVScreenId="b2a6b8e2-241f-4ad5-9068-ec6239154e14" ContentHash="DqRvpf2ke0GtnMkjEYM4IQ" CvTextArea="58, 338, 479, 34" CvType="AnyWordGroup" DesignTimeRectangle="60, 330, 477, 42" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' /&gt;" Guid="7c851881-5d17-4cd7-80f8-8ce964edb5c5" InformativeScreenshot="c23cd607eaba0e1807c1c9d7a401b73b.png" Reference="5y7obp0hLUSA7kzKS4-dwg/VkUWo3_YykWqtQ6OrRz95A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Approved | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="b2a6b8e2-241f-4ad5-9068-ec6239154e14" CvTextArea="553, 401, 159, 19" CvTextArgument="Validate Registration" CvType="Text" DesignTimeRectangle="523, 384, 220, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Validate Registration(active tab)' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='is-active tabs__link js-tabs-link' check:innerText='Validate Registration&amp;#xA;(active tab)' /&gt;" Guid="a6311c06-52bc-4acc-a455-294c6bffe640" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="ow46405kfEiQMeYJRMgslg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQoSURBVFhHvZdbqJVFFMe/0vKSlQiKSBYYmj4IXhAkFJUMESEiKYSUeghNSPHyUvggaKKkeHuw9Ox9kAqxwget7EYG3gXRhEhR9/aG4JXSSi3L/P1nzXLP+c7nOXr0uODHt/eedZuZNWu+nbVYSlUxAJ63zwfjwIMQBSxXHua5HD7JSpV2EAdbW8ph5uJFuAB/wmv2W2snseaIB38O9sL/kUMwGLKsrrWSqMexBe8J34IHd3ZCH9D2RKP7JbXgT8EmyAd3foRnAd37lUTDmX8JacC/4Wruty1gK1E6Gp20VGrBn4avIA2k4AtgNvwRf3O2QV+4hyRKtwpOM88HvwYLoSO0hVmQT2Ir9IYW1oQF7wobIHUs6qEDuJ6SeAd+h1Tve9AE7jIJc6rZfQg3IHWq729CVEaCfqUNz7chn8Q6eBKicnOiRrPvOzmdDlrq1JlD96t2gmiE1JKQ3V/guv/CXMbonM2tgpYpOKoOgVOQOtkBF+P3f2AxDh/jGY0Rs30U3gfZuL065mhg/HBULhIplKvteWrZ3FhoL3vAZPAlVhJL4HGIDhBLQku+HlIf35DwE02vghmPhHQfT8NQYCws8RTw8euwDGrboQDmR+36V3A/6hcvA2OcsEaigRXn9VwBbiQWZauPPsSTMZyXQxJT4Uocb7wdloCYBv+B+/rUJlG0CmbQBdJL5hwMhEQnzPB10C3oekrig4IknoEj4HqHQe3cdBqIGfQHBXUDtVVzqtNRF3TGgbZF45qdtkGflcQiktDxdX9arc/A/alZDYMYNBUzGAW+tKKcrdzO78y67pjGR0AlGf8a3oXf4ne15/mgQnafOhGur5MxHmLQVEx5LMiJG6zKyiGwGAS/xN/FT9CL+19vRjPAz756xxySVneUnRJ0GzWxiRCDpmLKL0B6u22MjnQZ6YLx33X3x8smoLM/D7QNGr8Mb2SlkDy1cctOK/AqxKCpmCO9ZKppuMEZ0LakJ+MgWGGqJmq2OoprwfWqoOaTvryocLWNZtdAzIkunwPgBuIkaEb6rBmoGdWCu5h9PzgGbqsJpDWlpHQyolEq5kDn/SNwgzyqfjWYaJRIsA89Iq36PJ9TM4/wjEapWAJiDOTvdkczsOs1L6E/hD1fE3XzqLgnQBMvrpaAzvEXUOTkEgyHaJBISKCiOlDvKLL9ATpDNCgS63JCt+EJKHLEy0jFXkZcwn+FYKsKTzukcxbsNszXTiNxpVJ1EniDSdE51y1IS61QMycVXN1Sf060RXl9JTSNZbf75I4krEIoqLcgbc2OWrBuuo9BRaumVDRzTWAWE7pN4TUlMihX1eVUlLsgvdWaQx3vZ3gFrCO2SMJKBLrDTNgDRTN1dOb3w3vQM6s7rpWMzu5FVGT1IZFu8BKovepPym5QUpthKeii6XHn+51lNwEUfiqg2OEF7AAAAABJRU5ErkJggg==" InformativeScreenshot="1d81139ec48b98c5528ce18333df8f5b.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw" Selector="&lt;html app='msedge.exe' title='Validate Registration Submitted | Sim Registration' /&gt;" Title="Validate Registration Submitted | Sim Registration" Url="https://stg1.simreg.smart.com.ph/admin/validate-ekyc/submitted" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Validate Registration_Approved - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Validate Registration_Approved.xaml)" sap:VirtualizedContainerService.HintSize="1056,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_13" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Validate Registration_AutoApproved.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:String" x:Key="in_MobileNumber">[in_MobileNumber]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ValidateStatus_Approved - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\ValidateStatus_Approved.xaml)" sap:VirtualizedContainerService.HintSize="416,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\ValidateStatus_Approved.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ValidateStatus_Approved - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\ValidateStatus_Approved.xaml)" sap:VirtualizedContainerService.HintSize="1056,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\ValidateStatus_AutoApproved.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:String" x:Key="in_MobileNumber">[in_MobileNumber]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Logout - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Logout.xaml)" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_16" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Logout.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Logout - Invoke Workflow File (SimReg\Scripts\Reusable Test Steps\Logout.xaml)" sap:VirtualizedContainerService.HintSize="1056,195" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_16" UnSafe="False" WorkflowFileName="SimReg\Scripts\Reusable Test Steps\Logout.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>

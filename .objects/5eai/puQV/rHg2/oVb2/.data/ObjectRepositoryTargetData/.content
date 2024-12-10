@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lFqzCHN35kiPmZIJCQ5EYg" Reference="5y7obp0hLUSA7kzKS4-dwg/oVb2rD15N0WsGgiAV9zx2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/supervisor/assign-jobs/submited" CVScreenId="01cbca04-55c7-4b7e-a620-5daf7ac60b5f" CvTextArea="374, 446, 123, 13" CvTextArgument="Locked for Review" CvType="Text" DesignTimeRectangle="343, 432, 186, 40" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Locked for Review' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='tabs__link js-tabs-link' check:innerText='Locked for Review' /&gt;" Guid="0d1347b4-4da3-443f-8cf9-ddae7f71e3da" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Supervisor Assign Job (Submitted) | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="01cbca04-55c7-4b7e-a620-5daf7ac60b5f" CvTextArea="344, 401, 147, 19" CvTextArgument="Assign Registration" CvType="Text" DesignTimeRectangle="313, 384, 210, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Assign Registration(active tab)' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='tabs__link js-tabs-link is-active' check:innerText='Assign Registration&amp;#xA;(active tab)' /&gt;" Guid="65dcd83c-8d0b-44ed-ba6a-cc70a6338ed4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2108fa6721305b35698d920cfa694fa8.png" xmlns="">0WNVFsGqPbUGKX0wq95qSUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

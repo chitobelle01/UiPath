@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Check App State  'Validate Registration_Returned'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oJv-LIWoF0-MyA9aLVnJ3A",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/oJv-LIWoF0-MyA9aLVnJ3A",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/lfcZkiHPUkiGIXxaRnsBVA",
+  "Created": "2024-12-10T05:44:37.7814595Z",
+  "Updated": "2024-12-10T05:44:37.7814595Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

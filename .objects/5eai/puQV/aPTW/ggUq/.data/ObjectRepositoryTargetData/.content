@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u-lBOoHiT0OqYAd7ojGQ7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/supervisor/assign-jobs/submited" CVScreenId="b92475d0-86d3-4c99-b1bd-38b9df1510e1" CvTextArea="602, 825, 74, 15" CvType="AnyWordGroup" DesignTimeRectangle="587, 801, 147, 65" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' class='' tag='TD' /&gt;" Guid="738cb3b3-6b8c-4085-aa24-37d83b093260" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Supervisor Assign Job (Submitted) | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b92475d0-86d3-4c99-b1bd-38b9df1510e1" CvTextArea="602, 770, 48, 14" CvTextArgument="Status" CvType="Text" DesignTimeRectangle="587, 753, 147, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl aaname='Status' type='' tag='TH' class='' check:innerText='Status' /&gt;" Guid="964d066d-31d4-401b-b23b-38d1ba60507f" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="b92475d0-86d3-4c99-b1bd-38b9df1510e1" CvTextArea="602, 770, 48, 14" CvTextArgument="Status" CvType="Text" DesignTimeRectangle="601, 770, 49, 14" ElementType="Text" Guid="e09f49e0-fcbc-4b3a-90be-98346466ae95" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="df4daac22b1a41fce78141ba6e906216.png" xmlns="">0Jec3CLNYvUmVBcc4lohJXQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,277 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Validate_Status" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_MobileNumber" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1260,2516.6666666666665</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>Validate_Status_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.Testing.Activities.Models</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DataValidation</x:String>
+      <x:String>UiPath.IntelligentOCR.Actions.Abstractions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR</AssemblyReference>
+      <AssemblyReference>PLDTSMART SIM Registration.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Validate_Status" sap:VirtualizedContainerService.HintSize="1628,2834" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge Assign Registration_Submitted_Status" sap:VirtualizedContainerService.HintSize="1628,2811" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1594,2571" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'ValidateStatus_LockedForReview'" sap:VirtualizedContainerService.HintSize="1560,2511" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" Timeout="5" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1056,2229" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="MobileNumber" />
+                    <Variable x:TypeArguments="x:String" Name="AppStatus" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NGetText DisplayName="Get Text 'Status Submitted'" sap:VirtualizedContainerService.HintSize="1022,189" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" TextString="[AppStatus]" Version="V4">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/1787" ContentHash="-CONdOhPCEqZIADrqsphlw" DesignTimeRectangle="77, 812, 73, 49" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='edit-current' tag='DIV' type='' class='js-form-item form-item js-form-type-item form-type--item js-form-item-current form-item--current' aaname='                        Submitted         ' check:innerText='Status&amp;#xA;Submitted' /&gt;" Guid="9aa3cfa2-ebc9-4b00-8fbd-7a8b860abf10" InformativeScreenshot="de5d0eb0c193c915b89533a57958780a.png" Reference="5y7obp0hLUSA7kzKS4-dwg/33p1qZTOHUm2kgFCuWU2Ag" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9210868613 | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <If Condition="[AppStatus.Contains(&quot;Submitted&quot;)]" sap:VirtualizedContainerService.HintSize="1022,1865" sap2010:WorkflowViewState.IdRef="If_1">
+                    <If.Then>
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="988,1469" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="x:String" Name="AppStatus" />
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="954,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;SIM Registration is Submitted&quot;]" />
+                        <uix:NSelectItem DisplayName="Select Item '&quot;Change to''" sap:VirtualizedContainerService.HintSize="954,189" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Locked For Review" ScopeIdentifier="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" Version="V4">
+                          <uix:NSelectItem.Items>
+                            <scg:List x:TypeArguments="x:String" Capacity="1">
+                              <x:String>Locked For Review</x:String>
+                            </scg:List>
+                          </uix:NSelectItem.Items>
+                          <uix:NSelectItem.Target>
+                            <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/1929" CVScreenId="ffcdf4c9-69a0-421e-899a-f2037946e1c7" ContentHash="JrX9dqm3H065U-gRrbmIxA" CvElementArea="181, 794, 181, 50" CvType="InputBox" DesignTimeRectangle="182, 795, 179, 48" DesignTimeScaleFactor="1" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl id='edit-new-state' tag='SELECT' type='' class='form-select form-element form-element--type-select' aaname='Change to' /&gt;" Guid="412f864f-9628-425b-b7dc-6d09ed81c450" InformativeScreenshot="e194b18fbd7dfb92d97fc38b6582f566.png" Reference="5y7obp0hLUSA7kzKS4-dwg/w8CRXUaVnkGr26blI7-cVw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9642947470 | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <uix:Target CVScreenId="ffcdf4c9-69a0-421e-899a-f2037946e1c7" CvTextArea="181, 771, 70, 16" CvTextArgument="Change to" CvType="Text" DesignTimeRectangle="182, 769, 69, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='content-moderation-entity-moderation-form' tag='LABEL' type='' class='form-item__label' aaname='Change to' check:innerText='Change to' /&gt;" Guid="243fc925-ffc7-4074-b644-517a97812cb8" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NSelectItem.Target>
+                        </uix:NSelectItem>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="954,175" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Changed to Locked For Review&quot;]" />
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click 'Apply''" sap:VirtualizedContainerService.HintSize="954,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" Version="V4">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/1929" CVScreenId="ffcdf4c9-69a0-421e-899a-f2037946e1c7" ContentHash="O4o5q7gNHk2huoBeUVtUhQ" CvElementArea="486, 790, 98, 52" CvTextArea="512, 808, 47, 19" CvTextArgument="Apply" CvType="Button" DesignTimeRectangle="489, 792, 93, 48" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='edit-submit' tag='INPUT' type='submit' class='button js-form-submit form-submit' aaname='Apply' check:text='Apply' /&gt;" Guid="1be01077-5e67-4aa3-a482-90f88957c0ba" InformativeScreenshot="10587998d2447c0676881a45a4a1c848.png" Reference="5y7obp0hLUSA7kzKS4-dwg/WqfPFPBBkUq6_mrkir6kQA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9642947470 | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="954,175" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Clicked Apply&quot;]" />
+                        <uix:NCheckState DisplayName="Validate Successfully Changed Status" sap:VirtualizedContainerService.HintSize="954,470" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="1d9b8897-5bdb-45f8-8ae7-bd01ed2446bd" Timeout="10" Version="V4">
+                          <uix:NCheckState.IfExists>
+                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Status Successfully Changed to Locked For Review&quot;]" />
+                            </Sequence>
+                          </uix:NCheckState.IfExists>
+                          <uix:NCheckState.IfNotExists>
+                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Error" Message="[&quot;Failed&quot;]" />
+                            </Sequence>
+                          </uix:NCheckState.IfNotExists>
+                          <uix:NCheckState.Target>
+                            <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/1931" ContentHash="KBr3Y748QkO5o-H6v_5sUg" DesignTimeRectangle="60, 338, 1801, 117" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl aria-role='contentinfo' tag='DIV' type='' class='messages-list__item messages messages--status' aaname='                                                                   ' check:innerText='Status message&amp;#xA;The moderation state has been updated.' /&gt;" Guid="2336ae74-bebc-4bb0-aeb6-3328466871e6" InformativeScreenshot="e5a15115f419de3d8e6b381630f8c590.png" Reference="5y7obp0hLUSA7kzKS4-dwg/8EwH0YSXQE6iy9-7TgloWQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9623415103 | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <uix:Target CVScreenId="1e011a39-7c39-4095-b054-e919f7640b51" CvTextArea="122, 365, 119, 18" CvTextArgument="Status message" CvType="Text" DesignTimeRectangle="124, 362, 115, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='message-status-title' tag='H2' type='' class='messages__title' aaname='                   Status message                 ' check:innerText='Status message' /&gt;" Guid="861e397d-4c53-48a1-b752-64303da94305" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NCheckState.Target>
+                        </uix:NCheckState>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,166" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Error" Message="[&quot;Can't find status&quot;]" />
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="1022,115" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,228" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[&quot;Couldn't search MIN&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/1787" ContentHash="-CONdOhPCEqZIADrqsphlw" DesignTimeRectangle="77, 812, 73, 49" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='edit-current' tag='DIV' type='' class='js-form-item form-item js-form-type-item form-type--item js-form-item-current form-item--current' aaname='                        Submitted         ' check:innerText='Status&amp;#xA;Submitted' /&gt;" Guid="9aa3cfa2-ebc9-4b00-8fbd-7a8b860abf10" InformativeScreenshot="de5d0eb0c193c915b89533a57958780a.png" Reference="5y7obp0hLUSA7kzKS4-dwg/33p1qZTOHUm2kgFCuWU2Ag" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9210868613 | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="CAFnMZCu30u6DDXntvHlLg" IconBase64="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" InformativeScreenshot="3609b2372707ca120d140e11018331b7.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/4Jo0qjA9_UOJ_aJyDmCxag" Selector="&lt;html app='msedge.exe' title='9210868613 | Sim Registration' /&gt;" Title="Validate Registration Resubmitted | Sim Registration" Url="https://stg1-val.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/*" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

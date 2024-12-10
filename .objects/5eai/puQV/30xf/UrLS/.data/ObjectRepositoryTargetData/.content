@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lLPuNyYbO0K28B1HNURbXw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/validate-ekyc/locked-for-review" DesignTimeRectangle="60, 622, 141, 56" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl type='' tag='TH' class='' aaname='Mobile Number' check:innerText='Mobile Number' /&gt;" Guid="2fda1b15-eb10-4829-a617-b17b122ee610" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Locked for Review | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="237637a8-bfac-4dcb-83ac-f7e33c9bedbf" CvTextArea="216, 643, 49, 14" CvTextArgument="RefNo" CvType="Text" DesignTimeRectangle="201, 622, 189, 56" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl aaname='RefNo' type='' tag='TH' class='' check:innerText='RefNo' /&gt;" Guid="62dc0adb-3b7c-49b1-aa79-732c57783d66" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b990c7b005626bfe754bd952eab35e39.png" xmlns="">0yUZLQfwj202W0fmf_kGQ7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

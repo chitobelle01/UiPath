@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Get Text 'lnk_MobileNumber'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "FGBtd6CjTkOG0WT6y3Ferw",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/FGBtd6CjTkOG0WT6y3Ferw",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/S2QKPLLzNEGjObCOnURzmA",
+  "Created": "2024-12-09T10:55:44.796993Z",
+  "Updated": "2024-12-09T10:55:44.796993Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

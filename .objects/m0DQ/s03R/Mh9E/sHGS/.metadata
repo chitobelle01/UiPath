@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Check App State 'ValidateStatus_EndorsedForInvestigation'",
+  "Type": "Element",
+  "Id": "sHGSGlEtZke73BPiUJLkoQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/sHGSGlEtZke73BPiUJLkoQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/Mh9EASWWl0m1WPUp1Mhssw",
+  "Created": "2024-12-10T06:01:01.0801918Z",
+  "Updated": "2024-12-10T06:01:01.0801918Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-tdE7vCTGEaKoweg34xPzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/supervisor/assign-jobs/locked-for-review" CVScreenId="101d5354-fbd9-448b-9a7a-5cee5825449e" CvTextArea="125, 598, 122, 15" CvTextArgument="Mobile Number" CvType="Text" DesignTimeRectangle="110, 582, 167, 48" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl aaname='Mobile Number' type='' tag='TH' class='' check:innerText='Mobile Number' /&gt;" Guid="55713d22-a1c1-4ca1-b1b6-8c9125ed0941" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Supervisor Assign Job (Locked For Review) | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="101d5354-fbd9-448b-9a7a-5cee5825449e" CvTextArea="292, 598, 143, 15" CvTextArgument="Reference Number" CvType="Text" DesignTimeRectangle="277, 582, 225, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl aaname='Reference Number' type='' tag='TH' class='' check:innerText='Reference Number' /&gt;" Guid="6ce1648a-9554-46d0-ba2a-532cf754fc11" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3d02f9809ea51e03a62efcd06d00519d.png" xmlns="">0M4XzhiZ87kKA2iwAb28ddg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

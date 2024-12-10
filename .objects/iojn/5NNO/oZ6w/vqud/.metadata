@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Approved'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vqudyh3j7ESyYs6efcgQPQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/vqudyh3j7ESyYs6efcgQPQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/oZ6wsD_L5E-6_Za0GojLfw",
+  "Created": "2024-12-09T07:28:44.3129562Z",
+  "Updated": "2024-12-09T07:28:44.3129562Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

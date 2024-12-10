@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="376,259" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="clr-namespace:PLDTSMART_SIM_Registration;assembly=DataService.PLDTSMART_SIM_Registration" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uda="clr-namespace:UiPath.DataService.Activities;assembly=UiPath.DataService.Activities.Core" xmlns:udam="clr-namespace:UiPath.DataService.Activities.Models;assembly=UiPath.DataService.Activities.Core" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="376,259" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="clr-namespace:PLDTSMART_SIM_Registration;assembly=DataService.PLDTSMART_SIM_Registration" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:uda="clr-namespace:UiPath.DataService.Activities;assembly=UiPath.DataService.Activities.Core" xmlns:udam="clr-namespace:UiPath.DataService.Activities.Models;assembly=UiPath.DataService.Activities.Core" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -105,7 +105,7 @@
       <AssemblyReference>PLDTSMART SIM Registration.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="995,8555" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="1113,8693" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:DateTime" Name="StartTime" />
       <Variable x:TypeArguments="x:String" Name="TestStatus" />
@@ -153,24 +153,26 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Fetch Data - Invoke Workflow File (SimReg\Scripts\Data\Fetch Data.xaml)" sap:VirtualizedContainerService.HintSize="758,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="SimReg\Scripts\Data\Fetch Data.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Fetch Data - Invoke Workflow File (SimReg\Scripts\Data\Fetch Data.xaml)" sap:VirtualizedContainerService.HintSize="758,204" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="SimReg\Scripts\Data\Fetch Data.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <OutArgument x:TypeArguments="scg:IList(p:ADSIMRegistration)" x:Key="out_OutputRecords">[OutputRecords]</OutArgument>
         <OutArgument x:TypeArguments="x:Int64" x:Key="out_TotalRecords">[TotalRecords]</OutArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_TestStatus">[TestStatus]</InArgument>
         <OutArgument x:TypeArguments="x:String" x:Key="out_TestResult">[TestResult]</OutArgument>
         <OutArgument x:TypeArguments="x:String" x:Key="out_FilePath">[FilePath]</OutArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_Username" />
+        <OutArgument x:TypeArguments="ss:SecureString" x:Key="out_Password" />
       </ui:InvokeWorkflowFile.Arguments>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InvokeWorkflowFile>
-    <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Proceed with Testing" sap:VirtualizedContainerService.HintSize="758,8304" sap2010:WorkflowViewState.IdRef="If_15">
+    <If Condition="[TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Proceed with Testing" sap:VirtualizedContainerService.HintSize="758,8295" sap2010:WorkflowViewState.IdRef="If_15">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="724,8118" sap2010:WorkflowViewState.IdRef="Sequence_59">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="724,8109" sap2010:WorkflowViewState.IdRef="Sequence_59">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="BackIDOldName" />
             <Variable x:TypeArguments="x:String" Name="BackIDNewName" />
@@ -181,7 +183,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="690,173" sap2010:WorkflowViewState.IdRef="LogMessage_57" Level="Trace" Message="[&quot;Checking if Successfully Fetched Valid Data For Testing.&quot;]" />
-          <Sequence DisplayName="Organize Fetched Data" sap:VirtualizedContainerService.HintSize="690,7885" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Organize Fetched Data" sap:VirtualizedContainerService.HintSize="690,7876" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:TimeSpan" Name="ExecutionTime" />
               <Variable x:TypeArguments="x:Int32" Name="TotalMin" />
@@ -1368,7 +1370,7 @@
                 </Sequence>
               </If.Else>
             </If>
-            <Assign DisplayName="Calculate Total Execution Time" sap:VirtualizedContainerService.HintSize="586,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_3">
+            <Assign DisplayName="Calculate Total Execution Time" sap:VirtualizedContainerService.HintSize="656,114" sap2010:WorkflowViewState.IdRef="Assign_3">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:TimeSpan">[ExecutionTime]</OutArgument>
               </Assign.To>
@@ -1376,7 +1378,7 @@
                 <InArgument x:TypeArguments="x:TimeSpan">[Now - StartTime]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:MultipleAssign DisplayName="Get Hours/Minutes/Seconds" sap:VirtualizedContainerService.HintSize="586,272" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+            <ui:MultipleAssign DisplayName="Get Hours/Minutes/Seconds" sap:VirtualizedContainerService.HintSize="656,272" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
               <ui:MultipleAssign.AssignOperations>
                 <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_16">
@@ -1422,8 +1424,8 @@
                 </scg:List>
               </ui:MultipleAssign.AssignOperations>
             </ui:MultipleAssign>
-            <ui:LogMessage DisplayName="Log Total Execution Time" sap:VirtualizedContainerService.HintSize="586,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Execution Time: &quot; + TotalExecutionTime]" />
-            <If Condition="[TotalRecords &gt; 1]" DisplayName="Check if Fetched Data is more than 1" sap:VirtualizedContainerService.HintSize="586,595.3333333333334" sap2010:WorkflowViewState.IdRef="If_2">
+            <ui:LogMessage DisplayName="Log Total Execution Time" sap:VirtualizedContainerService.HintSize="656,173" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Execution Time: &quot; + TotalExecutionTime]" />
+            <If Condition="[TotalRecords &gt; 1]" DisplayName="Check if Fetched Data is more than 1" sap:VirtualizedContainerService.HintSize="656,593" sap2010:WorkflowViewState.IdRef="If_2">
               <If.Then>
                 <Sequence DisplayName="Fetched Data is more than 1" sap:VirtualizedContainerService.HintSize="512.6666666666666,407.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <Sequence.Variables>

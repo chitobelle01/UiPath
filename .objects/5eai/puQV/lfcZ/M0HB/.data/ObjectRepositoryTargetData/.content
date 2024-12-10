@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TEzL9w1IS0mIJadefAdveQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/supervisor/assign-jobs/resubmitted" CVScreenId="7fcd8dc9-7d6b-4124-aa3c-21c5da9c9650" CvTextArea="58, 338, 564, 34" CvTextArgument="Supervisor Assign Job (Resubmitted)" CvType="Text" DesignTimeRectangle="60, 330, 562, 42" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' aaname='Supervisor Assign Job (Resubmitted)' check:innerText='Supervisor Assign Job (Resubmitted)' /&gt;" Guid="594791db-51d7-4212-8ce8-3f87320d09fd" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Supervisor Assign Job (Resubmitted) | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7fcd8dc9-7d6b-4124-aa3c-21c5da9c9650" CvTextArea="344, 401, 147, 19" CvTextArgument="Assign Registration" CvType="Text" DesignTimeRectangle="313, 384, 210, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Assign Registration(active tab)' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='is-active tabs__link js-tabs-link' check:innerText='Assign Registration&amp;#xA;(active tab)' /&gt;" Guid="4d9d5a97-8151-4b11-bd3e-26b1b4a52ae5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="307e4d285033541abab037e2af914c92.png" xmlns="">0iGKJSz1oh0a2CQLPZs9QHQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

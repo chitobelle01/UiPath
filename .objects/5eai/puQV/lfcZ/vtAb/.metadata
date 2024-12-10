@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Check App State 'Assign Registration_Resub…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vtAbeDRco0q5EDuA07FHqA",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/vtAbeDRco0q5EDuA07FHqA",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/lfcZkiHPUkiGIXxaRnsBVA",
+  "Created": "2024-12-09T10:08:30.1869428Z",
+  "Updated": "2024-12-09T10:10:11.5392733Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

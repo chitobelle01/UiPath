@@ -1,0 +1,157 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="StoreValidator_View" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1227.3333333333333,1230" sap2010:WorkflowViewState.IdRef="StoreValidator_View_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="StoreValidator_View" sap:VirtualizedContainerService.HintSize="1089,1232" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge: Store Validator View - New Subs | Sim R" sap:VirtualizedContainerService.HintSize="988,1209" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen" ScopeGuid="14556d5a-e79f-4e2a-a28c-7aaba48e46ab" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <uix:NCheckState DisplayName="Check App State 'Store Validator'" sap:VirtualizedContainerService.HintSize="954,969" sap2010:WorkflowViewState.IdRef="NCheckState_2" IsLoose="True" Version="V3">
+            <uix:NCheckState.IfExists>
+              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,752" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Store Validator View Appeared&quot;]" />
+                <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Assign Registration'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="14556d5a-e79f-4e2a-a28c-7aaba48e46ab" Version="V3">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable ContentHash="I1Rv7_Arc0izcjURTZQq5w" DesignTimeRectangle="396, 641, 254, 94" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Assign Registration' parentid='block-clarosubtheme-local-tasks' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Assign Registration' parentid='block-clarosubtheme-local-tasks' tag='A' type='' class='tabs__link js-tabs-link' check:text='Assign Registration' /&gt;" Guid="043bbf98-5695-456d-b973-af00279e5fb1" ImageBase64="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" InformativeScreenshot="74236ddb8650702575b5f20705498144.png" Reference="5y7obp0hLUSA7kzKS4-dwg/flgh6lcMX0ONs9tXz0hduQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Store Validator View - New Subs | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                  </uix:NClick.Target>
+                  <uix:NClick.VerifyOptions>
+                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                      <uix:VerifyExecutionOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionOptions.Retry>
+                      <uix:VerifyExecutionOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionOptions.Timeout>
+                    </uix:VerifyExecutionOptions>
+                  </uix:NClick.VerifyOptions>
+                </uix:NClick>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Clicked Assign Registration&quot;]" />
+              </Sequence>
+            </uix:NCheckState.IfExists>
+            <uix:NCheckState.IfNotExists>
+              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[&quot;Did not reached page&quot;]" />
+              </Sequence>
+            </uix:NCheckState.IfNotExists>
+            <uix:NCheckState.Target>
+              <uix:TargetAnchorable BrowserURL="https://stg1.simreg.smart.com.ph/admin/store-validator-view/search-new" CVScreenId="ef2b3db9-5b5a-4933-8b4d-d36e29ba355d" ContentHash="K17YcU5QqEKpPOPA3SlZIw" CvTextArea="87, 368, 739, 43" CvType="AnyWordGroup" DesignTimeRectangle="89, 357, 737, 63" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' /&gt;" Guid="bae274af-4ba0-4b00-a991-51c3ef3e47c4" InformativeScreenshot="629083faf34c3342b5c5a92949ac59aa.png" Reference="5y7obp0hLUSA7kzKS4-dwg/xNlLeogPfU6wppergU075g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Store Validator View - New Subs | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+            </uix:NCheckState.Target>
+          </uix:NCheckState>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="9TPvZyPrM0SpSQqbU0m8WA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQoSURBVFhHvZdbqJVFFMe/0vKSlQiKSBYYmj4IXhAkFJUMESEiKYSUeghNSPHyUvggaKKkeHuw9Ox9kAqxwget7EYG3gXRhEhR9/aG4JXSSi3L/P1nzXLP+c7nOXr0uODHt/eedZuZNWu+nbVYSlUxAJ63zwfjwIMQBSxXHua5HD7JSpV2EAdbW8ph5uJFuAB/wmv2W2snseaIB38O9sL/kUMwGLKsrrWSqMexBe8J34IHd3ZCH9D2RKP7JbXgT8EmyAd3foRnAd37lUTDmX8JacC/4Wruty1gK1E6Gp20VGrBn4avIA2k4AtgNvwRf3O2QV+4hyRKtwpOM88HvwYLoSO0hVmQT2Ir9IYW1oQF7wobIHUs6qEDuJ6SeAd+h1Tve9AE7jIJc6rZfQg3IHWq729CVEaCfqUNz7chn8Q6eBKicnOiRrPvOzmdDlrq1JlD96t2gmiE1JKQ3V/guv/CXMbonM2tgpYpOKoOgVOQOtkBF+P3f2AxDh/jGY0Rs30U3gfZuL065mhg/HBULhIplKvteWrZ3FhoL3vAZPAlVhJL4HGIDhBLQku+HlIf35DwE02vghmPhHQfT8NQYCws8RTw8euwDGrboQDmR+36V3A/6hcvA2OcsEaigRXn9VwBbiQWZauPPsSTMZyXQxJT4Uocb7wdloCYBv+B+/rUJlG0CmbQBdJL5hwMhEQnzPB10C3oekrig4IknoEj4HqHQe3cdBqIGfQHBXUDtVVzqtNRF3TGgbZF45qdtkGflcQiktDxdX9arc/A/alZDYMYNBUzGAW+tKKcrdzO78y67pjGR0AlGf8a3oXf4ne15/mgQnafOhGur5MxHmLQVEx5LMiJG6zKyiGwGAS/xN/FT9CL+19vRjPAz756xxySVneUnRJ0GzWxiRCDpmLKL0B6u22MjnQZ6YLx33X3x8smoLM/D7QNGr8Mb2SlkDy1cctOK/AqxKCpmCO9ZKppuMEZ0LakJ+MgWGGqJmq2OoprwfWqoOaTvryocLWNZtdAzIkunwPgBuIkaEb6rBmoGdWCu5h9PzgGbqsJpDWlpHQyolEq5kDn/SNwgzyqfjWYaJRIsA89Iq36PJ9TM4/wjEapWAJiDOTvdkczsOs1L6E/hD1fE3XzqLgnQBMvrpaAzvEXUOTkEgyHaJBISKCiOlDvKLL9ATpDNCgS63JCt+EJKHLEy0jFXkZcwn+FYKsKTzukcxbsNszXTiNxpVJ1EniDSdE51y1IS61QMycVXN1Sf060RXl9JTSNZbf75I4krEIoqLcgbc2OWrBuuo9BRaumVDRzTWAWE7pN4TUlMihX1eVUlLsgvdWaQx3vZ3gFrCO2SMJKBLrDTNgDRTN1dOb3w3vQM6s7rpWMzu5FVGT1IZFu8BKovepPym5QUpthKeii6XHn+51lNwEUfiqg2OEF7AAAAABJRU5ErkJggg==" InformativeScreenshot="e847ea7319cf4f0d71c8710fb44a916d.jpg" Reference="5y7obp0hLUSA7kzKS4-dwg/TTMrYW0U70WGzx0PZ5anDA" Selector="&lt;html app='msedge.exe' title='Store Validator View - New Subs | Sim Registration' /&gt;" Title="Store Validator View - New Subs | Sim Registration" Url="https://stg1.simreg.smart.com.ph/admin/store-validator-view/search-new" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

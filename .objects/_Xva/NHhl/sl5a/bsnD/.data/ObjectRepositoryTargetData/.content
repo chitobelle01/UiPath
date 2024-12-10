@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XbPjrcx-VEerWGdrEh3EcA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/validate-ekyc/returned?ref_no=&amp;mobile=9290370591&amp;page=1&amp;date_from=&amp;date_to=" CVScreenId="13436fe4-929e-4f56-8188-0d2236233b47" CvTextArea="75, 795, 86, 13" CvType="AnyWordGroup" DesignTimeRectangle="76, 791, 86, 21" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='' /&gt;" Guid="bf722039-7229-4320-a05c-2183a7c46dec" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Validate Registration Returned | Sim Registration' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="60, 618, 143, 56" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='edit-table' tag='TABLE' /&gt;&lt;webctrl type='' tag='TH' class='' aaname='Mobile Number' check:innerText='Mobile Number' /&gt;" Guid="ab503b39-b4b5-4834-a7f5-79f866fa17be" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="554d0901894c3631c7cfbaf5adfdd45a.png" xmlns="">0UqlDolvxzke2vr-2jFwJMg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -173,7 +173,7 @@
       <AssemblyReference>UiPath.DataService.Definition</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Customer_Information_Page" sap:VirtualizedContainerService.HintSize="995,891" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Customer_Information_Page" sap:VirtualizedContainerService.HintSize="1113,1197" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Month" />
       <Variable x:TypeArguments="x:String" Name="Day" />
@@ -186,13 +186,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Customer Information Page" sap:VirtualizedContainerService.HintSize="518,868" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a79eac18-06dd-4777-a475-fd2f5c7aefc0" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Customer Information Page" sap:VirtualizedContainerService.HintSize="518,1174" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a79eac18-06dd-4777-a475-fd2f5c7aefc0" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,628" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,934" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="TypeOfRegistration" />
               <Variable x:TypeArguments="x:String" Name="TypeOfID" />
@@ -216,7 +216,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uta:VerifyControlAttribute KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Navigated to Customer Information Page" ContinueOnFailure="True" DisplayName="Navigated to Customer Information Page" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="Exists" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True">
+            <uta:VerifyControlAttribute KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Navigated to Customer Information Page" ContinueOnFailure="True" DisplayName="Navigated to Customer Information Page" sap:VirtualizedContainerService.HintSize="450,84" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="Exists" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True">
               <uta:VerifyControlAttribute.ActivityToTest>
                 <ActivityAction>
                   <uix:NCheckState DisplayName="Check App State ''Type of Registration' Menu'" Exists="[CustomerInformationPage]" sap:VirtualizedContainerService.HintSize="990,846.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_12" ScopeIdentifier="a79eac18-06dd-4777-a475-fd2f5c7aefc0" Timeout="10" Version="V4">
@@ -315,7 +315,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </uta:VerifyControlAttribute>
             <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="450,117" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Kindly put the Type of Registration, ID Card, Birthdate, and Sex manually.&#xA;&#xA;Click 'OK' once done.&quot;]" />
-            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="d22bd488-17c7-4c07-9385-7ddfa6e7c8e6" DisplayName="Get Nationality &amp; ID Type" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CVScope_3" SendOnPremData="False" Version="V6">
+            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="d22bd488-17c7-4c07-9385-7ddfa6e7c8e6" DisplayName="Get Nationality &amp; ID Type" sap:VirtualizedContainerService.HintSize="450,84" sap2010:WorkflowViewState.IdRef="CVScope_3" SendOnPremData="False" Version="V6">
               <p:CVScope.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
@@ -961,14 +961,14 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </p:CVScope>
-            <Sequence DisplayName="Download Front ID Picture" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_397">
+            <Sequence DisplayName="Download Front ID Picture" sap:VirtualizedContainerService.HintSize="450,99" sap2010:WorkflowViewState.IdRef="Sequence_397">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Download ID Photo" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="If_87">
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Download ID Photo" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="If_87">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -976,14 +976,14 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <If.Then>
-                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="540.6666666666666,1939.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_359">
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="541,1926" sap2010:WorkflowViewState.IdRef="Sequence_359">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="506.6666666666667,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_88" Level="Trace" Message="[&quot;Downloading Front ID Photo.&quot;]" />
-                    <Assign sap:VirtualizedContainerService.HintSize="506.6666666666667,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_155">
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="507,175" sap2010:WorkflowViewState.IdRef="LogMessage_88" Level="Trace" Message="[&quot;Downloading Front ID Photo.&quot;]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="507,114" sap2010:WorkflowViewState.IdRef="Assign_155">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:Boolean">[SuccessfullyFetchedData]</OutArgument>
                       </Assign.To>
@@ -991,7 +991,7 @@
                         <InArgument x:TypeArguments="x:Boolean">False</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Assign DisplayName="Expected Test Result" sap:VirtualizedContainerService.HintSize="506.6666666666667,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_154">
+                    <Assign DisplayName="Expected Test Result" sap:VirtualizedContainerService.HintSize="507,114" sap2010:WorkflowViewState.IdRef="Assign_154">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[out_TestResult]</OutArgument>
                       </Assign.To>
@@ -999,9 +999,9 @@
                         <InArgument x:TypeArguments="x:String">Passed</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[SuccessfullyFetchedData = False]" DisplayName="While" sap:VirtualizedContainerService.HintSize="506.6666666666667,787.3333333333334" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_14" MaxIterations="3">
+                    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[SuccessfullyFetchedData = False]" DisplayName="While" sap:VirtualizedContainerService.HintSize="507,785" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_14" MaxIterations="3">
                       <ui:InterruptibleWhile.Body>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="472.6666666666667,639.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_362">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="473,639" sap2010:WorkflowViewState.IdRef="Sequence_362">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1155,7 +1155,7 @@
                   </Sequence>
                 </If.Else>
               </If>
-              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Set New File Name" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="If_104">
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Set New File Name" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="If_104">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1279,7 +1279,7 @@
                   </Sequence>
                 </If.Else>
               </If>
-              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Rename File" sap:VirtualizedContainerService.HintSize="416,50.666666666666664" sap2010:WorkflowViewState.IdRef="If_105">
+              <If Condition="[out_TestResult.Equals(&quot;Passed&quot;)]" DisplayName="Rename File" sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="If_105">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1389,7 +1389,7 @@
                 </If.Else>
               </If>
             </Sequence>
-            <Sequence DisplayName="Upload Valid ID" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_92">
+            <Sequence DisplayName="Upload Valid ID" sap:VirtualizedContainerService.HintSize="450,99" sap2010:WorkflowViewState.IdRef="Sequence_92">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1799,7 +1799,7 @@
                 </If.Else>
               </If>
             </Sequence>
-            <Sequence DisplayName="Selfie Verification" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_93">
+            <Sequence DisplayName="Selfie Verification" sap:VirtualizedContainerService.HintSize="450,99" sap2010:WorkflowViewState.IdRef="Sequence_93">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2170,7 +2170,7 @@
                 </If.Else>
               </If>
             </Sequence>
-            <Sequence DisplayName="(Temporary) Input Customer Information" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_455">
+            <Sequence DisplayName="(Temporary) Input Customer Information" sap:VirtualizedContainerService.HintSize="450,99" sap2010:WorkflowViewState.IdRef="Sequence_455">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3009,7 +3009,7 @@
                 </ui:CommentOut>
               </Sequence>
             </Sequence>
-            <Sequence DisplayName="Get Customer Info" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_52">
+            <Sequence DisplayName="Get Customer Info" sap:VirtualizedContainerService.HintSize="450,99" sap2010:WorkflowViewState.IdRef="Sequence_52">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -4060,14 +4060,14 @@
                 </p:CVScope.UseLocalServer>
               </p:CVScope>
             </Sequence>
-            <Sequence DisplayName="Go to Address Information Page" sap:VirtualizedContainerService.HintSize="450,50" sap2010:WorkflowViewState.IdRef="Sequence_95">
+            <Sequence DisplayName="Go to Address Information Page" sap:VirtualizedContainerService.HintSize="450,92" sap2010:WorkflowViewState.IdRef="Sequence_95">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_84" Level="Trace" Message="[&quot;Navigating to Address Information Page.&quot;]" />
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_84" Level="Trace" Message="[&quot;Navigating to Address Information Page.&quot;]" />
               <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Scroll to 'Next' button" sap:VirtualizedContainerService.HintSize="416,272.6666666666667" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="1" Version="V4">
                 <uix:NMouseScroll.SearchedElement>
                   <uix:SearchedElement>

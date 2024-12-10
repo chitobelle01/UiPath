@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Status: Locked for Review",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "cm1QAJe-o06_5a21XceqeQ",
+  "Reference": "5y7obp0hLUSA7kzKS4-dwg/cm1QAJe-o06_5a21XceqeQ",
+  "ParentRef": "5y7obp0hLUSA7kzKS4-dwg/jQWM8ywvdEOoRzWeDLPa7w",
+  "Created": "2024-12-09T11:01:52.5099493Z",
+  "Updated": "2024-12-09T11:02:54.2436155Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

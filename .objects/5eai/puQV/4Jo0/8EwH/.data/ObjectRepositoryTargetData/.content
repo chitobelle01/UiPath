@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KBr3Y748QkO5o-H6v_5sUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg1.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/1931" DesignTimeRectangle="60, 338, 1801, 117" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl aria-role='contentinfo' tag='DIV' type='' class='messages-list__item messages messages--status' aaname='                                                                   ' check:innerText='Status message&amp;#xA;The moderation state has been updated.' /&gt;" Guid="2336ae74-bebc-4bb0-aeb6-3328466871e6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9623415103 | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1e011a39-7c39-4095-b054-e919f7640b51" CvTextArea="122, 365, 119, 18" CvTextArgument="Status message" CvType="Text" DesignTimeRectangle="124, 362, 115, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='message-status-title' tag='H2' type='' class='messages__title' aaname='                   Status message                 ' check:innerText='Status message' /&gt;" Guid="861e397d-4c53-48a1-b752-64303da94305" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e5a15115f419de3d8e6b381630f8c590.png" xmlns="">0l4y9DLgBvUaM42cDfxdQ6w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

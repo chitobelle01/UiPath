@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yDAAvY71o0W93npMRo1OXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://stg2-val.simreg.smart.com.ph/admin/content/pldt_subscriber_ekyc/721" DesignTimeRectangle="60, 338, 1801, 117" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl aria-role='contentinfo' tag='DIV' type='' class='messages-list__item messages messages--status' aaname='                                                                   ' check:innerText='Status message&amp;#xA;The moderation state has been updated.' /&gt;" Guid="21eb6494-b88a-4037-82ba-9a7983984576" ScopeSelectorArgument="&lt;html app='msedge.exe' title='9211402774 | Sim Registration' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="96cc9395ee09adeaf67039b3df2b5416.png" xmlns="">0qXSnHb8sxE6sHWv_ENSy5Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
